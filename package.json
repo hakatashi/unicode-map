@@ -1,0 +1,20 @@
+{
+  "name": "unicode-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hakatashi/unicode-map.git"
+  },
+  "keywords": [],
+  "author": "Koki Takahashi <hakatasiloving@gmail.com> (http://hakatashi.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hakatashi/unicode-map/issues"
+  },
+  "homepage": "https://github.com/hakatashi/unicode-map#readme"
+}
