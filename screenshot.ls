@@ -1,15 +1,8 @@
 require! {
-  nightmare: Nightmare
   'file-url'
-  'svg-to-png'
   svg2png
-  svgexport
-  'pn/fs'
+  'mz/fs'
 }
-
-nightmare = Nightmare do
-  width: 4000
-  height: 4000
 
 fs.read-file 'test.svg'
 .then svg2png
