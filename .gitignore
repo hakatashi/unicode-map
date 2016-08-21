@@ -29,6 +29,9 @@ node_modules
 
 *.svg
 *.png
+*.txt
+
+fonts
 
 # =========================
 # Operating System Files

@@ -18,11 +18,15 @@
   },
   "homepage": "https://github.com/hakatashi/unicode-map#readme",
   "dependencies": {
+    "download": "^5.0.2",
     "file-url": "^1.1.0",
     "hilbert": "^2.0.0",
     "jsdom": "^9.4.2",
     "livescript": "^1.5.0",
+    "mkdirp-then": "^1.2.0",
+    "mz": "^2.4.0",
     "nightmare": "^2.6.1",
+    "opentype.js": "^0.6.4",
     "snapsvg": "^0.4.0",
     "xmlserializer": "^0.4.0"
   }
