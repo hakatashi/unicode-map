@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - node
+
+script:
+  - npm run build
+
+cache:
+  directories:
+    - fonts
+
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/
+
+notifications:
+  webhooks: http://webhook.hakatashi.com/travis
