@@ -11,7 +11,7 @@ fonts =
 
 module.exports = ->
   Promise.all do
-    for directory, url of fonts
+    for let directory, url of fonts
       path-name = path.join \fonts directory
       fs.stat path-name
       .catch ->
