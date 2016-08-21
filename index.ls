@@ -16,12 +16,13 @@ download-fonts!
 .then (svg) ->
   log "Converting to PNG..."
 
-  Promise.all do
+  Promise.all [
     * fs.write-file \test.svg svg
     * convert-to-png svg
       .then (png) ->
         log "Writing PNG to file..."
         fs.write-file \test.png png
+  ]
 
 .then ->
   log "Done."
