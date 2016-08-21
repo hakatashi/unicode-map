@@ -28,6 +28,7 @@ node_modules
 .lock-wscript
 
 *.svg
+*.png
 
 # =========================
 # Operating System Files
