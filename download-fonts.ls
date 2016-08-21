@@ -16,7 +16,7 @@ module.exports = ->
       path-name = path.join \fonts directory
       fs.stat path-name
       .then ->
-        log "#path-name already downloaded."
+        log "#directory is already downloaded."
       .catch ->
         log "#path-name not exists. Downloading..."
 
