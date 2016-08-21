@@ -1,6 +1,7 @@
 require! {
   path
   download
+  './util': {log}
   'mz/fs'
   'mkdirp-then': mkdirp
 }
@@ -15,9 +16,9 @@ module.exports = ->
       path-name = path.join \fonts directory
       fs.stat path-name
       .then ->
-        console.log "#path-name already downloaded."
+        log "#path-name already downloaded."
       .catch ->
-        console.log "#path-name not exists. Downloading..."
+        log "#path-name not exists. Downloading..."
 
         mkdirp path-name
         .then ->

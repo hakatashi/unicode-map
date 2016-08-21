@@ -1,5 +1,6 @@
 require! {
   fs
+  './util': {log}
   jsdom
   hilbert: {Hilbert2d}
   xmlserializer
@@ -10,6 +11,8 @@ module.exports = ->
 
   error, window <- jsdom.env '' <[node_modules/snapsvg/dist/snap.svg.js]>
   return reject error if error
+
+  log 'Loaded jsdom environment...'
 
   {Snap, document} = window
 
@@ -38,6 +41,8 @@ module.exports = ->
     stroke-opacity: 0.3
     stroke-width: 3
   path.prepend-to paper
+
+  log 'Rendering SVG...'
 
   svg = xmlserializer.serialize-to-string paper.node
 
