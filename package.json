@@ -20,7 +20,6 @@
   "homepage": "https://github.com/hakatashi/unicode-map#readme",
   "dependencies": {
     "download": "^5.0.2",
-    "file-url": "^1.1.0",
     "hilbert": "^2.0.0",
     "jsdom": "^9.4.2",
     "livescript": "^1.5.0",

@@ -14,6 +14,8 @@ module.exports = ->
     for let directory, url of fonts
       path-name = path.join \fonts directory
       fs.stat path-name
+      .then ->
+        console.log "#path-name already downloaded."
       .catch ->
         console.log "#path-name not exists. Downloading..."
 
