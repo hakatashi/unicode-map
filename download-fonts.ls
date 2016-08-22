@@ -9,6 +9,8 @@ require! {
 fonts =
   'Symbola': 'http://users.teilar.gr/~g1951d/Symbola.zip'
   'Noto': 'https://noto-website.storage.googleapis.com/pkgs/Noto-unhinted.zip'
+  'IPAexm': 'http://ipafont.ipa.go.jp/old/ipaexfont/ipaexm00201.php'
+  'hanazono': 'http://jaist.dl.osdn.jp/hanazono-font/64385/hanazono-20160201.zip'
 
 module.exports = ->
   Promise.all do
