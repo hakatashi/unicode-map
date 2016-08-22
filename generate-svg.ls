@@ -47,12 +47,13 @@ module.exports = -> load-fonts!then (fonts) ->
       for let name, font of fonts
         font.char-to-glyph String.from-code-point code-point
 
-    glyph = glyphs.find (.unicode isnt undefined) or glyphs.0
+    glyph = glyphs.find (.unicode isnt undefined)
 
-    font-size = 30
-    width = glyph.advance-width / fonts.symbola.units-per-em * font-size
-    glyph-path = glyph.get-path x * 30 + 15 - width / 2, y * 30 + 20, font-size .to-path-data!
-    paper.path glyph-path
+    if glyph isnt undefined
+      font-size = 30
+      width = glyph.advance-width / fonts.symbola.units-per-em * font-size
+      glyph-path = glyph.get-path x * 30 + 15 - width / 2, y * 30 + 20, font-size .to-path-data!
+      paper.path glyph-path
 
     if path-string.length is 0
       path-string += "M #{x * 30 + 15} #{y * 30 + 15} "
