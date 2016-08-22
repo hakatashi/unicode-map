@@ -10,6 +10,7 @@ fonts =
   'Symbola': 'http://users.teilar.gr/~g1951d/Symbola.zip'
   'Noto': 'https://noto-website.storage.googleapis.com/pkgs/Noto-unhinted.zip'
   'IPAexm': 'http://ipafont.ipa.go.jp/old/ipaexfont/ipaexm00201.php'
+  'IPAmjm': 'http://dl.mojikiban.ipa.go.jp/IPAmjMincho/ipamjm00401.zip'
   'hanazono': 'http://jaist.dl.osdn.jp/hanazono-font/64385/hanazono-20160201.zip'
 
 module.exports = ->

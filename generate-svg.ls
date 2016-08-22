@@ -11,9 +11,10 @@ require! {
 fonts =
   symbola: 'Symbola/Symbola.ttf'
   emoji: 'Noto/NotoEmoji-Regular.ttf'
+  ipamjm: 'IPAmjm/ipamjm.ttf'
   ipaexm: 'IPAexm/ipaexm00201/ipaexm.ttf'
   hanamin-a: 'hanazono/HanaMinA.ttf'
-  #noto-jp: 'Noto/NotoSansCJKjp-Regular.otf'
+  #noto-jp: 'Noto/NotoSansCJKjp-Regular-unified.otf'
 
 load-fonts = ->
   Promise.all do
