@@ -43,16 +43,16 @@ module.exports = -> load-fonts!then (fonts) ->
   for code-point from 0 til 128 * 128
     {x, y} = hilbert.xy code-point
 
-    glyphs =
+    glyph-infos =
       for let name, font of fonts
-        font.char-to-glyph String.from-code-point code-point
+        {font, glyph: font.char-to-glyph String.from-code-point code-point}
 
-    glyph = glyphs.find (.unicode isnt undefined)
+    glyph-info = glyph-infos.find (.glyph.unicode isnt undefined)
 
-    if glyph isnt undefined
+    if glyph-info isnt undefined
       font-size = 30
-      width = glyph.advance-width / fonts.symbola.units-per-em * font-size
-      glyph-path = glyph.get-path x * 30 + 15 - width / 2, y * 30 + 20, font-size .to-path-data!
+      width = glyph-info.glyph.advance-width / glyph-info.font.units-per-em * font-size
+      glyph-path = glyph-info.glyph.get-path x * 30 + 15 - width / 2, y * 30 + 20, font-size .to-path-data!
       paper.path glyph-path
 
     if path-string.length is 0
