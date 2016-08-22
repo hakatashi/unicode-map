@@ -13,5 +13,15 @@ branches:
   except:
     - /^v\d+\.\d+\.\d+$/
 
+deploy:
+  provider: releases
+  api_key:
+    secure: "i+QmlIsYVeQC86sGGp8lAdAICy8p/XUVqkz+5rnmoh0JVLPDF8WGpFA0TFufpVSCgrwTL4vbZ45gFM4AiWmo1CC+hXrUbw66gS7sXTOQX25BN9SuNQGtzI9p30o4fOO+qU6KG8d/vFBwfgbGdqH90VWSm/nC/VrCJYRrQOPWj2vCJqL0el87JJmKgMQ7iesUc2f3ezEmM5138tenRBBCIRTkdDXouh3e2O605ZJg2uFyo/C906vfoSjNAO7AgOJ7Hb+WRTpiBESNro0bBpvuWawdaMFggpD1rDvY029wM76QsP8bvxd2tVWw86zh0BaDaqKgvqieBh2rO9D57VNcdZI/ziI6G0OGVWMuPaqJZ2L+Xmsk2eaAIDGVXfNmQIA1WjBenyLMhzDXn55xlx2XhLyXVDDLdxLH/lOvXWYSQJBMT5xWUTHhMghdTFqjgryyKl8cvUUTYLI7UYfuDZ+Dd1GFhBUiJ4aahCrL5poUcfBeZWQaK1VRlBLS152umOMWNumPHugV549eM/1Yv0svFWSDbt9ldpmRdMqYYEWj4q2tG/1T27/YlHVQE++ZWZi3HSdGkwMJkfLWWvfpaPKI9550JfE6nMcG1jhqNPr6BiArQSbFRpcFd8q/qkUJ+Ls3Ay0LamEISjJp0pvSWfoqGIt/8B2wU6pzuT7wOmw78PM="
+  file:
+    - test.png
+  skip_cleanup: true
+  on:
+    tags: true
+
 notifications:
   webhooks: http://webhook.hakatashi.com/travis
