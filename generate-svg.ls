@@ -52,7 +52,7 @@ module.exports = -> load-fonts!then (fonts) ->
     if glyph-info isnt undefined
       font-size = 30
       width = glyph-info.glyph.advance-width / glyph-info.font.units-per-em * font-size
-      glyph-path = glyph-info.glyph.get-path x * 30 + 15 - width / 2, y * 30 + 20, font-size .to-path-data!
+      glyph-path = glyph-info.glyph.get-path x * 30 + 15 - width / 2, y * 30 + 25, font-size .to-path-data!
       paper.path glyph-path
 
     if path-string.length is 0
