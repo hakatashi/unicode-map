@@ -8,17 +8,27 @@ require! {
   'opentype.js'
 }
 
-fonts =
-  symbola: 'Symbola/Symbola.ttf'
-  emoji: 'Noto/NotoEmoji-Regular.ttf'
-  ipamjm: 'IPAmjm/ipamjm.ttf'
-  ipaexm: 'IPAexm/ipaexm00201/ipaexm.ttf'
-  hanamin-a: 'hanazono/HanaMinA.ttf'
+font-data =
+  symbola:
+    path: 'Symbola/Symbola.ttf'
+    color: 'red'
+  emoji:
+    path: 'Noto/NotoEmoji-Regular.ttf'
+    color: 'black'
+  ipamjm:
+    path: 'IPAmjm/ipamjm.ttf'
+    color: 'blue'
+  ipaexm:
+    path: 'IPAexm/ipaexm00201/ipaexm.ttf'
+    color: 'green'
+  hanamin-a:
+    path: 'hanazono/HanaMinA.ttf'
+    color: 'cyan'
   #noto-jp: 'Noto/NotoSansCJKjp-Regular-unified.otf'
 
 load-fonts = ->
   Promise.all do
-    for let name, short-path of fonts
+    for let name, {path: short-path} of font-data
       new Promise (resolve, reject) ->
         full-path = path.join __dirname, \fonts, short-path
         opentype.load full-path, (error, font) ->
@@ -46,12 +56,18 @@ module.exports = -> load-fonts!then (fonts) ->
 
     glyph-infos =
       for let name, font of fonts
-        {font, glyph: font.char-to-glyph String.from-code-point code-point}
+        {name, font, glyph: font.char-to-glyph String.from-code-point code-point}
 
     glyph-info = glyph-infos.find (.glyph.unicode isnt undefined)
 
     if glyph-info isnt undefined
       font-size = 30
+
+      circle = paper.circle x * 30 + 15, y * 30 + 15, font-size / 2
+      circle.attr do
+        fill: font-data[glyph-info.name].color
+        fill-opacity: 0.1
+
       width = glyph-info.glyph.advance-width / glyph-info.font.units-per-em * font-size
       glyph-path = glyph-info.glyph.get-path x * 30 + 15 - width / 2, y * 30 + 25, font-size .to-path-data!
       paper.path glyph-path
