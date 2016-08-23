@@ -30,7 +30,7 @@ load-fonts = ->
   Promise.all do
     for let name, {path: short-path} of font-data
       new Promise (resolve, reject) ->
-        full-path = path.join __dirname, \fonts, short-path
+        full-path = path.join __dirname, \../fonts, short-path
         opentype.load full-path, (error, font) ->
           if error then reject error else resolve "#name": font
   .then (fonts) ->

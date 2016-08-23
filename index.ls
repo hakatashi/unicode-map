@@ -1,9 +1,9 @@
 require! {
   'mz/fs'
-  './util': {log}
-  './download-fonts'
-  './generate-svg'
-  './convert-to-png'
+  './lib/util': {log}
+  './lib/download-fonts'
+  './lib/generate-svg'
+  './lib/convert-to-png'
 }
 
 log "Downloading fonts..."
