@@ -11,19 +11,19 @@ require! {
 font-data =
   symbola:
     path: 'Symbola/Symbola.ttf'
-    color: 'red'
+    color: 'cyan'
   emoji:
     path: 'Noto/NotoEmoji-Regular.ttf'
-    color: 'black'
+    color: 'yellow'
   ipamjm:
     path: 'IPAmjm/ipamjm.ttf'
     color: 'blue'
   ipaexm:
     path: 'IPAexm/ipaexm00201/ipaexm.ttf'
-    color: 'green'
+    color: 'black'
   hanamin-a:
     path: 'hanazono/HanaMinA.ttf'
-    color: 'cyan'
+    color: 'red'
   #noto-jp: 'Noto/NotoSansCJKjp-Regular-unified.otf'
 
 load-fonts = ->
