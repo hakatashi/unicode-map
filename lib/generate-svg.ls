@@ -4,6 +4,7 @@ require! {
   './util': {log}
   jsdom
   hilbert: {Hilbert2d}
+  progress: Progress
   xmlserializer
   'opentype.js'
 }
@@ -59,6 +60,11 @@ module.exports = -> load-fonts!then (fonts) ->
 
   path-string = ''
 
+  progress = new Progress 'Generating... [:bar] :current glyphs :elapseds' do
+    incomplete: ' '
+    width: 40
+    total: 128 * 128
+
   for code-point from 0 til 128 * 128
     {x, y} = hilbert.xy code-point
 
@@ -84,6 +90,8 @@ module.exports = -> load-fonts!then (fonts) ->
       path-string += "M #{x * 30 + 15} #{y * 30 + 15} "
     else
       path-string += "L #{x * 30 + 15} #{y * 30 + 15} "
+
+    progress.tick 128 if (code-point + 1) % 128 is 0
 
   path = paper.path path-string
   path.attr do
