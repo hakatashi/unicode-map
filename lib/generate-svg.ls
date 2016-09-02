@@ -24,7 +24,11 @@ font-data =
   hanamin-a:
     path: 'hanazono/HanaMinA.ttf'
     color: 'red'
-  #noto-jp: 'Noto/NotoSansCJKjp-Regular-unified.otf'
+  /*
+  noto-jp:
+    path: 'Noto/NotoSansCJKjp-Regular-unified.otf'
+    color: 'pink'
+  */
 
 load-fonts = ->
   Promise.all do
@@ -35,6 +39,7 @@ load-fonts = ->
           if error then reject error else resolve "#name": font
   .then (fonts) ->
     new Promise (resolve, reject) ->
+      console.log 'All fonts loaded.'
       resolve Object.assign {}, ...fonts
 
 module.exports = -> load-fonts!then (fonts) ->
@@ -66,7 +71,7 @@ module.exports = -> load-fonts!then (fonts) ->
       circle = paper.circle x * 30 + 15, y * 30 + 15, font-size / 2
       circle.attr do
         fill: font-data[glyph-info.name].color
-        fill-opacity: 0.1
+        fill-opacity: 0.2
 
       width = glyph-info.glyph.advance-width / glyph-info.font.units-per-em * font-size
       glyph-path = glyph-info.glyph.get-path x * 30 + 15 - width / 2, y * 30 + 25, font-size .to-path-data!
