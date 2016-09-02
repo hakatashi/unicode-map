@@ -12,6 +12,7 @@ fonts =
   'IPAexm': 'http://ipafont.ipa.go.jp/old/ipaexfont/ipaexm00201.php'
   'IPAmjm': 'http://dl.mojikiban.ipa.go.jp/IPAmjMincho/ipamjm00401.zip'
   'hanazono': 'http://jaist.dl.osdn.jp/hanazono-font/64385/hanazono-20160201.zip'
+  'LibreBaskerville': 'http://www.impallari.com/media/uploads/prosources/update-86-source.zip'
 
 module.exports = ->
   Promise.all do

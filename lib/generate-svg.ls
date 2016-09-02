@@ -9,6 +9,9 @@ require! {
 }
 
 font-data =
+  baskerville:
+    path: 'LibreBaskerville/Libre Baskerville v1.0/LibreBaskerville-Regular.ttf'
+    color: \pink
   symbola:
     path: 'Symbola/Symbola.ttf'
     color: 'cyan'
@@ -39,7 +42,7 @@ load-fonts = ->
           if error then reject error else resolve "#name": font
   .then (fonts) ->
     new Promise (resolve, reject) ->
-      console.log 'All fonts loaded.'
+      log 'All fonts loaded.'
       resolve Object.assign {}, ...fonts
 
 module.exports = -> load-fonts!then (fonts) ->
