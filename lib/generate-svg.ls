@@ -9,9 +9,9 @@ require! {
 }
 
 font-data =
-  baskerville:
-    path: 'LibreBaskerville/Libre Baskerville v1.0/LibreBaskerville-Regular.ttf'
-    color: \pink
+  doulos:
+    path: 'Doulos/DoulosSIL-5.000/DoulosSIL-R.ttf'
+    color: \purple
   symbola:
     path: 'Symbola/Symbola.ttf'
     color: 'cyan'
