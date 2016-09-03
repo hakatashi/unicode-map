@@ -19,11 +19,13 @@
   },
   "homepage": "https://github.com/hakatashi/unicode-map#readme",
   "dependencies": {
+    "chai": "^3.5.0",
     "download": "^5.0.2",
     "hilbert": "^2.0.0",
     "jsdom": "^9.4.2",
     "livescript": "^1.5.0",
     "mkdirp-then": "^1.2.0",
+    "mocha": "^3.0.2",
     "mz": "^2.4.0",
     "opentype.js": "^0.6.4",
     "progress": "^1.1.8",
