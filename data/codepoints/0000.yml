@@ -1,0 +1,94 @@
+# Basic Latin
+0000..001F:
+  control:
+    - NUL
+    - SOH
+    - STX
+    - ETX
+    - EOT
+    - ENQ
+    - ACK
+    - BEL
+
+    - BS
+    - TAB
+    - LF
+    - VT
+    - FF
+    - CR
+    - SO
+    - SI
+
+    - DLE
+    - DC1
+    - DC2
+    - DC3
+    - DC4
+    - NAK
+    - SYN
+    - ETB
+
+    - CAN
+    - EM
+    - SUB
+    - ESC
+    - FS
+    - GS
+    - RS
+    - US
+
+'0020':
+  control: SP
+
+0021..007E:
+  font: noto-jp
+
+007F:
+  control: DEL
+
+# Latin-1 Supplement
+0080..00A0:
+  control: |
+    PAD
+    HOP
+    BPH
+    NBH
+    IND
+    NEL
+    SSA
+    ESA
+
+    HTS
+    HTJ
+    VTS
+    PLD
+    PLU
+    RI
+    SS2
+    SS3
+
+    DCS
+    PU1
+    PU2
+    STS
+    CCH
+    MW
+    SPA
+    EPA
+
+    SOS
+    SGC
+    SCI
+    CSI
+    ST
+    OSC
+    PM
+    APC
+
+    NB/SP
+
+00A1..00FF:
+  font: noto-jp
+
+  00AD:
+    control: SHY|-
