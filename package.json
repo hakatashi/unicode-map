@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build": "lsc index.ls",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers ls:livescript test/index.ls"
   },
   "repository": {
     "type": "git",
