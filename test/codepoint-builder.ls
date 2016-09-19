@@ -106,6 +106,6 @@ assets =
 
 <- Describe 'Code Point Builder'
 
-for asset in assets
+for let asset in assets
   It asset.0, ->
     expect codepoint-builder asset.1 .to.be.map asset.2
