@@ -1,14 +1,15 @@
 require! {
   'mz/fs'
-  './lib/util': {log}
+  './lib/util': {log, now}
   './lib/download-fonts'
   './lib/load-codepoints'
   './lib/generate-svg'
   './lib/convert-to-png'
 }
 
-log "Downloading fonts..."
-download-fonts!
+now ->
+  log "Downloading fonts..."
+  download-fonts!
 
 .then ->
   log "Loading codepionts..."

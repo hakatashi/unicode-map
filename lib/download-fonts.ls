@@ -1,7 +1,7 @@
 require! {
   path
   download
-  './util': {log}
+  './util': {log, now}
   'mz/fs'
   'mkdirp-then': mkdirp
 }
@@ -19,7 +19,9 @@ module.exports = ->
   Promise.all do
     for let directory, url of fonts
       path-name = path.join \fonts directory
-      fs.stat path-name
+
+      now ->
+        fs.stat path-name
       .then ->
         log "#directory is already downloaded."
       .catch ->

@@ -2,12 +2,13 @@ require! {
   path
   'mz/fs'
   'yaml-js'
-  './util': {log, merge-maps}
+  './util': {log, now, merge-maps}
   './codepoint-builder'
 }
 
 module.exports = ->
-  fs.readdir 'data/codepoints'
+  now ->
+    fs.readdir 'data/codepoints'
   .then (files) ->
     yaml-files = files.filter -> it.slice -4 is '.yml'
 
