@@ -49,7 +49,7 @@ load-fonts = ->
 module.exports = -> load-fonts!then (fonts) ->
   resolve, reject <- new Promise _
 
-  error, window <- jsdom.env '' <[node_modules/snapsvg/dist/snap.svg.js]>
+  error, window <- jsdom.env '' [require.resolve 'snapsvg']
   return reject error if error
 
   {Snap, document} = window
