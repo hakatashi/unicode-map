@@ -9,6 +9,14 @@ flatten = (object, {start, end}) ->
       short-name: object.control
     | otherwise => throw new Error 'Type not specified'
 
+  if model.type is \control and typeof! model.short-name is \String
+    model.short-name .= split '\n' .filter (.length > 0)
+
+  if model.type is \font
+    for transform in <[scale skew translate rotate]>
+      if object[transform]?
+        model[transform] = object[transform]
+
   map = new Map!
 
   # Calculate overrides first
@@ -35,7 +43,13 @@ flatten = (object, {start, end}) ->
   # Interpolate by models
   for codepoint from start to end
     unless map.has codepoint
-      map.set codepoint, ^^model
+      clone = ^^model
+
+      if model.type is \control
+        if typeof! model.short-name is \Array
+          clone.short-name = clone.short-name[codepoint - start]
+
+      map.set codepoint, clone
 
   map
 
