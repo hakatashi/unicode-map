@@ -1,3 +1,7 @@
+require! {
+  './util': {merge-maps}
+}
+
 flatten = (object, {start, end}) ->
   # Define model
   model =
@@ -43,7 +47,7 @@ flatten = (object, {start, end}) ->
   # Interpolate by models
   for codepoint from start to end
     unless map.has codepoint
-      clone = ^^model
+      clone = Object.assign {}, model
 
       if model.type is \control
         if typeof! model.short-name is \Array
@@ -65,6 +69,4 @@ module.exports = (object) ->
 
     flatten value, {start, end}
 
-  flatten-maps = maps.map (-> Array.from it) .reduce ((a, b) -> a ++ b), []
-
-  new Map flatten-maps
+  merge-maps maps

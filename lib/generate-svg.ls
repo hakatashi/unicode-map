@@ -1,5 +1,4 @@
 require! {
-  fs
   path
   './util': {log}
   jsdom

@@ -2,6 +2,7 @@ require! {
   'mz/fs'
   './lib/util': {log}
   './lib/download-fonts'
+  './lib/load-codepoints'
   './lib/generate-svg'
   './lib/convert-to-png'
 }
@@ -10,6 +11,10 @@ log "Downloading fonts..."
 download-fonts!
 
 .then ->
+  log "Loading codepionts..."
+  load-codepoints!
+
+.then (codepoints) ->
   log "Generating SVG..."
   generate-svg!
 
