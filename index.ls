@@ -8,28 +8,28 @@ require! {
 }
 
 now ->
-  log "Downloading fonts..."
+  log 'Downloading fonts...'
   download-fonts!
 
 .then ->
-  log "Loading codepionts..."
+  log 'Loading codepionts...'
   load-codepoints!
 
 .then (codepoints) ->
-  log "Generating SVG..."
+  log 'Generating SVG...'
   generate-svg!
 
 .then (svg) ->
-  log "Converting to PNG..."
+  log 'Converting to PNG...'
 
   Promise.all [
     * fs.write-file \test.svg svg
     * convert-to-png svg
       .then (png) ->
-        log "Writing PNG to file..."
+        log 'Writing PNG to file...'
         fs.write-file \test.png png
   ]
 
 .then ->
-  log "Done."
+  log 'Done.'
 .catch (error) -> throw error
