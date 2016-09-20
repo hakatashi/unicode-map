@@ -6,6 +6,7 @@ require! {
   progress: Progress
   xmlserializer
   'opentype.js'
+  'camel-case'
 }
 
 font-data =
@@ -45,7 +46,7 @@ load-fonts = ->
       log 'All fonts loaded.'
       resolve Object.assign {}, ...fonts
 
-module.exports = -> load-fonts!then (fonts) ->
+module.exports = (codepoint-infos) -> load-fonts!then (fonts) ->
   resolve, reject <- new Promise _
 
   error, window <- jsdom.env '' [require.resolve 'snapsvg']
@@ -71,7 +72,13 @@ module.exports = -> load-fonts!then (fonts) ->
       for let name, font of fonts
         {name, font, glyph: font.char-to-glyph String.from-code-point code-point}
 
-    glyph-info = glyph-infos.find (.glyph.unicode isnt undefined)
+    codepoint-info = codepoint-infos.get code-point
+
+    glyph-info =
+      if codepoint-info?.type is \font
+        glyph-infos.find (.name is camel-case codepoint-info.font-name)
+      else
+        glyph-infos.find (.glyph.unicode isnt undefined)
 
     if glyph-info isnt undefined
       font-size = 30

@@ -41,7 +41,7 @@
   control: SP
 
 0021..007E:
-  font: noto-jp
+  font: doulos
 
 007F:
   control: DEL
@@ -88,7 +88,7 @@
     NB/SP
 
 00A1..00FF:
-  font: noto-jp
+  font: doulos
 
   00AD:
     control: SHY/-

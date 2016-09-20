@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/hakatashi/unicode-map#readme",
   "dependencies": {
+    "camel-case": "^3.0.0",
     "chai": "^3.5.0",
     "download": "^5.0.2",
     "hilbert": "^2.0.0",

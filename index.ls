@@ -17,7 +17,7 @@ now ->
 
 .then (codepoints) ->
   log 'Generating SVG...'
-  generate-svg!
+  generate-svg codepoints
 
 .then (svg) ->
   log 'Converting to PNG...'
