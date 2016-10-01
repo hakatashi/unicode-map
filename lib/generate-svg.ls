@@ -56,7 +56,9 @@ module.exports = (codepoint-infos) -> load-fonts!then (fonts) ->
 
   hilbert = new Hilbert2d 256
 
-  paper = Snap 128 * 30, 128 * 30
+  block-size = 30
+
+  paper = Snap 128 * block-size, 128 * block-size
 
   path-string = ''
 
@@ -81,21 +83,19 @@ module.exports = (codepoint-infos) -> load-fonts!then (fonts) ->
         glyph-infos.find (.glyph.unicode isnt undefined)
 
     if glyph-info isnt undefined
-      font-size = 30
-
-      circle = paper.circle x * 30 + 15, y * 30 + 15, font-size / 2
+      circle = paper.circle (x + 0.5) * block-size, (y + 0.5) * block-size, block-size / 2
       circle.attr do
         fill: font-data[glyph-info.name].color
         fill-opacity: 0.2
 
-      width = glyph-info.glyph.advance-width / glyph-info.font.units-per-em * font-size
-      glyph-path = glyph-info.glyph.get-path x * 30 + 15 - width / 2, y * 30 + 25, font-size .to-path-data!
+      width = glyph-info.glyph.advance-width / glyph-info.font.units-per-em * block-size
+      glyph-path = glyph-info.glyph.get-path x * block-size + (block-size - width) / 2, y * block-size + 25, block-size .to-path-data!
       paper.path glyph-path
 
     if path-string.length is 0
-      path-string += "M #{x * 30 + 15} #{y * 30 + 15} "
+      path-string += "M #{(x + 0.5) * block-size} #{(y + 0.5) * block-size} "
     else
-      path-string += "L #{x * 30 + 15} #{y * 30 + 15} "
+      path-string += "L #{(x + 0.5) * block-size} #{(y + 0.5) * block-size} "
 
     progress.tick 128 if (code-point + 1) % 128 is 0
 
