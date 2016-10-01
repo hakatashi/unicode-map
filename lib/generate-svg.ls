@@ -84,8 +84,9 @@ module.exports = (codepoint-infos) -> load-fonts!then (fonts) ->
 
     if glyph-info isnt undefined
       width = glyph-info.glyph.advance-width / glyph-info.font.units-per-em * block-size
-      glyph-path = glyph-info.glyph.get-path x * block-size + (block-size - width) / 2, y * block-size + 25, block-size .to-path-data!
-      paper.path glyph-path
+      glyph-path = glyph-info.glyph.get-path (block-size - width) / 2, 25, block-size .to-path-data!
+      path = paper.path glyph-path
+      path.attr transform: "translate(#{x * block-size} #{y * block-size})"
 
     if path-string.length is 0
       path-string += "M #{(x + 0.5) * block-size} #{(y + 0.5) * block-size} "
