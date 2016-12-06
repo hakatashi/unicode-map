@@ -42,6 +42,7 @@
 
 0021..007E:
   font: doulos
+  transform: scale(0.8)
 
 007F:
   control: DEL
@@ -89,6 +90,7 @@
 
 00A1..00FF:
   font: doulos
+  transform: scale(0.8)
 
   00AD:
     control: SHY/-

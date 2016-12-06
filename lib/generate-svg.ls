@@ -136,7 +136,20 @@ module.exports = (codepoint-infos) ->
         width = glyph-info.glyph.advance-width / glyph-info.font.units-per-em * block-size
         glyph-path = glyph-info.glyph.get-path (block-size - width) / 2, 25, block-size .to-path-data!
         path = paper.path glyph-path
-        path.attr transform: "translate(#{x * block-size} #{y * block-size})"
+
+        # Transform
+        transform = Snap.matrix 1, 0, 0, 1, 0, 0
+        # SVG Transform operation occurs by last-in-first-out order
+        # http://stackoverflow.com/q/27635272
+        transform.translate x * block-size, y * block-size
+        if codepoint-info?.transform
+          transform.scale block-size
+          transform.translate 0.5, 0.5
+          transform.add Snap._.transform2matrix Snap._.svg-transform2string codepoint-info?.transform
+          transform.translate -0.5, -0.5
+          transform.scale 1 / block-size
+        path.transform transform
+
         glyphs.append path
 
     anchor = paper.rect -0.5, -0.5, 1, 1

@@ -17,7 +17,7 @@ flatten = (object, {start, end}) ->
     model.short-name .= split '\n' .filter (.length > 0)
 
   if model.type is \font
-    for transform in <[scale skew translate rotate]>
+    for transform in <[transform scale skew translate rotate]>
       if object[transform]?
         model[transform] = object[transform]
 
