@@ -129,7 +129,7 @@ module.exports = (codepoint-infos) ->
         else
           glyph-infos.find (.glyph.unicode isnt undefined)
 
-      if glyph-info isnt undefined and code-point < 256
+      if glyph-info isnt undefined
         width = glyph-info.glyph.advance-width / glyph-info.font.units-per-em * block-size
         glyph-path = glyph-info.glyph.get-path (block-size - width) / 2, 25, block-size .to-path-data!
         path = paper.path glyph-path
