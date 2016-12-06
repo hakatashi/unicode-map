@@ -48,44 +48,44 @@
 
 # Latin-1 Supplement
 0080..00A0:
-  control: |
-    PAD
-    HOP
-    BPH
-    NBH
-    IND
-    NEL
-    SSA
-    ESA
+  control:
+    - PAD # Only appears in early drafts of ISO 10646. Unicode charts shows XXX for this character.
+    - HOP # Only appears in early drafts of ISO 10646. Unicode charts shows XXX for this character.
+    - BPH
+    - NBH
+    - IND
+    - NEL
+    - SSA
+    - ESA
 
-    HTS
-    HTJ
-    VTS
-    PLD
-    PLU
-    RI
-    SS2
-    SS3
+    - HTS
+    - HTJ
+    - VTS
+    - PLD
+    - PLU
+    - RI
+    - SS2
+    - SS3
 
-    DCS
-    PU1
-    PU2
-    STS
-    CCH
-    MW
-    SPA
-    EPA
+    - DCS
+    - PU1
+    - PU2
+    - STS
+    - CCH
+    - MW
+    - SPA
+    - EPA
 
-    SOS
-    SGC
-    SCI
-    CSI
-    ST
-    OSC
-    PM
-    APC
+    - SOS
+    - SGC # Only appears in early drafts of ISO 10646. Unicode charts shows XXX for this character.
+    - SCI
+    - CSI
+    - ST
+    - OSC
+    - PM
+    - APC
 
-    NB/SP
+    - NB/SP
 
 00A1..00FF:
   font: doulos
