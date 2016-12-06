@@ -13,7 +13,7 @@ fonts =
   'IPAmjm': 'http://dl.mojikiban.ipa.go.jp/IPAmjMincho/ipamjm00401.zip'
   'hanazono': 'http://jaist.dl.osdn.jp/hanazono-font/64385/hanazono-20160201.zip'
   'LibreBaskerville': 'http://www.impallari.com/media/uploads/prosources/update-86-source.zip'
-  'Doulos': 'http://software.sil.org/downloads/doulos/DoulosSIL-5.000.zip'
+  'Doulos': 'http://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=DoulosSIL-5.000.zip&filename=DoulosSIL-5.000.zip'
   'OpenSans': 'http://www.opensans.com/download/open-sans.zip'
 
 module.exports = ->
