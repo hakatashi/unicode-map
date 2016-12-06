@@ -112,3 +112,7 @@
 0180..024F:
   font: doulos
   transform: scale(0.8)
+
+  022A..0231:
+    font: doulos
+    transform: translate(0, 0.05) scale(0.8)

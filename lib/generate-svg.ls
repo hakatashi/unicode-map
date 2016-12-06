@@ -150,8 +150,10 @@ module.exports = (codepoint-infos) ->
       glyph-info =
         if codepoint-info?.type is \font
           glyph-infos.find (.name is camel-case codepoint-info.font-name)
-        else
+        else if process.env.DEBUG is \true
           glyph-infos.find (.glyph.unicode isnt undefined)
+        else
+          undefined
 
       if glyph-info isnt undefined
         width = glyph-info.glyph.advance-width / glyph-info.font.units-per-em * block-size
@@ -173,9 +175,10 @@ module.exports = (codepoint-infos) ->
 
         glyphs.append path
 
-    anchor = paper.rect -0.5, -0.5, 1, 1
-    anchor.transform "translate(#{x * block-size} #{y * block-size}) rotate(45deg)"
-    anchors.append anchor
+    if codepoint-info?.type isnt undefined
+      anchor = paper.rect -0.5, -0.5, 1, 1
+      anchor.transform "translate(#{(x + 1) * block-size} #{(y + 1) * block-size}) rotate(45deg)"
+      anchors.append anchor
 
     if path-string.length is 0
       path-string += "M #{(x + 0.5) * block-size} #{(y + 0.5) * block-size} "
