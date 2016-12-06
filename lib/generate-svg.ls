@@ -88,6 +88,9 @@ module.exports = (codepoint-infos) ->
     width: 40
     total: 128 * 128
 
+  anchors = paper.group!
+  glyphs = paper.group!
+
   for code-point from 0 til 128 * 128
     {x, y} = hilbert.xy code-point
 
@@ -121,7 +124,7 @@ module.exports = (codepoint-infos) ->
 
       control-box-group.attr transform: "translate(#{x * block-size} #{y * block-size}) scale(#{block-size / 2048})"
 
-      paper.append control-box-group
+      glyphs.append control-box-group
     else
       glyph-info =
         if codepoint-info?.type is \font
@@ -134,6 +137,11 @@ module.exports = (codepoint-infos) ->
         glyph-path = glyph-info.glyph.get-path (block-size - width) / 2, 25, block-size .to-path-data!
         path = paper.path glyph-path
         path.attr transform: "translate(#{x * block-size} #{y * block-size})"
+        glyphs.append path
+
+    anchor = paper.rect -0.5, -0.5, 1, 1
+    anchor.transform "translate(#{x * block-size} #{y * block-size}) rotate(45deg)"
+    anchors.append anchor
 
     if path-string.length is 0
       path-string += "M #{(x + 0.5) * block-size} #{(y + 0.5) * block-size} "
@@ -145,10 +153,14 @@ module.exports = (codepoint-infos) ->
   path = paper.path path-string
   path.attr do
     fill: 'none'
-    stroke: 'red'
-    stroke-opacity: 0.3
-    stroke-width: 3
+    stroke: 'black'
+    stroke-opacity: 1
+    stroke-width: 0.2
   path.prepend-to paper
+
+  paper.node.set-attribute 'viewBox', '0 0 3840 3840'
+  paper.node.set-attribute 'width', 7680
+  paper.node.set-attribute 'height', 7680
 
   log 'Rendering SVG...'
 
