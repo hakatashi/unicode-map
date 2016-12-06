@@ -14,6 +14,7 @@ fonts =
   'hanazono': 'http://jaist.dl.osdn.jp/hanazono-font/64385/hanazono-20160201.zip'
   'LibreBaskerville': 'http://www.impallari.com/media/uploads/prosources/update-86-source.zip'
   'Doulos': 'http://software.sil.org/downloads/doulos/DoulosSIL-5.000.zip'
+  'OpenSans': 'http://www.opensans.com/download/open-sans.zip'
 
 module.exports = ->
   Promise.all do

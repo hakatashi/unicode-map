@@ -29,6 +29,9 @@ font-data =
   hanamin-a:
     path: 'hanazono/HanaMinA.ttf'
     color: 'red'
+  open-sans:
+    path: 'OpenSans/OpenSans-Bold.ttf'
+    color: 'red'
   /*
   noto-jp:
     path: 'Noto/NotoSansCJKjp-Regular-unified.otf'
@@ -103,12 +106,14 @@ module.exports = (codepoint-infos) ->
         control-box-group.append child
 
       # Draw text
-      text-path = fonts.doulos.get-path codepoint-info.short-name, 1024, 1024, 512 .to-path-data!
+      text-font = fonts.open-sans
+      text-size = 768
+      text-path = text-font.get-path codepoint-info.short-name, 1024, 1024, text-size .to-path-data!
       text = paper.path text-path
-      text-width = fonts.doulos.string-to-glyphs codepoint-info.short-name .reduce do
-        * (a, b) -> a + b.advance-width / fonts.doulos.units-per-em * 512
+      text-width = text-font.string-to-glyphs codepoint-info.short-name .reduce do
+        * (a, b) -> a + b.advance-width / text-font.units-per-em * text-size
         * 0
-      text.attr transform: "translate(#{- text-width / 2} #{512 / 4})"
+      text.attr transform: "translate(#{- text-width / 2} #{text-size / 4})"
       control-box-group.append text
 
       control-box-group.attr transform: "translate(#{x * block-size} #{y * block-size}) scale(#{block-size / 2048})"
