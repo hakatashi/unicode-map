@@ -95,11 +95,24 @@ module.exports = (codepoint-infos) ->
     codepoint-info = codepoint-infos.get code-point
 
     if codepoint-info?.type is \control
-      control-box = Snap.parse custom-glyphs.control-box
       control-box-group = paper.group!
+
+      # Draw box
+      control-box = Snap.parse custom-glyphs.control-box
       for child in Array::slice.call control-box.node.children, 0
         control-box-group.append child
+
+      # Draw text
+      text-path = fonts.doulos.get-path codepoint-info.short-name, 1024, 1024, 512 .to-path-data!
+      text = paper.path text-path
+      text-width = fonts.doulos.string-to-glyphs codepoint-info.short-name .reduce do
+        * (a, b) -> a + b.advance-width / fonts.doulos.units-per-em * 512
+        * 0
+      text.attr transform: "translate(#{- text-width / 2} #{512 / 4})"
+      control-box-group.append text
+
       control-box-group.attr transform: "translate(#{x * block-size} #{y * block-size}) scale(#{block-size / 2048})"
+
       paper.append control-box-group
     else
       glyph-info =
