@@ -88,9 +88,23 @@
 
     - NB/SP
 
+# C1 Controls and Latin-1 Supplement
+
 00A1..00FF:
   font: doulos
   transform: scale(0.8)
 
   00AD:
     control: SHY/-
+
+# Latin Extended-A
+
+0100..017F:
+  font: doulos
+  transform: scale(0.8)
+
+# Latin Extended-B
+
+0180..024F:
+  font: doulos
+  transform: scale(0.8)
