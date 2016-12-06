@@ -11,12 +11,14 @@ flatten = (object, {start, end}) ->
     | object.has-own-property \control =>
       type: \control
       short-name: object.control
+    | object.has-own-property \svg =>
+      type: \svg
     | otherwise => throw new Error 'Type not specified'
 
   if model.type is \control and typeof! model.short-name is \String
     model.short-name .= split '\n' .filter (.length > 0)
 
-  if model.type is \font
+  if model.type in <[font svg]>
     for transform in <[transform scale skew translate rotate]>
       if object[transform]?
         model[transform] = object[transform]

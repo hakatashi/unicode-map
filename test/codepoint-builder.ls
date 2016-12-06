@@ -104,6 +104,11 @@ assets =
         type: \control
         short-name: \CR
 
+  * * 'recognizes glyphs of type svg'
+    * '0102': svg: true
+    * 0x0102:
+        type: \svg
+
 <- Describe 'Code Point Builder'
 
 for let asset in assets

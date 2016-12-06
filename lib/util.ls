@@ -10,3 +10,9 @@ export merge-maps = (maps) ->
 # Just executes specified function and returns result.
 # Used to beautify indentation in promise chains
 export now = -> it!
+
+export to-hex = (codepoint) ->
+  if codepoint < 0x10000
+    ('0000' + codepoint.to-string 16).slice -4
+  else
+    codepoint.to-string 16

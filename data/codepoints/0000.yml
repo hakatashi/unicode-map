@@ -103,6 +103,10 @@
   font: doulos
   transform: scale(0.8)
 
+  0149:
+    svg: true
+    transform: scale(0.8)
+
 # Latin Extended-B
 
 0180..024F:

@@ -1,7 +1,7 @@
 require! {
   path
   'mz/fs'
-  './util': {log}
+  './util': {log, to-hex}
   jsdom
   hilbert: {Hilbert2d}
   progress: Progress
@@ -40,6 +40,7 @@ font-data =
 
 glyph-data =
   control-box: 'control-box.svg'
+  u0149: 'u0149.svg'
 
 load-fonts = ->
   Promise.all do
@@ -125,6 +126,26 @@ module.exports = (codepoint-infos) ->
       control-box-group.attr transform: "translate(#{x * block-size} #{y * block-size}) scale(#{block-size / 2048})"
 
       glyphs.append control-box-group
+    else if codepoint-info?.type is \svg
+      svg-group = paper.group!
+
+      glyph-svg = Snap.parse custom-glyphs["u#{to-hex code-point}"]
+      for child in Array::slice.call glyph-svg.node.children, 0
+        svg-group.append child
+
+      # Transform
+      transform = Snap.matrix 1, 0, 0, 1, 0, 0
+      transform.translate x * block-size, y * block-size
+      if codepoint-info?.transform
+        transform.scale block-size
+        transform.translate 0.5, 0.5
+        transform.add Snap._.transform2matrix Snap._.svg-transform2string codepoint-info?.transform
+        transform.translate -0.5, -0.5
+        transform.scale 1 / block-size
+      transform.scale block-size / 1024
+      svg-group.transform transform
+
+      glyphs.append svg-group
     else
       glyph-info =
         if codepoint-info?.type is \font
