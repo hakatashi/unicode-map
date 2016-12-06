@@ -22,8 +22,9 @@ module.exports = ->
       path-name = path.join \fonts directory
 
       now ->
-        fs.stat path-name
-      .then ->
+        fs.readdir path-name
+      .then (files) ->
+        return Promise.reject! if files.length is 0
         log "#directory is already downloaded."
       .catch ->
         log "#path-name not exists. Downloading..."
