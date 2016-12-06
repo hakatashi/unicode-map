@@ -32,6 +32,7 @@ node_modules
 *.txt
 
 fonts
+!glyphs/*.svg
 
 # =========================
 # Operating System Files
