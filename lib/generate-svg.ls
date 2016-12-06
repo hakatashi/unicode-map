@@ -1,5 +1,6 @@
 require! {
   path
+  'mz/fs'
   './util': {log}
   jsdom
   hilbert: {Hilbert2d}
@@ -34,6 +35,9 @@ font-data =
     color: 'pink'
   */
 
+glyph-data =
+  control-box: 'control-box.svg'
+
 load-fonts = ->
   Promise.all do
     for let name, {path: short-path} of font-data
@@ -46,7 +50,21 @@ load-fonts = ->
       log 'All fonts loaded.'
       resolve Object.assign {}, ...fonts
 
-module.exports = (codepoint-infos) -> load-fonts!then (fonts) ->
+load-glyphs = ->
+  Promise.all do
+    for let name, short-path of glyph-data
+      fs.read-file path.join __dirname, \../glyphs, short-path .then (glyph) ->
+        "#name": glyph
+  .then (glyphs) ->
+    log 'All glyphs loaded.'
+    Object.assign {}, ...glyphs
+
+module.exports = (codepoint-infos) ->
+  [fonts, custom-glyphs] <- Promise.all [
+    load-fonts!
+    load-glyphs!
+  ] .then
+
   resolve, reject <- new Promise _
 
   error, window <- jsdom.env '' [require.resolve 'snapsvg']
@@ -76,17 +94,25 @@ module.exports = (codepoint-infos) -> load-fonts!then (fonts) ->
 
     codepoint-info = codepoint-infos.get code-point
 
-    glyph-info =
-      if codepoint-info?.type is \font
-        glyph-infos.find (.name is camel-case codepoint-info.font-name)
-      else
-        glyph-infos.find (.glyph.unicode isnt undefined)
+    if codepoint-info?.type is \control
+      control-box = Snap.parse custom-glyphs.control-box
+      control-box-group = paper.group!
+      for child in Array::slice.call control-box.node.children, 0
+        control-box-group.append child
+      control-box-group.attr transform: "translate(#{x * block-size} #{y * block-size}) scale(#{block-size / 2048})"
+      paper.append control-box-group
+    else
+      glyph-info =
+        if codepoint-info?.type is \font
+          glyph-infos.find (.name is camel-case codepoint-info.font-name)
+        else
+          glyph-infos.find (.glyph.unicode isnt undefined)
 
-    if glyph-info isnt undefined
-      width = glyph-info.glyph.advance-width / glyph-info.font.units-per-em * block-size
-      glyph-path = glyph-info.glyph.get-path (block-size - width) / 2, 25, block-size .to-path-data!
-      path = paper.path glyph-path
-      path.attr transform: "translate(#{x * block-size} #{y * block-size})"
+      if glyph-info isnt undefined and code-point < 256
+        width = glyph-info.glyph.advance-width / glyph-info.font.units-per-em * block-size
+        glyph-path = glyph-info.glyph.get-path (block-size - width) / 2, 25, block-size .to-path-data!
+        path = paper.path glyph-path
+        path.attr transform: "translate(#{x * block-size} #{y * block-size})"
 
     if path-string.length is 0
       path-string += "M #{(x + 0.5) * block-size} #{(y + 0.5) * block-size} "
