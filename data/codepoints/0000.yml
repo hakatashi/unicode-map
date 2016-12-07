@@ -116,3 +116,15 @@
   022A..0231:
     font: doulos
     transform: translate(0, 0.05) scale(0.8)
+
+# IPA Extensions
+
+0250..02AF:
+  font: doulos
+  transform: scale(0.8)
+
+# Greek and Coptic
+
+0370..03FF:
+  font: symbola
+  transform: scale(0.8)
