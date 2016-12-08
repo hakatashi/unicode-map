@@ -35,11 +35,9 @@ font-data =
   free-serif:
     path: 'FreeFont/freefont-20120503/FreeSerif.ttf'
     color: 'red'
-  /*
-  noto-jp:
-    path: 'Noto/NotoSansCJKjp-Regular-unified.otf'
-    color: 'pink'
-  */
+  noto-hebrew:
+    path: 'Noto/NotoSansHebrew-Regular.ttf'
+    color: 'red'
 
 glyph-data =
   control-box: 'control-box.svg'
