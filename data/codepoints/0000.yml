@@ -201,3 +201,28 @@
     font: symbola
     transform: translate(0, -0.08) scale(0.8) translate(0.5, 0)
     combining: true
+
+# Cyrillic Supplement
+
+0500..052F:
+  font: symbola
+  transform: scale(0.8)
+
+  052A:
+    font: symbola
+    transform: scale(0.75)
+
+# Armenian
+
+0530..058F:
+  font: freeSerif
+  transform: scale(0.8)
+
+  '0530': notdef
+  0557..0558: notdef
+  '0560': notdef
+  0588: notdef
+  058B..058C: notdef
+
+  058D..058E:
+    svg: true

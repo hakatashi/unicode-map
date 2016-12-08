@@ -32,6 +32,9 @@ font-data =
   open-sans:
     path: 'OpenSans/OpenSans-Bold.ttf'
     color: 'red'
+  free-serif:
+    path: 'FreeFont/freefont-20120503/FreeSerif.ttf'
+    color: 'red'
   /*
   noto-jp:
     path: 'Noto/NotoSansCJKjp-Regular-unified.otf'
@@ -42,6 +45,8 @@ glyph-data =
   control-box: 'control-box.svg'
   combining-circle: 'combining-circle.svg'
   u0149: 'u0149.svg'
+  u058d: 'u058d.svg'
+  u058e: 'u058e.svg'
 
 load-fonts = ->
   Promise.all do

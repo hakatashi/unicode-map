@@ -15,6 +15,8 @@ fonts =
   'LibreBaskerville': 'http://www.impallari.com/media/uploads/prosources/update-86-source.zip'
   'Doulos': 'http://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=DoulosSIL-5.000.zip&filename=DoulosSIL-5.000.zip'
   'OpenSans': 'http://www.opensans.com/download/open-sans.zip'
+  'DejaVu': 'http://sourceforge.net/projects/dejavu/files/dejavu/2.37/dejavu-fonts-ttf-2.37.zip'
+  'FreeFont': 'https://ftp.gnu.org/gnu/freefont/freefont-ttf-20120503.zip'
 
 module.exports = ->
   Promise.all do
