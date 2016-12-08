@@ -123,6 +123,17 @@
   font: doulos
   transform: scale(0.8)
 
+# Spacing Modifier Letters
+
+02B0..02FF:
+  font: doulos
+  transform: scale(0.8)
+
+# Combining Diacritical Marks
+
+034F:
+  control: CGJ
+
 # Greek and Coptic
 
 0370..03FF:
