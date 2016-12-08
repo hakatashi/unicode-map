@@ -44,6 +44,9 @@ font-data =
   noto-syriac:
     path: 'Noto/NotoSansSyriacEastern-Regular.ttf'
     color: 'red'
+  noto-nko:
+    path: 'Noto/NotoSansNKo-Regular.ttf'
+    color: 'red'
 
 glyph-data =
   control-box: 'control-box.svg'
@@ -52,6 +55,9 @@ glyph-data =
   u058d: 'u058d.svg'
   u058e: 'u058e.svg'
   u0605: 'u0605.svg'
+  u07fd: 'u07fd.svg'
+  u07fe: 'u07fe.svg'
+  u07ff: 'u07ff.svg'
 
 load-fonts = ->
   Promise.all do
@@ -172,6 +178,17 @@ module.exports = (codepoint-infos) ->
         box-group.transform "translate(#{x * block-size} #{y * block-size}) scale(#{block-size / 2048})"
 
         svg-font-group.append box-group
+
+      if codepoint-info?.combining
+        combining-circle-group = paper.group!
+
+        combining-circle = Snap.parse custom-glyphs.combining-circle
+        for child in Array::slice.call combining-circle.node.children, 0
+          combining-circle-group.append child
+
+        combining-circle-group.transform "translate(#{x * block-size} #{y * block-size}) scale(#{block-size / 1024})"
+
+        svg-font-group.append combining-circle-group
 
       glyphs.append svg-font-group
     else

@@ -350,7 +350,7 @@
 
 0780..07BF:
   font: freeSerif
-  transform: scale(0.8)
+  transform: scale(0.9)
 
   07A6..07B0:
     font: freeSerif
@@ -358,3 +358,35 @@
     transform: scale(0.8) translate(-0.35, -0.1)
 
   07B2..07BF: notdef
+
+# NKo
+
+07C0..07FF:
+  font: notoNko
+  transform: scale(0.8)
+
+  07EB..07F1:
+    font: notoNko
+    combining: true
+    transform: scale(0.7) translate(-0.25, 0.1)
+
+  07F2:
+    font: notoNko
+    combining: true
+    transform: scale(0.7) translate(-0.25, -0.08)
+
+  07F3:
+    font: notoNko
+    combining: true
+    transform: scale(0.7) translate(-0.25, 0.1)
+
+  07FB..07FC: notdef
+
+  07FD:
+    svg: true
+    combining: true
+    transform: scale(0.7) translate(0, 0.1)
+
+  07FE..07FF:
+    svg: true
+    transform: scale(0.8)
