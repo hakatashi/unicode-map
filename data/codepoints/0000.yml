@@ -339,3 +339,9 @@
     transform: scale(0.9) translate(0, -0.05)
 
   074B..074C: notdef
+
+# Arabic Supplement
+
+0750..077F:
+  font: freeSerif
+  transform: scale(0.8) translate(0, -0.05)
