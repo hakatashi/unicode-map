@@ -109,6 +109,11 @@ assets =
     * 0x0102:
         type: \svg
 
+  * * 'recognizes glyphs of type notdef'
+    * '0102': 'notdef'
+    * 0x0102:
+        type: \notdef
+
 <- Describe 'Code Point Builder'
 
 for let asset in assets

@@ -5,6 +5,8 @@ require! {
 flatten = (object, {start, end}) ->
   # Define model
   model =
+    | object is \notdef
+      type: \notdef
     | object.has-own-property \font =>
       type: \font
       font-name: object.font

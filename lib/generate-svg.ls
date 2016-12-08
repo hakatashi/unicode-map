@@ -101,7 +101,9 @@ module.exports = (codepoint-infos) ->
 
     codepoint-info = codepoint-infos.get code-point
 
-    if codepoint-info?.type is \control
+    if codepoint-info?.type is \notdef
+      ; # NOP
+    else if codepoint-info?.type is \control
       control-box-group = paper.group!
 
       # Draw box

@@ -128,3 +128,9 @@
 0370..03FF:
   font: symbola
   transform: scale(0.8)
+
+  0378..0379: notdef
+  0380..0383: notdef
+  038B: notdef
+  038D: notdef
+  03A2: notdef
