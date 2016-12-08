@@ -38,6 +38,9 @@ font-data =
   noto-hebrew:
     path: 'Noto/NotoSansHebrew-Regular.ttf'
     color: 'red'
+  noto-arabic:
+    path: 'Noto/NotoNaskhArabic-Regular.ttf'
+    color: 'red'
 
 glyph-data =
   control-box: 'control-box.svg'
@@ -45,6 +48,7 @@ glyph-data =
   u0149: 'u0149.svg'
   u058d: 'u058d.svg'
   u058e: 'u058e.svg'
+  u0605: 'u0605.svg'
 
 load-fonts = ->
   Promise.all do
@@ -133,6 +137,8 @@ module.exports = (codepoint-infos) ->
 
       glyphs.append control-box-group
     else if codepoint-info?.type is \svg
+      svg-font-group = paper.group!
+
       svg-group = paper.group!
 
       glyph-svg = Snap.parse custom-glyphs["u#{to-hex code-point}"]
@@ -151,7 +157,20 @@ module.exports = (codepoint-infos) ->
       transform.scale block-size / 1024
       svg-group.transform transform
 
-      glyphs.append svg-group
+      svg-font-group.append svg-group
+
+      if codepoint-info?.box
+        box-group = paper.group!
+
+        box = Snap.parse custom-glyphs.control-box
+        for child in Array::slice.call box.node.children, 0
+          box-group.append child
+
+        box-group.transform "translate(#{x * block-size} #{y * block-size}) scale(#{block-size / 2048})"
+
+        svg-font-group.append box-group
+
+      glyphs.append svg-font-group
     else
       glyph-info =
         if codepoint-info?.type is \font
@@ -193,6 +212,17 @@ module.exports = (codepoint-infos) ->
           combining-circle-group.transform "translate(#{x * block-size} #{y * block-size}) scale(#{block-size / 1024})"
 
           font-group.append combining-circle-group
+
+        if codepoint-info?.box
+          box-group = paper.group!
+
+          box = Snap.parse custom-glyphs.control-box
+          for child in Array::slice.call box.node.children, 0
+            box-group.append child
+
+          box-group.transform "translate(#{x * block-size} #{y * block-size}) scale(#{block-size / 2048})"
+
+          font-group.append box-group
 
         glyphs.append font-group
 

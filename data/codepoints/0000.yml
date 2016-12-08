@@ -258,3 +258,66 @@
   05C8..05CF: notdef
   05EB..05EF: notdef
   05F5..05FF: notdef
+
+# Arabic
+
+0600..06FF:
+  font: freeSerif
+  transform: scale(0.8)
+
+  0600..0603:
+    font: freeSerif
+    transform: scale(0.8)
+    box: true
+
+  '0604':
+    font: notoArabic
+    transform: translate(0, 0.1) scale(0.4)
+    box: true
+
+  '0605':
+    svg: true
+    transform: scale(0.9)
+    box: true
+
+  0610..061A:
+    font: freeSerif
+    transform: scale(0.7) translate(-0.15, 0)
+    combining: true
+
+  061C:
+    control: ALM
+
+  061D: notdef
+
+  064B..065F:
+    font: freeSerif
+    transform: scale(0.7) translate(-0.15, 0)
+    combining: true
+
+  0670:
+    font: freeSerif
+    transform: scale(0.7) translate(-0.15, 0)
+    combining: true
+
+  06D6..06ED:
+    font: freeSerif
+    transform: scale(0.7) translate(-0.15, 0)
+    combining: true
+
+    06DD:
+      font: freeSerif
+      transform: scale(0.7)
+      box: true
+
+    06DE:
+      font: freeSerif
+      transform: scale(0.8)
+
+    06E5..06E6:
+      font: freeSerif
+      transform: scale(0.8)
+
+    06E9:
+      font: freeSerif
+      transform: scale(0.8)
