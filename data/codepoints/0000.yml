@@ -345,3 +345,16 @@
 0750..077F:
   font: freeSerif
   transform: scale(0.8) translate(0, -0.05)
+
+# Thaana
+
+0780..07BF:
+  font: freeSerif
+  transform: scale(0.8)
+
+  07A6..07B0:
+    font: freeSerif
+    combining: true
+    transform: scale(0.8) translate(-0.35, -0.1)
+
+  07B2..07BF: notdef
