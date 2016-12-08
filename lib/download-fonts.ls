@@ -17,6 +17,7 @@ fonts =
   'OpenSans': 'http://www.opensans.com/download/open-sans.zip'
   'DejaVu': 'http://sourceforge.net/projects/dejavu/files/dejavu/2.37/dejavu-fonts-ttf-2.37.zip'
   'FreeFont': 'https://ftp.gnu.org/gnu/freefont/freefont-ttf-20120503.zip'
+  'Hancom': 'http://cdn.hancom.com/pds/docs/HancomFont.zip'
 
 module.exports = ->
   Promise.all do
@@ -33,4 +34,9 @@ module.exports = ->
 
         mkdirp path-name
         .then ->
-          download url, path-name, {+extract}
+          headers =
+            if directory is 'Hancom'
+              {referer: 'http://www.hancom.com/'}
+            else
+              {}
+          download url, path-name, {+extract, headers}
