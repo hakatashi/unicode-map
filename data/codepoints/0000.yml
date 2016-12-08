@@ -131,8 +131,13 @@
 
 # Combining Diacritical Marks
 
-034F:
-  control: CGJ
+0300..036F:
+  font: doulos
+  combining: true
+  transform: translate(0, -0.06) scale(0.7) translate(0.25, 0)
+
+  034F:
+    control: CGJ
 
 # Greek and Coptic
 

@@ -40,6 +40,7 @@ font-data =
 
 glyph-data =
   control-box: 'control-box.svg'
+  combining-circle: 'combining-circle.svg'
   u0149: 'u0149.svg'
 
 load-fonts = ->
@@ -158,6 +159,8 @@ module.exports = (codepoint-infos) ->
           undefined
 
       if glyph-info isnt undefined
+        font-group = paper.group!
+
         width = glyph-info.glyph.advance-width / glyph-info.font.units-per-em * block-size
         glyph-path = glyph-info.glyph.get-path (block-size - width) / 2, 25, block-size .to-path-data!
         path = paper.path glyph-path
@@ -175,7 +178,20 @@ module.exports = (codepoint-infos) ->
           transform.scale 1 / block-size
         path.transform transform
 
-        glyphs.append path
+        font-group.append path
+
+        if codepoint-info?.combining
+          combining-circle-group = paper.group!
+
+          combining-circle = Snap.parse custom-glyphs.combining-circle
+          for child in Array::slice.call combining-circle.node.children, 0
+            combining-circle-group.append child
+
+          combining-circle-group.transform "translate(#{x * block-size} #{y * block-size}) scale(#{block-size / 1024})"
+
+          font-group.append combining-circle-group
+
+        glyphs.append font-group
 
     if codepoint-info?.type isnt undefined
       anchor = paper.rect -0.5, -0.5, 1, 1
