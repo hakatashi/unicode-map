@@ -321,3 +321,21 @@
     06E9:
       font: freeSerif
       transform: scale(0.8)
+
+# Syriac
+
+0700..074F:
+  font: notoSyriac
+  transform: scale(0.8)
+
+  070E: notdef
+
+  070F:
+    control: SAM
+
+  0730..074A:
+    font: notoSyriac
+    combining: true
+    transform: scale(0.9) translate(0, -0.05)
+
+  074B..074C: notdef

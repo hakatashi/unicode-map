@@ -41,6 +41,9 @@ font-data =
   noto-arabic:
     path: 'Noto/NotoNaskhArabic-Regular.ttf'
     color: 'red'
+  noto-syriac:
+    path: 'Noto/NotoSansSyriacEastern-Regular.ttf'
+    color: 'red'
 
 glyph-data =
   control-box: 'control-box.svg'
