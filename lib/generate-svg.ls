@@ -3,6 +3,7 @@ require! {
   'mz/fs'
   './util': {log, to-hex}
   jsdom
+  path
   hilbert: {Hilbert2d}
   progress: Progress
   xmlserializer
@@ -63,31 +64,6 @@ font-data =
     path: 'Annapurna/AnnapurnaSIL-1.201/AnnapurnaSIL-Regular.ttf'
     color: 'red'
 
-glyph-data =
-  control-box: 'control-box.svg'
-  combining-circle: 'combining-circle.svg'
-  u0149: 'u0149.svg'
-  u058d: 'u058d.svg'
-  u058e: 'u058e.svg'
-  u0605: 'u0605.svg'
-  u07fd: 'u07fd.svg'
-  u07fe: 'u07fe.svg'
-  u07ff: 'u07ff.svg'
-  u0860: 'u0860.svg'
-  u0861: 'u0861.svg'
-  u0862: 'u0862.svg'
-  u0863: 'u0863.svg'
-  u0864: 'u0864.svg'
-  u0865: 'u0865.svg'
-  u0866: 'u0866.svg'
-  u0867: 'u0867.svg'
-  u0868: 'u0868.svg'
-  u0869: 'u0869.svg'
-  u086a: 'u086a.svg'
-  u08b8: 'u08b8.svg'
-  u09fc: 'u09fc.svg'
-  u09fd: 'u09fd.svg'
-
 load-fonts = ->
   Promise.all do
     for let name, {path: short-path} of font-data
@@ -101,10 +77,12 @@ load-fonts = ->
       resolve Object.assign {}, ...fonts
 
 load-glyphs = ->
-  Promise.all do
-    for let name, short-path of glyph-data
-      fs.read-file path.join __dirname, \../glyphs, short-path .then (glyph) ->
-        "#name": glyph
+  fs.readdir path.join __dirname, \../glyphs
+  .then (files) ->
+    Promise.all do
+      for let file in files when path.extname(file) is '.svg'
+        fs.read-file path.join __dirname, \../glyphs, file .then (glyph) ->
+          "#{camel-case path.basename file, '.svg'}": glyph
   .then (glyphs) ->
     log 'All glyphs loaded.'
     Object.assign {}, ...glyphs
