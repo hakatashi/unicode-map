@@ -101,8 +101,108 @@
     combining: true
     transform: scale(0.8) translate(0.15, -0.1)
 
-  0A76:
+  0A76: # early mapping
     svg: true
     transform: scale(0.8)
 
   0A77..0A7F: notdef
+
+# Gujarati
+
+0A80..0AFF:
+  font: noto-gujarati
+  transform: scale(0.8)
+
+  0A80: notdef
+
+  0A81..0A82:
+    font: noto-gujarati
+    combining: true
+    transform: scale(0.8) translate(0.1, 0.1)
+
+  0A83:
+    font: noto-gujarati
+    combining: true
+    transform: scale(0.8) translate(0.3, 0)
+
+  0A84: notdef
+  0A8E: notdef
+  0A92: notdef
+  0AA9: notdef
+  0AB1: notdef
+  0AB4: notdef
+  0ABA..0ABB: notdef
+
+  0ABC:
+    font: noto-gujarati
+    combining: true
+    transform: scale(0.8) translate(0.25, -0.1)
+
+  0ABE:
+    font: noto-gujarati
+    combining: true
+    transform: scale(0.8) translate(0.3, 0)
+
+  0ABF:
+    font: noto-gujarati
+    combining: true
+    transform: scale(0.8) translate(-0.3, 0)
+
+  0AC0:
+    font: noto-gujarati
+    combining: true
+    transform: scale(0.8) translate(0.3, 0)
+
+  0AC1:
+    font: noto-gujarati
+    combining: true
+    transform: scale(0.8) translate(0.1, -0.1)
+
+  0AC2..0AC4:
+    font: noto-gujarati
+    combining: true
+    transform: scale(0.8) translate(0, -0.1)
+
+  0AC5:
+    font: noto-gujarati
+    combining: true
+    transform: scale(0.8) translate(0.1, 0.1)
+
+  0AC6: notdef
+
+  0AC7..0AC8:
+    font: noto-gujarati
+    combining: true
+    transform: scale(0.8) translate(0.1, 0.1)
+
+  0AC9:
+    font: noto-gujarati
+    combining: true
+    transform: scale(0.8) translate(0.3, 0)
+
+  0ACA: notdef
+
+  0ACB..0ACC:
+    font: noto-gujarati
+    combining: true
+    transform: scale(0.8) translate(0.3, 0)
+
+  0ACD:
+    font: noto-gujarati
+    combining: true
+    transform: scale(0.8) translate(0, -0.1)
+
+  0ACE..0ACF: notdef
+  0AD1..0ADF: notdef
+
+  0AE2..0AE3:
+    font: noto-gujarati
+    combining: true
+    transform: scale(0.8) translate(0.2, -0.1)
+
+  0AE4..0AE5: notdef
+  0AF2..0AF8: notdef
+
+  0AF9: tofu
+
+  0AFA..0AFF: tofu # TODO early mapping http://www.unicode.org/L2/L2015/15103r-gujarati-arabic-translit.pdf

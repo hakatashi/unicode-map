@@ -57,6 +57,9 @@ font-data =
   noto-bengali:
     path: 'Noto/NotoSerifBengali-Regular.ttf'
     color: 'red'
+  noto-gujarati:
+    path: 'Noto/NotoSerifGujarati-Regular.ttf'
+    color: 'red'
   scheherazade:
     path: 'Scheherazade/Scheherazade-2.100/Scheherazade-Regular.ttf'
     color: 'red'
