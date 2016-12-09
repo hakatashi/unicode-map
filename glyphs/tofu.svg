@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048">
+    <style>
+        .st0{fill:none;stroke:#000;stroke-width:40;stroke-miterlimit:10}
+    </style>
+    <path class="st0" d="M704 216h640v1616H704z"/>
+</svg>
