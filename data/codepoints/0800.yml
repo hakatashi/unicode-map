@@ -1,0 +1,28 @@
+# Samaritan
+
+0800..083F:
+  font: notoSamaritan
+  transform: scale(0.8)
+
+  0816..0819:
+    font: notoSamaritan
+    combining: true
+    transform: scale(0.7) translate(-0.1, 0.15)
+
+  081B..0823:
+    font: notoSamaritan
+    combining: true
+    transform: scale(0.7) translate(-0.1, 0.15)
+
+  0825..0827:
+    font: notoSamaritan
+    combining: true
+    transform: scale(0.7) translate(-0.1, 0.15)
+
+  0829..082D:
+    font: notoSamaritan
+    combining: true
+    transform: scale(0.7) translate(-0.1, 0.15)
+
+  082E..082F: notdef
+  083F: notdef

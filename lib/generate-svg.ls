@@ -47,6 +47,9 @@ font-data =
   noto-nko:
     path: 'Noto/NotoSansNKo-Regular.ttf'
     color: 'red'
+  noto-samaritan:
+    path: 'Noto/NotoSansSamaritan-Regular.ttf'
+    color: 'red'
 
 glyph-data =
   control-box: 'control-box.svg'
