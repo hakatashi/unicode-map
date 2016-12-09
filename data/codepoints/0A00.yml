@@ -206,3 +206,106 @@
   0AF9: tofu
 
   0AFA..0AFF: tofu # TODO early mapping http://www.unicode.org/L2/L2015/15103r-gujarati-arabic-translit.pdf
+
+# Oriya
+
+0B00..0B7F:
+  font: free-serif
+  transform: scale(0.8)
+
+  0B00: notdef
+
+  0B01:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.15, 0.05)
+
+  0B02:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.3, 0)
+
+  0B03:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.35, 0)
+
+  0B04: notdef
+  0B0D..0B0E: notdef
+  0B11..0B12: notdef
+  0B29: notdef
+  0B31: notdef
+  0B34: notdef
+  0B3A..0B3B: notdef
+
+  0B3C:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.2, -0.15)
+
+  0B3E:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.35, 0)
+
+  0B3F:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.35, 0.1)
+
+  0B40:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.35, 0)
+
+  0B41..0B44:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.15, -0.15)
+
+  0B45..0B46: notdef
+
+  0B47:
+    font: free-serif
+    combining: true
+    transform: scale(0.65) translate(-0.5, 0)
+
+  0B48:
+    font: free-serif
+    combining: true
+    transform: scale(0.65) translate(-0.2, 0)
+
+  0B49..0B4A: notdef
+
+  0B4B..0B4C:
+    font: free-serif
+    combining: true
+    transform: scale(0.65) translate(-0.1, 0)
+
+  0B4D:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0, -0.1)
+
+  0B4E..0B55: notdef
+
+  0B56..0B57:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.35, 0)
+
+  0B58..0B5B: notdef
+  0B5E: notdef
+
+  0B62..0B63:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.2, -0.1)
+
+  0B64..0B65: notdef
+
+  0B71:
+    font: free-serif
+    transform: scale(0.8) translate(0, -0.1)
+
+  0B78..0B7F: notdef
