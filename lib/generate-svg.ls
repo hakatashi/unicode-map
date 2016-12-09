@@ -126,7 +126,16 @@ module.exports = (codepoint-infos) ->
     codepoint-info = codepoint-infos.get code-point
 
     if codepoint-info?.type is \notdef
-      ; # NOP
+      notdef-group = paper.group!
+
+      # Draw box
+      notdef = Snap.parse custom-glyphs.notdef
+      for child in Array::slice.call notdef.node.children, 0
+        notdef-group.append child
+
+      notdef-group.attr transform: "translate(#{x * block-size} #{y * block-size}) scale(#{block-size / 2048})"
+
+      glyphs.append notdef-group
     else if codepoint-info?.type is \tofu
       tofu-group = paper.group!
 
