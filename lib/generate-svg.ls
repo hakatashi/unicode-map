@@ -46,6 +46,8 @@ font-data =
     path: 'Noto/NotoSerifGujarati-Regular.ttf'
   noto-tamil:
     path: 'Noto/NotoSerifTamil-Regular.ttf'
+  noto-telugu:
+    path: 'Noto/NotoSerifTelugu-Regular.ttf'
   scheherazade:
     path: 'Scheherazade/Scheherazade-2.100/Scheherazade-Regular.ttf'
   annapurna:

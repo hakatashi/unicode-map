@@ -339,7 +339,7 @@
   0BAB..0BAD: notdef
   0BBA..0BBB: notdef
 
-  0BBC:
+  0BBC: # early mapping
     svg: true
     combining: true
 

@@ -1,0 +1,101 @@
+# Telugu
+
+0C00..0C7F:
+  font: noto-telugu
+  transform: scale(0.8)
+
+  0C00:
+    svg: true
+    combining: true
+
+  0C01:
+    font: noto-telugu
+    combining: true
+    transform: scale(0.7) translate(0.4, -0.15)
+
+  0C02:
+    font: noto-telugu
+    combining: true
+    transform: scale(0.7) translate(0.5, -0.15)
+
+  0C03:
+    font: noto-telugu
+    combining: true
+    transform: scale(0.8) translate(0.3, -0.1)
+
+  0C04: notdef
+  0C0D: notdef
+  0C11: notdef
+  0C29: notdef
+
+  0C34:
+    svg: true
+    transform: scale(0.8)
+
+  0C3A..0C3C: notdef
+
+  0C3E..0C40:
+    font: noto-telugu
+    combining: true
+    transform: scale(0.7) translate(0.3, -0.15)
+
+  0C41:
+    font: noto-telugu
+    combining: true
+    transform: scale(0.8) translate(0.4, -0.1)
+
+  0C42:
+    font: noto-telugu
+    combining: true
+    transform: scale(0.5, 0.8) translate(0.7, -0.1)
+
+  0C43..0C44:
+    font: noto-telugu
+    combining: true
+    transform: scale(0.7, 0.8) translate(0.4, -0.1)
+
+  0C45: notdef
+
+  0C46..0C48:
+    font: noto-telugu
+    combining: true
+    transform: scale(0.8) translate(0.2, -0.1)
+
+  0C49: notdef
+
+  0C4A..0C4D:
+    font: noto-telugu
+    combining: true
+    transform: scale(0.8) translate(0.4, -0.1)
+
+  0C4E..0C54: notdef
+
+  0C55:
+    font: noto-telugu
+    combining: true
+    transform: scale(0.8) translate(0.1, -0.1)
+
+  0C56:
+    font: noto-telugu
+    combining: true
+    transform: scale(0.8) translate(0.3, -0.1)
+
+  0C57: notdef
+
+  0C5A:
+    svg: true
+    transform: scale(0.8)
+
+  0C5B..0C5F: notdef
+
+  0C60:
+    font: noto-telugu
+    transform: scale(0.6, 0.8)
+
+  0C62..0C63:
+    font: noto-telugu
+    combining: true
+    transform: scale(0.8) translate(0.3, -0.2)
+
+  0C64..0C65: notdef
+  0C70..0C77: notdef
