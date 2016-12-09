@@ -14,58 +14,42 @@ require! {
 font-data =
   doulos:
     path: 'Doulos/DoulosSIL-5.000/DoulosSIL-R.ttf'
-    color: \purple
   symbola:
     path: 'Symbola/Symbola.ttf'
-    color: 'cyan'
   emoji:
     path: 'Noto/NotoEmoji-Regular.ttf'
-    color: 'yellow'
   ipamjm:
     path: 'IPAmjm/ipamjm.ttf'
-    color: 'blue'
   ipaexm:
     path: 'IPAexm/ipaexm00201/ipaexm.ttf'
-    color: 'black'
   hanamin-a:
     path: 'hanazono/HanaMinA.ttf'
-    color: 'red'
   open-sans:
     path: 'OpenSans/OpenSans-Bold.ttf'
-    color: 'red'
   free-serif:
     path: 'FreeFont/freefont-20120503/FreeSerif.ttf'
-    color: 'red'
   noto-hebrew:
     path: 'Noto/NotoSansHebrew-Regular.ttf'
-    color: 'red'
   noto-arabic:
     path: 'Noto/NotoNaskhArabic-Regular.ttf'
-    color: 'red'
   noto-syriac:
     path: 'Noto/NotoSansSyriacEastern-Regular.ttf'
-    color: 'red'
   noto-nko:
     path: 'Noto/NotoSansNKo-Regular.ttf'
-    color: 'red'
   noto-samaritan:
     path: 'Noto/NotoSansSamaritan-Regular.ttf'
-    color: 'red'
   noto-mandaic:
     path: 'Noto/NotoSansMandaic-Regular.ttf'
-    color: 'red'
   noto-bengali:
     path: 'Noto/NotoSerifBengali-Regular.ttf'
-    color: 'red'
   noto-gujarati:
     path: 'Noto/NotoSerifGujarati-Regular.ttf'
-    color: 'red'
+  noto-tamil:
+    path: 'Noto/NotoSerifTamil-Regular.ttf'
   scheherazade:
     path: 'Scheherazade/Scheherazade-2.100/Scheherazade-Regular.ttf'
-    color: 'red'
   annapurna:
     path: 'Annapurna/AnnapurnaSIL-1.201/AnnapurnaSIL-Regular.ttf'
-    color: 'red'
 
 load-fonts = ->
   Promise.all do

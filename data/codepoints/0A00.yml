@@ -309,3 +309,112 @@
     transform: scale(0.8) translate(0, -0.1)
 
   0B78..0B7F: notdef
+
+# Tamil
+
+0B80..0BFF:
+  font: noto-tamil
+  transform: scale(0.6)
+
+  0B80..0B81: notdef
+
+  0B82:
+    font: noto-tamil
+    combining: true
+    transform: scale(0.6)
+
+  0B84: notdef
+  0B8B..0B8D: notdef
+  0B91: notdef
+
+  0B94:
+    font: noto-tamil
+    transform: scale(0.45, 0.6)
+
+  0B96..0B98: notdef
+  0B9B: notdef
+  0B9D: notdef
+  0BA0..0BA2: notdef
+  0BA5..0BA7: notdef
+  0BAB..0BAD: notdef
+  0BBA..0BBB: notdef
+
+  0BBC:
+    svg: true
+    combining: true
+
+  0BBD: notdef
+
+  0BBE:
+    font: noto-tamil
+    combining: true
+    transform: scale(0.5) translate(0.6, 0)
+
+  0BBF:
+    font: noto-tamil
+    combining: true
+    transform: scale(0.6) translate(0.4, 0)
+
+  0BC0:
+    font: noto-tamil
+    combining: true
+    transform: scale(0.6) translate(0.4, 0)
+
+  # TODO: Should this (and next) mark have spacing form for chart?
+  # Ref: Unicode 9.0.0 p.486
+  0BC1:
+    font: noto-tamil
+    combining: true
+    transform: scale(0.6) translate(0.6, 0)
+  0BC2:
+    font: noto-tamil
+    combining: true
+    transform: scale(0.4, 0.6) translate(0.8, 0)
+
+  0BC3..0BC5: notdef
+
+  0BC6:
+    font: noto-tamil
+    combining: true
+    transform: scale(0.4, 0.6) translate(-0.75, 0)
+
+  0BC7:
+    font: noto-tamil
+    combining: true
+    transform: scale(0.5, 0.6) translate(-0.65, 0)
+
+  0BC8:
+    font: noto-tamil
+    combining: true
+    transform: scale(0.3, 0.6) translate(-1.1, -0.1)
+
+  0BC9: notdef
+
+  0BCA..0BCC:
+    svg: true
+    combining: true
+
+  0BCD:
+    font: noto-tamil
+    combining: true
+    transform: scale(0.6)
+
+  0BCE..0BCF: notdef
+  0BD1..0BD6: notdef
+
+  0BD7:
+    font: noto-tamil
+    combining: true
+    transform: scale(0.25, 0.6) translate(1.3, 0)
+
+  0BD8..0BE5: notdef
+
+  0BF5:
+    font: noto-tamil
+    transform: scale(0.45, 0.6)
+
+  0BF8:
+    font: noto-tamil
+    transform: scale(0.5, 0.6)
+
+  0BFB..0BFF: notdef
