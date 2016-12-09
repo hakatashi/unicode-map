@@ -50,6 +50,9 @@ font-data =
   noto-samaritan:
     path: 'Noto/NotoSansSamaritan-Regular.ttf'
     color: 'red'
+  noto-mandaic:
+    path: 'Noto/NotoSansMandaic-Regular.ttf'
+    color: 'red'
 
 glyph-data =
   control-box: 'control-box.svg'

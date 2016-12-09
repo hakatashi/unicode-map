@@ -26,3 +26,17 @@
 
   082E..082F: notdef
   083F: notdef
+
+# Mandaic
+
+0840..085F:
+  font: notoMandaic
+  transform: scale(0.8)
+
+  0859..085B:
+    font: notoMandaic
+    combining: true
+    transform: scale(0.7) translate(0, -0.1)
+
+  085C..085D: notdef
+  085F: notdef
