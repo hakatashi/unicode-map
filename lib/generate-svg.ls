@@ -53,6 +53,9 @@ font-data =
   noto-mandaic:
     path: 'Noto/NotoSansMandaic-Regular.ttf'
     color: 'red'
+  noto-bengali:
+    path: 'Noto/NotoSerifBengali-Regular.ttf'
+    color: 'red'
   scheherazade:
     path: 'Scheherazade/Scheherazade-2.100/Scheherazade-Regular.ttf'
     color: 'red'
@@ -82,6 +85,8 @@ glyph-data =
   u0869: 'u0869.svg'
   u086a: 'u086a.svg'
   u08b8: 'u08b8.svg'
+  u09fc: 'u09fc.svg'
+  u09fd: 'u09fd.svg'
 
 load-fonts = ->
   Promise.all do
