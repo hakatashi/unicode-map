@@ -81,3 +81,109 @@
     font: scheherazade
     combining: true
     transform: scale(0.7) translate(0, -0.2)
+
+# Devanagari
+
+0900..097F:
+  font: annapurna
+  transform: scale(0.8)
+
+  0900..0901:
+    font: annapurna
+    combining: true
+    transform: scale(0.8) translate(0.2, 0.1)
+
+  0902:
+    font: annapurna
+    combining: true
+    transform: scale(0.8) translate(0.1, 0.1)
+
+  0903:
+    font: annapurna
+    combining: true
+    transform: scale(0.8) translate(0.35, 0)
+
+  093A:
+    font: annapurna
+    combining: true
+    transform: scale(0.8) translate(0.2, 0.1)
+
+  093B:
+    font: annapurna
+    combining: true
+    transform: scale(0.8) translate(0.3, 0.1)
+
+  093C:
+    font: annapurna
+    combining: true
+    transform: scale(0.8) translate(0.2, -0.1)
+
+  093E:
+    font: annapurna
+    combining: true
+    transform: scale(0.8) translate(0.3, 0.1)
+
+  093F:
+    font: annapurna
+    combining: true
+    transform: scale(0.8) translate(-0.3, 0.1)
+
+  0940:
+    font: annapurna
+    combining: true
+    transform: scale(0.8) translate(0.3, 0.1)
+
+  0941..0944:
+    font: annapurna
+    combining: true
+    transform: scale(0.8) translate(0.2, -0.1)
+
+  0945..0948:
+    font: annapurna
+    combining: true
+    transform: scale(0.8) translate(0.2, 0.1)
+
+  0949..094C:
+    font: annapurna
+    combining: true
+    transform: scale(0.8) translate(0.3, 0.1)
+
+  094D:
+    font: annapurna
+    combining: true
+    transform: scale(0.8) translate(0.2, -0.1)
+
+  094E:
+    font: annapurna
+    combining: true
+    transform: scale(0.8) translate(-0.3, 0.1)
+
+  094F:
+    font: annapurna
+    combining: true
+    transform: scale(0.8) translate(0.3, 0.1)
+
+  0951:
+    font: annapurna
+    combining: true
+    transform: scale(0.8) translate(0.15, 0.1)
+
+  0952:
+    font: annapurna
+    combining: true
+    transform: scale(0.8) translate(0.25, -0.1)
+
+  0953..0955:
+    font: annapurna
+    combining: true
+    transform: scale(0.8) translate(0.2, 0.1)
+
+  0956..0957:
+    font: annapurna
+    combining: true
+    transform: scale(0.8) translate(0.2, -0.1)
+
+  0962..0963:
+    font: annapurna
+    combining: true
+    transform: scale(0.8) translate(0.2, -0.1)

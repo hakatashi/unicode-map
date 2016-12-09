@@ -56,6 +56,9 @@ font-data =
   scheherazade:
     path: 'Scheherazade/Scheherazade-2.100/Scheherazade-Regular.ttf'
     color: 'red'
+  annapurna:
+    path: 'Annapurna/AnnapurnaSIL-1.201/AnnapurnaSIL-Regular.ttf'
+    color: 'red'
 
 glyph-data =
   control-box: 'control-box.svg'

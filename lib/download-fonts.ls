@@ -19,6 +19,7 @@ fonts =
   'FreeFont': 'https://ftp.gnu.org/gnu/freefont/freefont-ttf-20120503.zip'
   'Hancom': 'http://cdn.hancom.com/pds/docs/HancomFont.zip'
   'Scheherazade': 'http://software.sil.org/downloads/d/scheherazade/Scheherazade-2.100.zip'
+  'Annapurna': 'http://software.sil.org/downloads/d/annapurna/AnnapurnaSIL-1.201.zip'
 
 module.exports = ->
   Promise.all do
