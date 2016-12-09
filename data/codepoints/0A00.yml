@@ -1,0 +1,108 @@
+# Gurmukhi
+
+0A00..0A7F:
+  font: free-serif
+  transform: scale(0.8)
+
+  0A00: notdef
+
+  0A01:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0, 0.1)
+
+  0A02:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.05, 0.1)
+
+  0A03:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.35, -0.1)
+
+  0A04: notdef
+  0A0B..0A0E: notdef
+  0A11..0A12: notdef
+  0A29: notdef
+  0A31: notdef
+  0A34: notdef
+  0A37: notdef
+  0A3A..0A3B: notdef
+
+  0A3C:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.3, 0)
+
+  0A3D: notdef
+
+  0A3E:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.4, 0)
+
+  0A3F:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(-0.3, 0)
+
+  0A40:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.4, 0)
+
+  0A41..0A42:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.35, -0.1)
+
+  0A43..0A46: notdef
+
+  0A47..0A48:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.1, 0.05)
+
+  0A49..0A4A: notdef
+
+  0A4B..0A4C:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.1, 0.05)
+
+  0A4D:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0, -0.1)
+
+  0A4E..0A50: notdef
+
+  0A51:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0, -0.1)
+
+  0A52..0A58: notdef
+  0A5D: notdef
+  0A5F..0A65: notdef
+
+  0A70..0A71:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.15, 0.05)
+
+  0A74:
+    font: free-serif
+    transform: scale(0.8) translate(-0.15, 0)
+
+  0A75:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.15, -0.1)
+
+  0A76:
+    svg: true
+    transform: scale(0.8)
+
+  0A77..0A7F: notdef
