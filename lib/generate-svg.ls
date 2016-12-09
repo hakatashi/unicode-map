@@ -127,6 +127,17 @@ module.exports = (codepoint-infos) ->
 
     if codepoint-info?.type is \notdef
       ; # NOP
+    else if codepoint-info?.type is \tofu
+      tofu-group = paper.group!
+
+      # Draw box
+      tofu = Snap.parse custom-glyphs.tofu
+      for child in Array::slice.call tofu.node.children, 0
+        tofu-group.append child
+
+      tofu-group.attr transform: "translate(#{x * block-size} #{y * block-size}) scale(#{block-size / 2048})"
+
+      glyphs.append tofu-group
     else if codepoint-info?.type is \control
       control-box-group = paper.group!
 

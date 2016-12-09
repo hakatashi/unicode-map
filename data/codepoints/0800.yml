@@ -73,9 +73,9 @@
 
   08BE..08D2: notdef
 
-  08D3: notdef # TODO: early mapping http://www.unicode.org/L2/L2016/16044-aldani-with-cmts.pdf
+  08D3: tofu # TODO: early mapping http://www.unicode.org/L2/L2016/16044-aldani-with-cmts.pdf
 
-  08D4..08E2: notdef # TODO: http://www.unicode.org/L2/L2014/14105r-pakistani-koranic-marks.pdf
+  08D4..08E2: tofu # TODO: http://www.unicode.org/L2/L2014/14105r-pakistani-koranic-marks.pdf
 
   08E3..08FF:
     font: scheherazade

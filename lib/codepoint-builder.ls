@@ -7,6 +7,8 @@ flatten = (object, {start, end}) ->
   model =
     | object is \notdef
       type: \notdef
+    | object is \tofu
+      type: \tofu
     | object.has-own-property \font =>
       type: \font
       font-name: object.font
