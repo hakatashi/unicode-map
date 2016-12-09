@@ -331,7 +331,7 @@
   070E: notdef
 
   070F:
-    control: SAM
+    control: SAM # Should be modified
 
   0730..074A:
     font: notoSyriac
@@ -382,11 +382,11 @@
 
   07FB..07FC: notdef
 
-  07FD:
+  07FD: # early mapping
     svg: true
     combining: true
     transform: scale(0.7) translate(0, 0.1)
 
-  07FE..07FF:
+  07FE..07FF: # early mapping
     svg: true
     transform: scale(0.8)

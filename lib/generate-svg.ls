@@ -64,6 +64,17 @@ glyph-data =
   u07fd: 'u07fd.svg'
   u07fe: 'u07fe.svg'
   u07ff: 'u07ff.svg'
+  u0860: 'u0860.svg'
+  u0861: 'u0861.svg'
+  u0862: 'u0862.svg'
+  u0863: 'u0863.svg'
+  u0864: 'u0864.svg'
+  u0865: 'u0865.svg'
+  u0866: 'u0866.svg'
+  u0867: 'u0867.svg'
+  u0868: 'u0868.svg'
+  u0869: 'u0869.svg'
+  u086a: 'u086a.svg'
 
 load-fonts = ->
   Promise.all do
