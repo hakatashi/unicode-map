@@ -45,14 +45,17 @@
 
 0860..087F:
   svg: true
+  transform: scale(0.8)
+
+  0863:
+    svg: true
 
   0866:
     svg: true
-    transform: scale(1.1)
+    transform: scale(0.9)
 
   0867:
     svg: true
-    transform: scale(1.2)
 
   086B..087F: notdef
 
