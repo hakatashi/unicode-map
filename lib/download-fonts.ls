@@ -18,6 +18,7 @@ fonts =
   'DejaVu': 'http://sourceforge.net/projects/dejavu/files/dejavu/2.37/dejavu-fonts-ttf-2.37.zip'
   'FreeFont': 'https://ftp.gnu.org/gnu/freefont/freefont-ttf-20120503.zip'
   'Hancom': 'http://cdn.hancom.com/pds/docs/HancomFont.zip'
+  'Scheherazade': 'http://software.sil.org/downloads/d/scheherazade/Scheherazade-2.100.zip'
 
 module.exports = ->
   Promise.all do

@@ -53,6 +53,9 @@ font-data =
   noto-mandaic:
     path: 'Noto/NotoSansMandaic-Regular.ttf'
     color: 'red'
+  scheherazade:
+    path: 'Scheherazade/Scheherazade-2.100/Scheherazade-Regular.ttf'
+    color: 'red'
 
 glyph-data =
   control-box: 'control-box.svg'
@@ -75,6 +78,7 @@ glyph-data =
   u0868: 'u0868.svg'
   u0869: 'u0869.svg'
   u086a: 'u086a.svg'
+  u08b8: 'u08b8.svg'
 
 load-fonts = ->
   Promise.all do

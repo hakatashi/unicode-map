@@ -58,4 +58,26 @@
 
 # empty
 
-0870..09FF: notdef
+0870..08FF: notdef
+
+# Arabic Extended-A
+
+08A0..08FF:
+  font: scheherazade
+  transform: translate(0, -0.2)
+
+  08B5: notdef
+
+  08B8:
+    svg: true
+
+  08BE..08D2: notdef
+
+  08D3: notdef # TODO: early mapping http://www.unicode.org/L2/L2016/16044-aldani-with-cmts.pdf
+
+  08D4..08E2: notdef # TODO: http://www.unicode.org/L2/L2014/14105r-pakistani-koranic-marks.pdf
+
+  08E3..08FF:
+    font: scheherazade
+    combining: true
+    transform: scale(0.7) translate(0, -0.2)
