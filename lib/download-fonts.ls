@@ -20,6 +20,7 @@ fonts =
   'Hancom': 'http://cdn.hancom.com/pds/docs/HancomFont.zip'
   'Scheherazade': 'http://software.sil.org/downloads/d/scheherazade/Scheherazade-2.100.zip'
   'Annapurna': 'http://software.sil.org/downloads/d/annapurna/AnnapurnaSIL-1.201.zip'
+  'Manjari': 'https://smc.org.in/downloads/fonts/manjari/Manjari.zip'
 
 module.exports = ->
   Promise.all do

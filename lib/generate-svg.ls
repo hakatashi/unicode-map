@@ -50,10 +50,14 @@ font-data =
     path: 'Noto/NotoSerifTelugu-Regular.ttf'
   noto-kannada:
     path: 'Noto/NotoSerifKannada-Regular.ttf'
+  noto-malayalam:
+    path: 'Noto/NotoSerifMalayalam-Regular.ttf'
   scheherazade:
     path: 'Scheherazade/Scheherazade-2.100/Scheherazade-Regular.ttf'
   annapurna:
     path: 'Annapurna/AnnapurnaSIL-1.201/AnnapurnaSIL-Regular.ttf'
+  manjari:
+    path: 'Manjari/Manjari-Regular.ttf'
 
 load-fonts = ->
   Promise.all do

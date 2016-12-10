@@ -236,3 +236,130 @@
   0CE4..0CE5: notdef
   0CF0: notdef
   0CF3..0CFF: notdef
+
+# Malayalam
+
+0D00..0D7F:
+  font: free-serif
+  transform: scale(0.8) translate(0, -0.1)
+
+  0D00: # early mapping
+    svg: true
+    combining: true
+
+  0D01:
+    font: noto-malayalam
+    combining: true
+    transform: scale(0.8)
+
+  0D02:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.35, -0.2)
+
+  0D03:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.3, -0.1)
+
+  0D04: notdef
+
+  0D08:
+    font: free-serif
+    transform: scale(0.8) scale(0.9, 1) translate(0, -0.1)
+
+  0D0D: notdef
+
+  0D10:
+    font: free-serif
+    transform: scale(0.8) scale(0.85, 1) translate(-0.05, -0.1)
+
+  0D11: notdef
+
+  0D3B..0D3C: # early mapping
+    svg: true
+    combining: true
+
+  0D3E:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.4, -0.1)
+
+  0D3F..0D44:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.3, -0.1)
+
+  0D45: notdef
+
+  0D46..0D47:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(-0.45, -0.1)
+
+  0D48:
+    font: free-serif
+    combining: true
+    transform: scale(0.3, 0.8) translate(-1.1, -0.1)
+
+  0D49: notdef
+
+  0D4A..0D4C:
+    svg: true
+    combining: true
+
+  0D4D:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.2, 0)
+
+  0D4E:
+    font: free-serif
+    box: true
+    transform: scale(0.8) translate(0, -0.2)
+
+  0D50..0D53: notdef
+
+  0D54: # TODO: find more neat serif font
+    font: manjari
+    transform: scale(0.7) scale(-1, 1)
+
+  0D55..0D56:
+    font: manjari
+    transform: scale(0.7)
+
+  0D57:
+    font: free-serif
+    combining: true
+    transform: scale(0.5, 0.8) translate(0.6, -0.1)
+
+  0D58..0D5C:
+    font: manjari
+    transform: scale(0.7)
+
+  0D5D:
+    font: manjari
+    transform: scale(0.45, 0.7)
+
+  0D5E..0D5F:
+    font: manjari
+    transform: scale(0.7)
+
+  0D62..0D63:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.3, -0.1)
+
+  0D64..0D65: notdef
+
+  0D76:
+    font: manjari
+    transform: scale(0.7)
+
+  0D77:
+    font: manjari
+    transform: scale(0.6, 0.7)
+
+  0D78:
+    font: manjari
+    transform: scale(0.5, 0.7)
