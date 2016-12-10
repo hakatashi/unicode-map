@@ -99,3 +99,140 @@
 
   0C64..0C65: notdef
   0C70..0C77: notdef
+
+# Kannada
+
+0C80..0CFF:
+  font: noto-kannada
+  transform: scale(0.75)
+
+  0C80:
+    svg: true
+    transform: scale(0.75)
+
+  0C81:
+    font: noto-kannada
+    combining: true
+    transform: scale(0.75) translate(0.1, 0.1)
+
+  0C82:
+    font: noto-kannada
+    combining: true
+    transform: scale(0.65, 0.75) translate(0.5, -0.05)
+
+  0C83:
+    font: noto-kannada
+    combining: true
+    transform: scale(0.75) translate(0.4, -0.05)
+
+  0C84:
+    svg: true
+    transform: scale(0.9)
+
+  0C8D: notdef
+  0C91: notdef
+  0CA9: notdef
+  0CB4: notdef
+  0CBA..0CBB: notdef
+
+  0CBC:
+    font: noto-kannada
+    combining: true
+    transform: scale(0.75) translate(0, -0.1)
+
+  0CBE:
+    font: noto-kannada
+    combining: true
+    transform: scale(0.75) translate(0.5, -0.1)
+
+  0CBF:
+    font: noto-kannada
+    combining: true
+    transform: scale(0.75) translate(0.2, 0)
+
+  0CC0..0CC1:
+    font: noto-kannada
+    combining: true
+    transform: scale(0.75) translate(0.4, 0)
+
+  0CC2:
+    font: noto-kannada
+    combining: true
+    transform: scale(0.6, 0.75) translate(0.5, 0)
+
+  0CC3:
+    font: noto-kannada
+    combining: true
+    transform: scale(0.75) translate(0.3, -0.2)
+
+  0CC4:
+    font: noto-kannada
+    combining: true
+    transform: scale(0.6, 0.75) translate(0.5, -0.2)
+
+  0CC5: notdef
+
+  0CC6:
+    font: noto-kannada
+    combining: true
+    transform: scale(0.75) translate(0.2, -0.1)
+
+  0CC7:
+    font: noto-kannada
+    combining: true
+    transform: scale(0.75) translate(0.4, -0.1)
+
+  0CC8:
+    font: noto-kannada
+    combining: true
+    transform: scale(0.75) translate(0.3, -0.1)
+
+  0CC9: notdef
+
+  0CCA:
+    font: noto-kannada
+    combining: true
+    transform: scale(0.5, 0.75) translate(0.7, -0.1)
+
+  0CCB:
+    font: noto-kannada
+    combining: true
+    transform: scale(0.3, 0.75) translate(1, -0.1)
+
+  0CCC:
+    font: noto-kannada
+    combining: true
+    transform: scale(0.75) translate(0.4, -0.1)
+
+  0CCD:
+    font: noto-kannada
+    combining: true
+    transform: scale(0.75) translate(0.4, -0.1)
+
+  0CCE..0CD4: notdef
+
+  0CD5:
+    font: noto-kannada
+    combining: true
+    transform: scale(0.75) translate(0.4, 0)
+
+  0CD6:
+    font: noto-kannada
+    combining: true
+    transform: scale(0.75) translate(0.5, -0.4)
+
+  0CD7..0CDD: notdef
+  0CDF: notdef
+
+  0CE0:
+    font: noto-kannada
+    transform: scale(0.65, 0.75)
+
+  0CE2..0CE3:
+    font: noto-kannada
+    combining: true
+    transform: scale(0.75) translate(0.15, -0.2)
+
+  0CE4..0CE5: notdef
+  0CF0: notdef
+  0CF3..0CFF: notdef
