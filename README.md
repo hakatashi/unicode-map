@@ -59,3 +59,8 @@
 	* author: Raamesh
 	* license: CC BY-SA 4.0
 	* for: u086A.svg
+* Астрологічні цифри сингальського письма. Sinhalese astrological numerals (Sinhala Lith Illakkam).png
+	* link: https://commons.wikimedia.org/wiki/File:%D0%90%D1%81%D1%82%D1%80%D0%BE%D0%BB%D0%BE%D0%B3%D1%96%D1%87%D0%BD%D1%96_%D1%86%D0%B8%D1%84%D1%80%D0%B8_%D1%81%D0%B8%D0%BD%D0%B3%D0%B0%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%B0._Sinhalese_astrological_numerals_(Sinhala_Lith_Illakkam).png
+	* author: 00 وديع
+	* license: CC0 1.0
+	* for: u0de6.svg .. u0def.svg
