@@ -1,0 +1,49 @@
+# Thai
+
+0E00..0E7F:
+  font: norasi
+  transform: scale(0.8) translate(0, -0.05)
+
+  0E00: notdef
+
+  0E31:
+    font: norasi
+    combining: true
+    transform: scale(0.8) translate(0.4, 0.1)
+
+  0E34..0E37:
+    font: norasi
+    combining: true
+    transform: scale(0.8) translate(0.3, 0)
+
+  0E38..0E3A:
+    font: norasi
+    combining: true
+    transform: scale(0.8) translate(0.3, -0.1)
+
+  0E3B..0E3E: notdef
+
+  0E42..0E44:
+    font: norasi
+    transform: scale(0.8) translate(0, 0.15)
+
+  0E47:
+    font: norasi
+    combining: true
+    transform: scale(0.8) translate(0.3, 0.05)
+
+  0E48..0E4C:
+    font: norasi
+    combining: true
+    transform: scale(0.8) translate(0.3, 0.4)
+
+  0E4D..0E4E:
+    font: norasi
+    combining: true
+    transform: scale(0.8) translate(0.4, 0.1)
+
+  0E5B:
+    font: norasi
+    transform: scale(0.7, 0.8) translate(0, -0.05)
+
+  0E5C..0E7F: notdef

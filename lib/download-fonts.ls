@@ -21,6 +21,7 @@ fonts =
   'Scheherazade': 'http://software.sil.org/downloads/d/scheherazade/Scheherazade-2.100.zip'
   'Annapurna': 'http://software.sil.org/downloads/d/annapurna/AnnapurnaSIL-1.201.zip'
   'Manjari': 'https://smc.org.in/downloads/fonts/manjari/Manjari.zip'
+  'tlwg': 'https://linux.thai.net/pub/thailinux/software/fonts-tlwg/fonts/ttf-tlwg-0.5.0.tar.gz'
 
 module.exports = ->
   Promise.all do

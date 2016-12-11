@@ -58,6 +58,8 @@ font-data =
     path: 'Annapurna/AnnapurnaSIL-1.201/AnnapurnaSIL-Regular.ttf'
   manjari:
     path: 'Manjari/Manjari-Regular.ttf'
+  norasi:
+    path: 'tlwg/ttf-tlwg-0.5.0/Norasi.ttf'
 
 load-fonts = ->
   Promise.all do
