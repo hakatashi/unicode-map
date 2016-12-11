@@ -22,6 +22,7 @@ fonts =
   'Annapurna': 'http://software.sil.org/downloads/d/annapurna/AnnapurnaSIL-1.201.zip'
   'Manjari': 'https://smc.org.in/downloads/fonts/manjari/Manjari.zip'
   'tlwg': 'https://linux.thai.net/pub/thailinux/software/fonts-tlwg/fonts/ttf-tlwg-0.5.0.tar.gz'
+  'Jomolhari': 'https://sites.google.com/site/chrisfynn2/jomolhari-alpha003c.zip?attredirects=0'
 
 module.exports = ->
   Promise.all do

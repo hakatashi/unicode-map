@@ -106,3 +106,213 @@
   0ECE..0ECF: notdef
   0EDA..0EDB: notdef
   0EE0..0EFF: notdef
+
+0F00..0FFF:
+  font: jomolhari
+  transform: scale(0.8) translate(0, 0.15)
+
+  0F00..0F03:
+    font: jomolhari
+    transform: scale(0.8) translate(0, 0.25)
+
+  0F08:
+    font: jomolhari
+    transform: scale(0.8) translate(0, -0.1)
+
+  0F0B: # TODO: Draw glyph
+    control: NB
+    box: true
+
+  0F12:
+    font: jomolhari
+    transform: scale(0.8) translate(0, -0.1)
+
+  0F15..0F16:
+    font: jomolhari
+    transform: scale(0.8)
+
+  0F18:
+    font: jomolhari
+    combining: true
+    transform: scale(0.8) translate(0.3, -0.15)
+
+  0F19:
+    font: noto-tibetan
+    combining: true
+    transform: scale(0.8) translate(0.3, -0.05)
+
+  0F35:
+    font: noto-tibetan
+    combining: true
+    transform: scale(0.8) translate(0.25, -0.15)
+
+  0F36:
+    font: jomolhari
+    transform: scale(0.8) translate(0, 0.05)
+
+  0F37:
+    font: noto-tibetan
+    combining: true
+    transform: scale(0.8) translate(0.15, -0.15)
+
+  0F39:
+    font: jomolhari
+    combining: true
+    transform: scale(0.8) translate(0.3, 0.2)
+
+  0F3C..0F3D:
+    font: jomolhari
+    transform: scale(0.7) translate(0, 0.25)
+
+  0F3E:
+    font: noto-tibetan
+    combining: true
+    transform: scale(0.8) translate(0.3, -0.1)
+
+  0F3F:
+    font: noto-tibetan
+    combining: true
+    transform: scale(0.8) translate(-0.3, -0.1)
+
+  0F48: notdef
+
+  0F6B..0F6C:
+    font: noto-tibetan
+    transform: scale(0.7) translate(0, -0.1)
+
+  0F6D..0F70: notdef
+
+  0F71:
+    font: jomolhari
+    combining: true
+    transform: scale(0.8) translate(0.15, -0.1)
+
+  0F72:
+    font: jomolhari
+    combining: true
+    transform: scale(0.8) translate(0.2, 0.25)
+
+  0F73:
+    svg: true
+    combining: true
+
+  0F74..0F75:
+    font: jomolhari
+    combining: true
+    transform: scale(0.8) translate(0.15, -0.1)
+
+  0F76..0F79:
+    svg: true
+    combining: true
+
+  0F7A..0F7E:
+    font: jomolhari
+    combining: true
+    transform: scale(0.8) translate(0.2, 0.25)
+
+  0F7F:
+    font: jomolhari
+    combining: true
+    transform: scale(0.8) translate(0.3, 0.15)
+
+  0F80:
+    font: jomolhari
+    combining: true
+    transform: scale(0.8) translate(0.2, 0.25)
+
+  0F81:
+    svg: true
+    combining: true
+
+  0F82..0F83:
+    font: jomolhari
+    combining: true
+    transform: scale(0.8) translate(0.2, 0.2)
+
+  0F84:
+    font: jomolhari
+    combining: true
+    transform: scale(0.8) translate(0.2, 0.15)
+
+  0F86..0F87:
+    font: noto-tibetan
+    combining: true
+    transform: scale(0.8) translate(0.1, 0.15)
+
+  0F8C:
+    font: noto-tibetan
+    transform: scale(0.8) translate(0, 0.25)
+
+  0F8D..0F8F:
+    font: noto-tibetan
+    combining: true
+    transform: scale(0.7) translate(0.35, 0.15)
+
+  0F90..0FBC:
+    font: jomolhari
+    combining: true
+    transform: scale(0.8, 0.45) translate(0.2, 0.35)
+
+    0F98: notdef
+
+    0F99:
+      font: jomolhari
+      combining: true
+      transform: scale(0.8, 0.45) translate(0, 0.35)
+
+    0FAD:
+      font: jomolhari
+      combining: true
+      transform: scale(0.8, 0.45) translate(0.2, 0.35)
+
+    0FB5:
+      font: jomolhari
+      combining: true
+      transform: scale(0.8, 0.45) translate(0.4, 0.35)
+
+  0FBD: notdef
+
+  0FC3:
+    font: jomolhari
+    transform: scale(0.8) translate(0, 0)
+
+  0FC4:
+    font: jomolhari
+    transform: scale(0.8) translate(0, -0.15)
+
+  0FC5:
+    font: jomolhari
+    transform: scale(0.8)
+
+  0FC6:
+    font: jomolhari
+    combining: true
+    transform: scale(0.7) translate(0, 0.1)
+
+  0FC8:
+    font: jomolhari
+    transform: scale(0.8) translate(0, -0.15)
+
+  0FC9..0FCC:
+    font: jomolhari
+    transform: scale(0.8) translate(0, 0.05)
+
+  0FCD: notdef
+
+  0FCE:
+    font: noto-tibetan
+    transform: scale(0.8) translate(0, -0.1)
+
+  0FD0:
+    font: jomolhari
+    transform: scale(0.75) translate(0, 0.2)
+
+  0FD1:
+    font: jomolhari
+    transform: scale(0.8) translate(0, -0.1)
+
+  0FD2..0FDA:
+    font: noto-tibetan
+    transform: scale(0.8) translate(0, 0)
+
+  0FDB..0FFF: notdef
