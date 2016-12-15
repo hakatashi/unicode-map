@@ -74,6 +74,8 @@ font-data =
     path: 'Quivira/Quivira.otf'
   unbatang:
     path: 'UnFonts/un-fonts/UnBatang.ttf'
+  abyssinica:
+    path: 'Abyssinica/AbyssinicaSIL-1.500/AbyssinicaSIL-R.ttf'
 
 load-fonts = ->
   Promise.all do

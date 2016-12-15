@@ -212,3 +212,32 @@
   11A8..11FF:
     font: unbatang
     transform: translate(0.42, 0)
+
+# Ethiopic
+
+1200..12BF:
+  font: abyssinica
+  transform: scale(0.8)
+
+  1249: notdef
+  124E..124F: notdef
+  1257: notdef
+  1259: notdef
+  125E..125F: notdef
+  1289: notdef
+  128E..128F: notdef
+  12B1: notdef
+  12B6..12B7: notdef
+  12BF: notdef
+
+# Empty
+
+12C0..137F: notdef
+
+# Ethiopic Supplement
+
+1380..139F:
+  font: abyssinica
+  transform: scale(0.8)
+
+  139A..139F: notdef
