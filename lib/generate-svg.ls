@@ -72,6 +72,8 @@ font-data =
     path: 'Padauk/padauk-3.002/PadaukBook-Regular.ttf'
   quivira:
     path: 'Quivira/Quivira.otf'
+  unbatang:
+    path: 'UnFonts/un-fonts/UnBatang.ttf'
 
 load-fonts = ->
   Promise.all do

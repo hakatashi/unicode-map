@@ -192,3 +192,23 @@
   10FD..10FF:
     font: quivira
     transform: scale(0.8)
+
+# Hangul Jamo
+
+1100..11FF:
+  font: unbatang
+  transform: translate(0.12, 0)
+
+  115F:
+    control: HC/F
+
+  1160:
+    control: HJ/F
+
+  1161..11A7:
+    font: unbatang
+    transform: translate(0.5, 0)
+
+  11A8..11FF:
+    font: unbatang
+    transform: translate(0.42, 0)

@@ -25,6 +25,7 @@ fonts =
   'Jomolhari': 'https://sites.google.com/site/chrisfynn2/jomolhari-alpha003c.zip?attredirects=0'
   'Padauk': 'http://software.sil.org/downloads/d/padauk/padauk-3.002.zip'
   'Quivira': 'http://www.quivira-font.com/files/Quivira.otf'
+  'UnFonts': 'https://kldp.net/unfonts/release/2607-un-fonts-core-1.0.2-080608.tar.gz'
 
 module.exports = ->
   Promise.all do
