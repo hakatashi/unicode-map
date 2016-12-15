@@ -56,6 +56,8 @@ font-data =
     path: 'Noto/NotoSerifLao-Regular.ttf'
   noto-tibetan:
     path: 'Noto/NotoSansTibetan-Regular.ttf'
+  noto-georgian:
+    path: 'Noto/NotoSerifGeorgian-Regular.ttf'
   scheherazade:
     path: 'Scheherazade/Scheherazade-2.100/Scheherazade-Regular.ttf'
   annapurna:
@@ -68,6 +70,8 @@ font-data =
     path: 'Jomolhari/Jomolhari-alpha3c-0605331.ttf'
   padauk:
     path: 'Padauk/padauk-3.002/PadaukBook-Regular.ttf'
+  quivira:
+    path: 'Quivira/Quivira.otf'
 
 load-fonts = ->
   Promise.all do

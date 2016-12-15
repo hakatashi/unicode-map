@@ -24,6 +24,7 @@ fonts =
   'tlwg': 'https://linux.thai.net/pub/thailinux/software/fonts-tlwg/fonts/ttf-tlwg-0.5.0.tar.gz'
   'Jomolhari': 'https://sites.google.com/site/chrisfynn2/jomolhari-alpha003c.zip?attredirects=0'
   'Padauk': 'http://software.sil.org/downloads/d/padauk/padauk-3.002.zip'
+  'Quivira': 'http://www.quivira-font.com/files/Quivira.otf'
 
 module.exports = ->
   Promise.all do
@@ -45,4 +46,11 @@ module.exports = ->
               {referer: 'http://www.hancom.com/'}
             else
               {}
-          download url, path-name, {+extract, headers}
+
+          extract =
+            if directory is 'Quivira'
+              false
+            else
+              true
+
+          download url, path-name, {extract, headers}

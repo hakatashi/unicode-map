@@ -168,3 +168,27 @@
     font: padauk
     combining: true
     transform: scale(0.65) translate(0.2, -0.1)
+
+# Georgian
+
+10A0..10FF:
+  font: noto-georgian
+  transform: scale(0.7)
+
+  10C6: notdef
+
+  10C7: # TODO: more consistent typeface
+    font: quivira
+    transform: scale(0.7)
+
+  10C8..10CC: notdef
+
+  10CD:
+    font: quivira
+    transform: scale(0.7)
+
+  10CE..10CF: notdef
+
+  10FD..10FF:
+    font: quivira
+    transform: scale(0.8)
