@@ -197,7 +197,7 @@
 
 1100..11FF:
   font: unbatang
-  transform: translate(0.12, 0)
+  transform: translate(0.12, -0.05)
 
   115F:
     control: HC/F
@@ -207,15 +207,15 @@
 
   1161..11A7:
     font: unbatang
-    transform: translate(0.5, 0)
+    transform: translate(0.5, -0.05)
 
   11A8..11FF:
     font: unbatang
-    transform: translate(0.42, 0)
+    transform: translate(0.42, -0.05)
 
 # Ethiopic
 
-1200..12BF:
+1200..137F:
   font: abyssinica
   transform: scale(0.8)
 
@@ -229,10 +229,19 @@
   12B1: notdef
   12B6..12B7: notdef
   12BF: notdef
+  12C1: notdef
+  12C6..12C7: notdef
+  12D7: notdef
+  1311: notdef
+  1316..1317: notdef
+  135B..135C: notdef
 
-# Empty
+  135D..135F:
+    font: abyssinica
+    combining: true
+    transform: scale(0.8) translate(0.25, 0.1)
 
-12C0..137F: notdef
+  137D..137F: notdef
 
 # Ethiopic Supplement
 
