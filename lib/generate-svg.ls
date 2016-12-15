@@ -66,6 +66,8 @@ font-data =
     path: 'tlwg/ttf-tlwg-0.5.0/Norasi.ttf'
   jomolhari:
     path: 'Jomolhari/Jomolhari-alpha3c-0605331.ttf'
+  padauk:
+    path: 'Padauk/padauk-3.002/PadaukBook-Regular.ttf'
 
 load-fonts = ->
   Promise.all do

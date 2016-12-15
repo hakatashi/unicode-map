@@ -23,6 +23,7 @@ fonts =
   'Manjari': 'https://smc.org.in/downloads/fonts/manjari/Manjari.zip'
   'tlwg': 'https://linux.thai.net/pub/thailinux/software/fonts-tlwg/fonts/ttf-tlwg-0.5.0.tar.gz'
   'Jomolhari': 'https://sites.google.com/site/chrisfynn2/jomolhari-alpha003c.zip?attredirects=0'
+  'Padauk': 'http://software.sil.org/downloads/d/padauk/padauk-3.002.zip'
 
 module.exports = ->
   Promise.all do

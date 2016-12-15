@@ -1,0 +1,170 @@
+# Myanmar
+
+1000..109F:
+  font: padauk
+  transform: scale(0.65) translate(0, -0.1)
+
+  102A:
+    font: padauk
+    transform: scale(0.45, 0.65) translate(0, -0.1)
+
+  102B:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0.4, -0.1)
+
+  102C:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0.5, -0.1)
+
+  102D..102E:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0.2, -0.1)
+
+  102F..1030: # TODO: is this right composition?
+    font: padauk
+    combining: true
+    transform: scale(0.65, 0.3) translate(0, 0.6)
+
+  1031:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(-0.5, -0.1)
+
+  1032..1035:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0.2, -0.1)
+
+  1036..1037:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0.1, -0.1)
+
+  1038:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0.4, -0.1)
+
+  1039: # TODO: draw cross
+    font: padauk
+    transform: scale(0)
+    combining: true
+    box: true
+
+  103A..103B:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0.4, -0.1)
+
+  103C:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(-0.3, -0.1)
+
+  103D:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0.2, -0.1)
+
+  103E:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0, -0.1)
+
+  1056..1057:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0.5, -0.1)
+
+  1058..1059:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0, -0.1)
+
+  105E..1060:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0.1, -0.1)
+
+  1062..1064:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0.4, -0.1)
+
+  1067..106D:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0.4, -0.1)
+
+  1071:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0, -0.1)
+
+  1072:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0.2, -0.1)
+
+  1073:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0, -0.1)
+
+  1074:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0.3, -0.1)
+
+  1082:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0, -0.1)
+
+  1083:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0.4, -0.1)
+
+  1084:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(-0.5, -0.1)
+
+  1085..1086:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0.2, -0.1)
+
+  1087..108B:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0.4, -0.1)
+
+  108C:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0.5, -0.1)
+
+  108D:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0, 0)
+
+  108F:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0.4, -0.1)
+
+  109A..109C:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0.4, -0.1)
+
+  109D:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0.2, -0.1)
