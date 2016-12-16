@@ -317,3 +317,20 @@
     transform: scale(0.8) translate(0.25, 0)
 
   1715..171F: notdef
+
+# Hanunoo
+
+1720..173F:
+  font: free-serif
+
+  1732..1733:
+    font: free-serif
+    combining: true
+    transform: transform(0.3, 0.05)
+
+  1734:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) transform(0.3, 0)
+
+  1737..173F: notdef
