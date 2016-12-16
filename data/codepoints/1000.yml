@@ -260,3 +260,17 @@
 
   13F6..13F7: notdef
   13FE..13FF: notdef
+
+# Unified Canadian Aboriginal Syllabics
+
+1400..167F:
+  font: noto-canadian-aboriginal
+  transform: scale(0.8)
+
+  1671..1672:
+    font: noto-canadian-aboriginal
+    transform: scale(0.7, 0.8)
+
+  1675..1676:
+    font: noto-canadian-aboriginal
+    transform: scale(0.7, 0.8)

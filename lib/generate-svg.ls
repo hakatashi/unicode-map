@@ -60,6 +60,8 @@ font-data =
     path: 'Noto/NotoSerifGeorgian-Regular.ttf'
   noto-cherokee:
     path: 'NotoSansCherokee/NotoSansCherokee-Regular.ttf'
+  noto-canadian-aboriginal:
+    path: 'Noto/NotoSansCanadianAboriginal-Regular.ttf'
   scheherazade:
     path: 'Scheherazade/Scheherazade-2.100/Scheherazade-Regular.ttf'
   annapurna:
