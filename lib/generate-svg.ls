@@ -86,6 +86,8 @@ font-data =
     path: 'UnFonts/un-fonts/UnBatang.ttf'
   abyssinica:
     path: 'Abyssinica/AbyssinicaSIL-1.500/AbyssinicaSIL-R.ttf'
+  hancom:
+    path: 'Hancom/HANBatang.ttf'
 
 load-fonts = ->
   Promise.all do
