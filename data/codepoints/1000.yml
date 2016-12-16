@@ -297,3 +297,23 @@
   16F1..16F8: tofu
 
   16F9..16FF: notdef
+
+# Tagalog
+
+1700..171F:
+  font: noto-tagalog
+  transform: scale(0.8)
+
+  170D: notdef
+
+  1712:
+    font: noto-tagalog
+    combining: true
+    transform: scale(0.8) translate(0.15, 0)
+
+  1713..1714:
+    font: noto-tagalog
+    combining: true
+    transform: scale(0.8) translate(0.25, 0)
+
+  1715..171F: notdef
