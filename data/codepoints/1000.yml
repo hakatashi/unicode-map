@@ -274,3 +274,16 @@
   1675..1676:
     font: noto-canadian-aboriginal
     transform: scale(0.7, 0.8)
+
+# Ogham
+
+1680..169F:
+  font: noto-ogham
+  transform: scale(0.8)
+
+  1680:
+    font: noto-ogham
+    box: true
+    transform: scale(0.8)
+
+  169D..169F: notdef
