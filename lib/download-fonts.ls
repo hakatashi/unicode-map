@@ -27,6 +27,7 @@ fonts =
   'Quivira': 'http://www.quivira-font.com/files/Quivira.otf'
   'UnFonts': 'https://kldp.net/unfonts/release/2607-un-fonts-core-1.0.2-080608.tar.gz'
   'Abyssinica': 'http://software.sil.org/downloads/d/abyssinica/AbyssinicaSIL-1.500.zip'
+  'NotoSansCherokee': 'https://github.com/googlei18n/noto-fonts/raw/master/alpha/from-pipeline/unhinted/NotoSansCherokee-Regular.ttf'
 
 module.exports = ->
   Promise.all do
@@ -50,7 +51,7 @@ module.exports = ->
               {}
 
           extract =
-            if directory is 'Quivira'
+            if directory in <[Quivira NotoSansCherokee]>
               false
             else
               true

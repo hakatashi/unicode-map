@@ -58,6 +58,8 @@ font-data =
     path: 'Noto/NotoSansTibetan-Regular.ttf'
   noto-georgian:
     path: 'Noto/NotoSerifGeorgian-Regular.ttf'
+  noto-cherokee:
+    path: 'NotoSansCherokee/NotoSansCherokee-Regular.ttf'
   scheherazade:
     path: 'Scheherazade/Scheherazade-2.100/Scheherazade-Regular.ttf'
   annapurna:

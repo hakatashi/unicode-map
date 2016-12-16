@@ -250,3 +250,13 @@
   transform: scale(0.8)
 
   139A..139F: notdef
+
+# Cherokee
+# TODO: Even Unicode 9.0.0 introduced new sans-serif typeface to the chart, I think serif typeface is more preffered
+
+13A0..13FF:
+  font: noto-cherokee
+  transform: scale(0.8)
+
+  13F6..13F7: notdef
+  13FE..13FF: notdef
