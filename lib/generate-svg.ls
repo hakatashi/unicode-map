@@ -64,6 +64,8 @@ font-data =
     path: 'Noto/NotoSansCanadianAboriginal-Regular.ttf'
   noto-ogham:
     path: 'Noto/NotoSansOgham-Regular.ttf'
+  noto-runic:
+    path: 'Noto/NotoSansRunic-Regular.ttf'
   scheherazade:
     path: 'Scheherazade/Scheherazade-2.100/Scheherazade-Regular.ttf'
   annapurna:

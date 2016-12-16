@@ -287,3 +287,13 @@
     transform: scale(0.8)
 
   169D..169F: notdef
+
+# Runic
+
+16A0..16FF:
+  font: noto-runic
+  transform: scale(0.8)
+
+  16F1..16F8: tofu
+
+  16F9..16FF: notdef
