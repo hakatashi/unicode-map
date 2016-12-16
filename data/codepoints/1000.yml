@@ -352,3 +352,19 @@
     transform: scale(0.8) translate(0, -0.1)
 
   1754..175F: notdef
+
+# Tagbanwa
+
+1760..177F:
+  font: noto-tagbanwa
+  transform: scale(0.8)
+
+  176D: notdef
+  1771: notdef
+
+  1772..1773:
+    font: noto-tagbanwa
+    combining: true
+    transform: scale(0.8) translate(0.3, 0)
+
+  1774..177F: notdef
