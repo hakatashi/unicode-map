@@ -172,3 +172,9 @@
   19AC..19AF: notdef
   19CA..19CF: notdef
   19DB..19DF: notdef
+
+# Khmer Symbols
+
+19E0..19FF:
+  font: noto-khmer
+  transform: scale(0.55) translate(0, -0.05)
