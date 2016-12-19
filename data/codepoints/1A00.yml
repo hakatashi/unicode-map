@@ -25,3 +25,123 @@
     transform: scale(0.8) translate(0.4, 0)
 
   1A1C..1A1D: notdef
+
+# Tai Tham
+
+1A20..1AAF:
+  font: noto-tai-tham
+  transform: scale(0.8)
+
+  1A55:
+    font: noto-tai-tham
+    combining: true
+    transform: scale(0.8) translate(-0.4, 0)
+
+  1A56..1A57:
+    font: noto-tai-tham
+    combining: true
+    transform: scale(0.8) translate(0.3, -0.1)
+
+  1A58:
+    font: noto-tai-tham
+    combining: true
+    transform: scale(0.8) translate(0.4, 0.2)
+
+  1A59..1A5A:
+    font: noto-tai-tham
+    combining: true
+    transform: scale(0.8) translate(0.3, 0.1)
+
+  1A5B:
+    font: noto-tai-tham
+    combining: true
+    transform: scale(0.8) translate(0.3, 0)
+
+  1A5C..1A5E:
+    font: noto-tai-tham
+    combining: true
+    transform: scale(0.8) translate(0.25, -0.1)
+
+  1A5F: notdef
+
+  1A60:
+    font: noto-tai-tham
+    combining: true
+    box: true
+    transform: scale(0.8) translate(0.15, -0.15)
+
+  1A61:
+    font: noto-tai-tham
+    combining: true
+    transform: scale(0.8) translate(0.4, -0.1)
+
+  1A62:
+    font: noto-tai-tham
+    combining: true
+    transform: scale(0.8) translate(0.2, 0)
+
+  1A63..1A64:
+    font: noto-tai-tham
+    combining: true
+    transform: scale(0.8) translate(0.35, 0)
+
+  1A65..1A68:
+    font: noto-tai-tham
+    combining: true
+    transform: scale(0.8) translate(0.25, 0.1)
+
+  1A69..1A6A:
+    font: noto-tai-tham
+    combining: true
+    transform: scale(0.8) translate(0.2, -0.1)
+
+  1A6B:
+    font: noto-tai-tham
+    combining: true
+    transform: scale(0.8) translate(0.25, 0)
+
+  1A6C:
+    font: noto-tai-tham
+    combining: true
+    transform: scale(0.8) translate(0.2, -0.1)
+
+  1A6D:
+    font: noto-tai-tham
+    combining: true
+    transform: scale(0.8) translate(0.3, -0.1)
+
+  1A6E:
+    font: noto-tai-tham
+    combining: true
+    transform: scale(0.8) translate(-0.4, -0.1)
+
+  1A6F:
+    font: noto-tai-tham
+    combining: true
+    transform: scale(0.4, 0.8) translate(-0.8, -0.1)
+
+  1A70..1A72:
+    font: noto-tai-tham
+    combining: true
+    transform: scale(0.8) translate(-0.4, -0.1)
+
+  1A73..1A76:
+    font: noto-tai-tham
+    combining: true
+    transform: scale(0.8) translate(0.15, 0)
+
+  1A77..1A7C:
+    font: noto-tai-tham
+    combining: true
+    transform: scale(0.8) translate(0.3, 0.05)
+
+  1A7D..1A7E: notdef
+
+  1A7F:
+    font: noto-tai-tham
+    combining: true
+    transform: scale(0.8) translate(0.15, -0.1)
+
+  1A8A..1A8F: notdef
+  1A9A..1A9F: notdef
+  1AAE..1AAF: notdef
