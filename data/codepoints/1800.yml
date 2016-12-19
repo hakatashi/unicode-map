@@ -153,3 +153,12 @@
 
   193C..193F: notdef
   1941..1943: notdef
+
+# Tai Le
+
+1950..197F:
+  font: free-serif
+  transform: scale(0.8)
+
+  196E..196F: notdef
+  1975..197F: notdef
