@@ -30,6 +30,7 @@ fonts =
   'NotoSansCherokee': 'https://github.com/googlei18n/noto-fonts/raw/master/alpha/from-pipeline/unhinted/NotoSansCherokee-Regular.ttf'
   'MongolianScript': 'http://font.bolorsoft.com/download/fonts.zip'
   'Namdhinggo': 'http://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=NamdhinggoSIL1.004&filename=NamdhinggoSIL1.004.zip'
+  'DaiBanna': 'http://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=DaiBanna-2.200.zip&filename=DaiBanna-2.200.zip'
 
 module.exports = ->
   Promise.all do

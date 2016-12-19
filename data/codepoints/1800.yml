@@ -162,3 +162,13 @@
 
   196E..196F: notdef
   1975..197F: notdef
+
+# New Tai Lue
+
+1980..19DF:
+  font: dai-banna
+  transform: scale(0.85) translate(0, -0.1)
+
+  19AC..19AF: notdef
+  19CA..19CF: notdef
+  19DB..19DF: notdef

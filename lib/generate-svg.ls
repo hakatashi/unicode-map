@@ -96,6 +96,8 @@ font-data =
     path: 'MongolianScript/fonts/MongolianScript.ttf'
   namdhinggo:
     path: 'Namdhinggo/NamdhinggoSIL/NamdhinggoSIL-R.ttf'
+  dai-banna:
+    path: 'DaiBanna/dai-banna-2.200/DBSILBR.ttf'
 
 load-fonts = ->
   Promise.all do
