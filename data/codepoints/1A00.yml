@@ -145,3 +145,40 @@
   1A8A..1A8F: notdef
   1A9A..1A9F: notdef
   1AAE..1AAF: notdef
+
+# Combining Diacritical Marks Extended
+
+1AB0..1AFF:
+  font: nishiki
+
+  1AB0..1AB4:
+    font: nishiki
+    combining: true
+    transform: translate(0.3, 0.1)
+
+  1AB5..1AB8:
+    font: nishiki
+    combining: true
+    transform: translate(0.3, -0.1)
+
+  1AB9..1ABA:
+    font: nishiki
+    combining: true
+    transform: translate(0.4, -0.05)
+
+  1ABB..1ABC:
+    font: nishiki
+    combining: true
+    transform: translate(0.3, 0.1)
+
+  1ABD:
+    font: nishiki
+    combining: true
+    transform: translate(0.3, -0.15)
+
+  1ABE:
+    font: nishiki
+    combining: true
+    transform: translate(0.25, 0)
+
+  1ABF..1AFF: notdef
