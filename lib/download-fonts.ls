@@ -29,6 +29,7 @@ fonts =
   'Abyssinica': 'http://software.sil.org/downloads/d/abyssinica/AbyssinicaSIL-1.500.zip'
   'NotoSansCherokee': 'https://github.com/googlei18n/noto-fonts/raw/master/alpha/from-pipeline/unhinted/NotoSansCherokee-Regular.ttf'
   'MongolianScript': 'http://font.bolorsoft.com/download/fonts.zip'
+  'Namdhinggo': 'http://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=NamdhinggoSIL1.004&filename=NamdhinggoSIL1.004.zip'
 
 module.exports = ->
   Promise.all do

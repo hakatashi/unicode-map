@@ -94,6 +94,8 @@ font-data =
     path: 'Hancom/HANBatang.ttf'
   mongolian-script:
     path: 'MongolianScript/fonts/MongolianScript.ttf'
+  namdhinggo:
+    path: 'Namdhinggo/NamdhinggoSIL/NamdhinggoSIL-R.ttf'
 
 load-fonts = ->
   Promise.all do

@@ -54,3 +54,102 @@
     transform: scale(0.8) translate(0, 0.2)
 
   18F6..18FF: notdef
+
+# Limbu
+
+1900..194F:
+  font: namdhinggo
+
+  191D..191E: tofu
+
+  191F: notdef
+
+  1920..1921:
+    font: namdhinggo
+    combining: true
+    transform: translate(0.3, 0)
+
+  1922:
+    font: namdhinggo
+    combining: true
+    transform: translate(0.2, -0.15)
+
+  1923:
+    font: namdhinggo
+    combining: true
+    transform: translate(0.3, -0.1)
+
+  1924:
+    font: namdhinggo
+    combining: true
+    transform: scale(0.7, 1) translate(0.45, -0.1)
+
+  1925:
+    font: namdhinggo
+    combining: true
+    transform: translate(0.35, -0.05)
+
+  1926:
+    font: namdhinggo
+    combining: true
+    transform: scale(0.7, 1) translate(0.45, -0.05)
+
+  1927..1928:
+    font: namdhinggo
+    combining: true
+    transform: translate(0.1, 0)
+
+  1929..192B:
+    font: namdhinggo
+    combining: true
+    transform: translate(0.3, -0.2)
+
+  192C..192F: notdef
+
+  1930:
+    font: namdhinggo
+    combining: true
+    transform: scale(0.8, 1) translate(0.4, -0.1)
+
+  1931:
+    font: namdhinggo
+    combining: true
+    transform: translate(0.3, -0.2)
+
+  1932..1933:
+    font: namdhinggo
+    combining: true
+    transform: translate(0.3, -0.2)
+
+  1934..1936:
+    font: namdhinggo
+    combining: true
+    transform: translate(0.3, -0.1)
+
+  1937:
+    font: namdhinggo
+    combining: true
+    transform: translate(0.2, -0.1)
+
+  1938:
+    font: namdhinggo
+    combining: true
+    transform: translate(0.3, -0.2)
+
+  1939:
+    font: namdhinggo
+    combining: true
+    transform: translate(0.2, -0.1)
+
+  193A:
+    font: namdhinggo
+    combining: true
+    transform: translate(0.1, 0.1)
+
+  193B:
+    font: namdhinggo
+    combining: true
+    transform: translate(0.25, -0.2)
+
+  193C..193F: notdef
+  1941..1943: notdef
