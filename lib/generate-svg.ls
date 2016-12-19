@@ -92,6 +92,8 @@ font-data =
     path: 'Abyssinica/AbyssinicaSIL-1.500/AbyssinicaSIL-R.ttf'
   hancom:
     path: 'Hancom/HANBatang.ttf'
+  mongolian-script:
+    path: 'MongolianScript/fonts/MongolianScript.ttf'
 
 load-fonts = ->
   Promise.all do

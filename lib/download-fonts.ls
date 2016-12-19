@@ -28,6 +28,7 @@ fonts =
   'UnFonts': 'https://kldp.net/unfonts/release/2607-un-fonts-core-1.0.2-080608.tar.gz'
   'Abyssinica': 'http://software.sil.org/downloads/d/abyssinica/AbyssinicaSIL-1.500.zip'
   'NotoSansCherokee': 'https://github.com/googlei18n/noto-fonts/raw/master/alpha/from-pipeline/unhinted/NotoSansCherokee-Regular.ttf'
+  'MongolianScript': 'http://font.bolorsoft.com/download/fonts.zip'
 
 module.exports = ->
   Promise.all do

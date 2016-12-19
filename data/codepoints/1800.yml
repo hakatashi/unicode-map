@@ -1,0 +1,44 @@
+# Mongolian
+
+1800..18AF:
+  font: mongolian-script
+  transform: scale(0.7) translate(0, -0.05)
+
+  180B..180E:
+    control:
+      - FV/S1
+      - FV/S2
+      - FV/S3
+      - MV/S
+
+  180F: notdef
+
+  1810..1819:
+    font: mongolian-script
+    transform: rotate(90) scale(0.7) translate(0, -0.05)
+
+  181A..181F: notdef
+  1878..187F: notdef
+
+  1885:
+    font: mongolian-script
+    combining: true
+    transform: scale(0.7) translate(0, -0.5)
+
+  1886:
+    font: mongolian-script
+    combining: true
+    transform: scale(0.7, 0.4) translate(0, -0.8)
+
+  189C:
+    font: mongolian-script
+    transform: scale(0.7) translate(0, 0)
+
+  18A9:
+    svg: true
+    combining: true
+
+  18AA:
+    svg: true
+
+  18AB..18AF: notdef
