@@ -1,0 +1,27 @@
+# Buginese
+
+1A00..1A1F:
+  font: free-serif
+  transform: scale(0.8)
+
+  1A17..1A18:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.2, 0)
+
+  1A19:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(-0.2, 0)
+
+  1A1A:
+    font: free-serif
+    combining: true
+    transform: scale(0.6, 0.8) translate(0.6, 0)
+
+  1A1B:
+    font: free-serif
+    combining: true
+    transform: scale(0.8) translate(0.4, 0)
+
+  1A1C..1A1D: notdef
