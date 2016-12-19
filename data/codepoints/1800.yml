@@ -42,3 +42,15 @@
     svg: true
 
   18AB..18AF: notdef
+
+# Unified Canadian Aboriginal Syllabics Extended
+
+18B0..18FF:
+  font: noto-canadian-aboriginal
+  transform: scale(0.8)
+
+  18DE..18DF:
+    font: noto-canadian-aboriginal
+    transform: scale(0.8) translate(0, 0.2)
+
+  18F6..18FF: notdef
