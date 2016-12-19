@@ -368,3 +368,94 @@
     transform: scale(0.8) translate(0.3, 0)
 
   1774..177F: notdef
+
+# Khmer
+
+1780..17FF:
+  font: noto-khmer
+  transform: scale(0.75) translate(0, -0.05)
+
+  17AA:
+    font: noto-khmer
+    transform: scale(0.75) translate(0, 0.05)
+
+  17B3:
+    font: noto-khmer
+    transform: scale(0.75) translate(0, 0.05)
+
+  17B4:
+    control: KIV/AQ
+
+  17B5:
+    control: KIV/AA
+
+  17B6:
+    font: noto-khmer
+    combining: true
+    transform: scale(0.75) translate(0.35, -0.05)
+
+  17B7..17BA:
+    font: noto-khmer
+    combining: true
+    transform: scale(0.75) translate(0.35, 0.2)
+
+  17BB..17BD:
+    font: noto-khmer
+    combining: true
+    transform: scale(0.75) translate(0.2, -0.1)
+
+  17BE..17C0:
+    svg: true
+    combining: true
+
+  17C1..17C3:
+    font: noto-khmer
+    combining: true
+    transform: scale(0.75) translate(-0.4, 0.15)
+
+  17C4..17C5:
+    svg: true
+    combining: true
+
+  17C6:
+    font: noto-khmer
+    combining: true
+    transform: scale(0.75) translate(0.35, 0.2)
+
+  17C7..17C8:
+    font: noto-khmer
+    combining: true
+    transform: scale(0.75) translate(0.35, 0)
+
+  17C9..17D1:
+    font: noto-khmer
+    combining: true
+    transform: scale(0.75) translate(0.35, 0.2)
+
+  17D2:
+    font: noto-khmer
+    combining: true
+    box: true
+    transform: scale(0.75) translate(0.35, -0.2)
+
+  17D3:
+    font: noto-khmer
+    combining: true
+    transform: scale(0.75) translate(0.35, 0.2)
+
+  17D8:
+    font: noto-khmer
+    transform: scale(0.4, 0.75) translate(0, -0.05)
+
+  17DA:
+    font: noto-khmer
+    transform: scale(0.55, 0.75) translate(0, -0.05)
+
+  17DD:
+    font: noto-khmer
+    combining: true
+    transform: scale(0.75) translate(0.45, 0.2)
+
+  17DE..17DF: notdef
+  17EA..17EF: notdef
+  17FA..17FF: notdef

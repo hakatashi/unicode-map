@@ -70,6 +70,8 @@ font-data =
     path: 'Noto/NotoSansTagalog-Regular.ttf'
   noto-tagbanwa:
     path: 'Noto/NotoSansTagbanwa-Regular.ttf'
+  noto-khmer:
+    path: 'Noto/NotoSerifKhmer-Regular.ttf'
   scheherazade:
     path: 'Scheherazade/Scheherazade-2.100/Scheherazade-Regular.ttf'
   annapurna:
