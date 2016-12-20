@@ -5,6 +5,9 @@
   "private": true,
   "scripts": {
     "build": "lsc index.ls",
+    "watch": "concurrently \"npm run chokidar\" \"npm run livereload\"",
+    "chokidar": "chokidar \"data/**/*.yml\" \"lib/*.ls\" -c \"lsc index.ls\"",
+    "livereload": "livereload \"test.svg\" -d",
     "test": "mocha --compilers ls:livescript test/index.ls"
   },
   "repository": {
@@ -21,9 +24,12 @@
   "dependencies": {
     "camel-case": "^3.0.0",
     "chai": "^3.5.0",
+    "chokidar-cli": "^1.2.0",
+    "concurrently": "^3.1.0",
     "download": "^5.0.2",
     "hilbert": "^2.0.0",
     "jsdom": "^9.4.2",
+    "livereload": "^0.6.0",
     "livescript": "^1.5.0",
     "mkdirp-then": "^1.2.0",
     "mocha": "^3.0.2",
