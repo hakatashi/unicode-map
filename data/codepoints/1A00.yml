@@ -260,3 +260,73 @@
     transform: scale(0.7) translate(0.3, 0)
 
   1B7D..1B7F: notdef
+
+# Sundanese
+
+1B80..1BBF:
+  font: noto-sundanese
+  transform: scale(0.7)
+
+  1B80..1B81:
+    font: noto-sundanese
+    combining: true
+    transform: scale(0.7) translate(0.2, 0.1)
+
+  1B82:
+    font: noto-sundanese
+    combining: true
+    transform: scale(0.7) translate(0.45, -0.1)
+
+  1BA1..1BA2:
+    font: noto-sundanese
+    combining: true
+    transform: scale(0.7) translate(0.3, -0.1)
+
+  1BA3:
+    font: noto-sundanese
+    combining: true
+    transform: scale(0.7) translate(0.4, -0.1)
+
+  1BA4:
+    font: noto-sundanese
+    combining: true
+    transform: scale(0.7) translate(0.25, 0.1)
+
+  1BA5:
+    font: noto-sundanese
+    combining: true
+    transform: scale(0.7) translate(0.4, -0.1)
+
+  1BA6:
+    font: noto-sundanese
+    combining: true
+    transform: scale(0.7) translate(-0.3, 0)
+
+  1BA7:
+    font: noto-sundanese
+    combining: true
+    transform: scale(0.7) translate(0.4, 0)
+
+  1BA8..1BA9:
+    font: noto-sundanese
+    combining: true
+    transform: scale(0.7) translate(0.25, 0.1)
+
+  1BAA:
+    font: noto-sundanese
+    combining: true
+    transform: scale(0.7) translate(0.4, 0)
+
+  1BAB:
+    font: noto-sundanese
+    box: true
+    transform: scale(0.7) translate(0, 0.3)
+
+  1BAC..1BAD:
+    font: noto-sundanese
+    combining: true
+    transform: scale(0.7) translate(0.4, -0.1)
+
+  1BAF:
+    font: noto-sundanese
+    transform: scale(0.6, 0.7)
