@@ -74,6 +74,8 @@ font-data =
     path: 'Noto/NotoSerifKhmer-Regular.ttf'
   noto-tai-tham:
     path: 'Noto/NotoSansTaiTham-Regular.ttf'
+  noto-balinese:
+    path: 'Noto/NotoSansBalinese-Regular.ttf'
   scheherazade:
     path: 'Scheherazade/Scheherazade-2.100/Scheherazade-Regular.ttf'
   annapurna:
