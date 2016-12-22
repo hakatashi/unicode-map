@@ -78,6 +78,8 @@ font-data =
     path: 'Noto/NotoSansBalinese-Regular.ttf'
   noto-sundanese:
     path: 'Noto/NotoSansSundanese-Regular.ttf'
+  noto-batak:
+    path: 'Noto/NotoSansBatak-Regular.ttf'
   scheherazade:
     path: 'Scheherazade/Scheherazade-2.100/Scheherazade-Regular.ttf'
   annapurna:

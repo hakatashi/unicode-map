@@ -184,6 +184,8 @@
   1ABF..1AFF: notdef
 
 # Balinese
+# Consider using Aksara Bali instead of Noto
+# http://www.alanwood.net/downloads/aksrbali.zip
 
 1B00..1B7F:
   font: noto-balinese
@@ -330,3 +332,63 @@
   1BAF:
     font: noto-sundanese
     transform: scale(0.6, 0.7)
+
+1BC0..1BFF:
+  font: noto-batak
+  transform: scale(0.8) translate(0, -0.1)
+
+  1BE6:
+    font: noto-batak
+    combining: true
+    transform: scale(0.8) translate(0.2, 0)
+
+  1BE7:
+    font: noto-batak
+    combining: true
+    transform: scale(0.8) translate(0.4, -0.1)
+
+  1BE8:
+    font: noto-batak
+    combining: true
+    transform: scale(0.8) translate(0.2, 0)
+
+  1BE9..1BEB:
+    font: noto-batak
+    combining: true
+    transform: scale(0.8) translate(0.4, -0.15)
+
+  1BEC:
+    font: noto-batak
+    combining: true
+    transform: scale(0.7, 0.8) translate(0.5, -0.15)
+
+  1BED:
+    font: noto-batak
+    combining: true
+    transform: scale(0.8) translate(0.3, 0)
+
+  1BEE..1BEF:
+    font: noto-batak
+    combining: true
+    transform: scale(0.8) translate(0.2, -0.1)
+
+  1BF0..1BF1:
+    font: noto-batak
+    combining: true
+    transform: scale(0.8) translate(0.2, -0.1)
+
+  1BF2:
+    font: noto-batak
+    combining: true
+    transform: scale(0.7, 0.8) translate(0.5, -0.15)
+
+  1BF3:
+    font: noto-batak
+    combining: true
+    transform: scale(0.8) translate(0.4, -0.1)
+
+  1BF4..1BFB: notdef
+
+  1BFC..1BFF:
+    font: noto-batak
+    transform: scale(0.8) translate(0, 0.05)
