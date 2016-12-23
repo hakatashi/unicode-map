@@ -69,3 +69,13 @@
       - A\nAFS
       - NA\nDS
       - NO\nDS
+
+# Superscripts and Subscripts
+
+2070..209F:
+  font: doulos
+  transform: scale(0.95) translate(0, -0.05)
+
+  2072..2073: notdef
+  208F: notdef
+  209D..209F: notdef
