@@ -84,3 +84,100 @@
     transform: scale(0.55, 0.7) translate(-0.05, 0)
 
   1CC8..1CCF: notdef
+
+# Vedic Extensions
+
+1CD0..1CFF:
+  font: noto-devanagari
+
+  1CD0..1CD2:
+    font: noto-devanagari
+    combining: true
+    transform: translate(0.15, 0.2)
+
+  1CD4:
+    font: noto-devanagari
+    combining: true
+    transform: translate(0.15, -0.05)
+
+  1CD5..1CD7:
+    font: noto-devanagari
+    combining: true
+    transform: translate(0.25, -0.2)
+
+  1CD8..1CD9:
+    font: noto-devanagari
+    combining: true
+    transform: translate(0.15, -0.2)
+
+  1CDA..1CDB:
+    font: noto-devanagari
+    combining: true
+    transform: translate(0.1, 0.15)
+
+  1CDC..1CDE:
+    font: noto-devanagari
+    combining: true
+    transform: translate(0.15, -0.2)
+
+  1CDF:
+    font: noto-devanagari
+    combining: true
+    transform: translate(0.25, -0.2)
+
+  1CE0:
+    font: noto-devanagari
+    combining: true
+    transform: translate(0.2, 0.1)
+
+  1CE1:
+    font: noto-devanagari
+    combining: true
+    transform: translate(0.2, 0) scale(0.9)
+
+  1CE2:
+    font: noto-devanagari
+    combining: true
+    transform: translate(0.1, 0)
+
+  1CE3:
+    font: noto-devanagari
+    combining: true
+    transform: translate(0.2, -0.05)
+
+  1CE4..1CE5:
+    font: noto-devanagari
+    combining: true
+    transform: translate(-0.2, -0.05)
+
+  1CE6..1CE7:
+    font: noto-devanagari
+    combining: true
+    transform: translate(0.2, -0.05)
+
+  1CE8:
+    font: noto-devanagari
+    combining: true
+    transform: translate(-0.2, -0.05)
+
+  1CED:
+    font: noto-devanagari
+    combining: true
+    transform: translate(0, -0.2)
+
+  1CF2..1CF3:
+    font: noto-devanagari
+    combining: true
+    transform: translate(0.3, -0.05) scale(0.8)
+
+  1CF4:
+    font: noto-devanagari
+    combining: true
+    transform: translate(0.15, 0.3)
+
+  1CF7: notdef
+
+  # やるだけ
+  1CF8..1CF9: tofu
+
+  1CFA..1CFF: notdef
