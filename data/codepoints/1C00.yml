@@ -64,3 +64,23 @@
   transform: scale(0.8)
 
   1C89..1C8F: notdef
+
+# Empty
+
+1C90..1CBF: notdef
+
+# Sundanese Supplement
+
+1CC0..1CCF:
+  font: noto-sundanese
+  transform: scale(0.7)
+
+  1CC4:
+    font: noto-sundanese
+    transform: scale(0.55, 0.7) translate(-0.05, 0)
+
+  1CC7:
+    font: noto-sundanese
+    transform: scale(0.55, 0.7) translate(-0.05, 0)
+
+  1CC8..1CCF: notdef
