@@ -334,7 +334,7 @@ module.exports = (codepoint-infos) ->
 
         glyphs.append font-group
 
-    if codepoint-info?.type isnt undefined
+    if process.env.DEBUG isnt \true and codepoint-info?.type isnt undefined
       anchor = paper.rect -0.5, -0.5, 1, 1
       anchor.transform "translate(#{(x + 1) * block-size} #{(y + 1) * block-size}) rotate(45deg)"
       anchors.append anchor
