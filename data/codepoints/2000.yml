@@ -175,3 +175,41 @@
     transform: translate(0.25, 0)
 
   20F1..20FF: notdef
+
+# Letterlike Symbols
+
+2100..214F:
+  font: symbola
+  transform: scale(0.9)
+
+  210B:
+    font: symbola
+    transform: scale(0.9) translate(-0.1, 0)
+
+  2117:
+    font: symbola
+    transform: scale(0.9) translate(0, -0.1)
+
+  2121:
+    font: symbola
+    transform: scale(0.7, 0.9)
+
+  2122:
+    font: symbola
+    transform: scale(0.8, 0.9)
+
+  212C:
+    font: symbola
+    transform: scale(0.9) translate(-0.05, 0)
+
+  2130..2131:
+    font: symbola
+    transform: scale(0.9) translate(-0.1, 0)
+
+  2133:
+    font: symbola
+    transform: scale(0.8, 0.9) translate(-0.05, 0)
+
+  213B:
+    font: symbola
+    transform: scale(0.7, 0.9)
