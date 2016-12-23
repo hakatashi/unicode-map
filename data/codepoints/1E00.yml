@@ -1,0 +1,5 @@
+# Latin Extended Additional
+
+1E00..1EFF:
+  font: doulos
+  transform: scale(0.8)
