@@ -84,6 +84,8 @@ font-data =
     path: 'Noto/NotoSansOlChiki-Regular.ttf'
   noto-devanagari:
     path: 'Noto/NotoSerifDevanagari-Regular.ttf'
+  noto-serif:
+    path: 'Noto/NotoSerif-Regular.ttf'
   scheherazade:
     path: 'Scheherazade/Scheherazade-2.100/Scheherazade-Regular.ttf'
   annapurna:
@@ -116,6 +118,8 @@ font-data =
     path: 'Mingzat/Mingzat/Mingzat-R.ttf'
   ponomar:
     path: 'PonomarUnicode/PonomarUnicode.ttf'
+  junicode:
+    path: 'junicode/junicode/fonts/Junicode.ttf'
 
 load-fonts = ->
   Promise.all do

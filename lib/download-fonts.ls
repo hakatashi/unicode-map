@@ -34,6 +34,7 @@ fonts =
   'Nishiki': 'http://hwm3.gyao.ne.jp/shiroi-niwatori/nishiki-teki_3_00.zip'
   'Mingzat': 'http://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=Mingzat-0.100&filename=Mingzat-0.100.zip'
   'PonomarUnicode': 'http://www.ponomar.net/files/PonomarUnicode.zip'
+  'junicode': 'https://sourceforge.net/projects/junicode/files/junicode/junicode-0-7-8/junicode-0-7-8.zip'
 
 module.exports = ->
   Promise.all do

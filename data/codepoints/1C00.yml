@@ -175,9 +175,10 @@
     combining: true
     transform: translate(0.15, 0.3)
 
-  1CF7: notdef
+  # TODO: early mapping
+  1CF7: tofu
 
-  # やるだけ
+  # TODO: やるだけ
   1CF8..1CF9: tofu
 
   1CFA..1CFF: notdef
@@ -193,3 +194,90 @@
 1D80..1DBF:
   font: doulos
   transform: scale(0.9) translate(0, -0.05)
+
+# Combining Diacritical Marks Supplement
+
+1DC0..1DFF:
+  font: doulos
+  combining: true
+
+  1DC0..1DC1:
+    font: noto-serif
+    combining: true
+    transform: translate(0, 0.1)
+
+  1DC2:
+    font: noto-serif
+    combining: true
+    transform: translate(0, -0.2)
+
+  1DC3..1DC9:
+    font: noto-serif
+    combining: true
+    transform: translate(0, 0.1)
+
+  1DCA:
+    font: noto-serif
+    combining: true
+    transform: translate(0, -0.2)
+
+  1DCB..1DCE:
+    font: free-serif
+    combining: true
+    transform: scale(0.9, 1) translate(0.3, 0)
+
+  1DCF:
+    font: free-serif
+    combining: true
+    transform: translate(0.2, -0.2)
+
+  1DD0:
+    font: junicode
+    combining: true
+    transform: translate(0.3, -0.2)
+
+  1DD1..1DD2:
+    font: junicode
+    combining: true
+    transform: translate(0.2, 0)
+
+  1DD3..1DE6:
+    font: free-serif
+    combining: true
+    transform: translate(0.2, 0)
+
+  # TODO: more serify font
+  1DE7..1DF5:
+    font: nishiki
+    combining: true
+    transform: translate(0.3, 0.1)
+
+  # TODO: early mapping
+  1DF6..1DF9: tofu
+
+  1DFA..1DFA: notdef
+
+  1DFB:
+    font: nishiki
+    combining: true
+    transform: translate(0.3, 0.1)
+
+  1DFC:
+    font: free-serif
+    combining: true
+    transform: translate(0, -0.15)
+
+  1DFD:
+    font: free-serif
+    combining: true
+    transform: translate(0.25, -0.15)
+
+  1DFE:
+    font: free-serif
+    combining: true
+    transform: translate(0.2, 0)
+
+  1DFF:
+    font: free-serif
+    combining: true
+    transform: translate(0.3, -0.15)
