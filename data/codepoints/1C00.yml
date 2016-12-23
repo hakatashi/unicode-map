@@ -181,3 +181,15 @@
   1CF8..1CF9: tofu
 
   1CFA..1CFF: notdef
+
+# Phonetic Extensions
+
+1D00..1D7F:
+  font: doulos
+  transform: scale(0.9) translate(0, -0.05)
+
+# Phonetic Extensions Supplement
+
+1D80..1DBF:
+  font: doulos
+  transform: scale(0.9) translate(0, -0.05)
