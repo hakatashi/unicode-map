@@ -30,3 +30,10 @@
     font: observer-symbol
     codepoint: 0x6F
     transform: scale(0.9)
+
+# Control Pictures
+
+2400..243F:
+  font: quivira
+
+  2427..243F: notdef
