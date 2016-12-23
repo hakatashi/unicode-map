@@ -11,35 +11,43 @@ assets =
     * 0xF1B1:
         type: \font
         font-name: \testfont
+        codepoint: undefined
 
   * * 'recognizes codepoints over U+FFFF'
     * D109A: font: \testfont
     * 0xD109A:
         type: \font
         font-name: \testfont
+        codepoint: undefined
 
   * * 'extracts code point range to the series of keys'
     * '0150..0153': font: \testfont
     * 0x0150:
         type: \font
         font-name: \testfont
+        codepoint: undefined
       0x0151:
         type: \font
         font-name: \testfont
+        codepoint: undefined
       0x0152:
         type: \font
         font-name: \testfont
+        codepoint: undefined
       0x0153:
         type: \font
         font-name: \testfont
+        codepoint: undefined
 
   * * 'accepts additional parameters'
     * '535A':
         font: \testfont
+        codepoint: undefined
         scale: 0.5
     * 0x535A:
         type: \font
         font-name: \testfont
+        codepoint: undefined
         scale: 0.5
 
   * * 'supports nested notation'
@@ -52,21 +60,27 @@ assets =
     * 0x535A:
         type: \font
         font-name: \font1
+        codepoint: undefined
       0x535B:
         type: \font
         font-name: \font2
+        codepoint: undefined
       0x535C:
         type: \font
         font-name: \font1
+        codepoint: undefined
       0x535D:
         type: \font
         font-name: \font3
+        codepoint: undefined
       0x535E:
         type: \font
         font-name: \font3
+        codepoint: undefined
       0x535F:
         type: \font
         font-name: \font1
+        codepoint: undefined
 
   * * 'recognizes glyphs of type control'
     * '0102': control: \NUL
