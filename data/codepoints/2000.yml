@@ -102,3 +102,76 @@
     transform: scale(0.8)
 
   20C0..20CF: notdef
+
+# Combining Diacritical Marks for Symbols
+
+20D0..20FF:
+  font: symbola
+  combining: true
+
+  20D0..20DC:
+    font: symbola
+    combining: true
+    transform: translate(0.25, 0.05)
+
+    20D2..20D3:
+      font: symbola
+      combining: true
+      transform: translate(0.25, -0.1)
+
+    20D8..20DA:
+      font: symbola
+      combining: true
+      transform: translate(0.25, -0.05)
+
+  20DD..20E3:
+    font: symbola
+    combining: true
+    transform: translate(0.5, -0.1)
+
+    20E1:
+      font: symbola
+      combining: true
+      transform: translate(0.25, 0.1)
+
+  20E4:
+    font: symbola
+    combining: true
+    transform: translate(0.5, -0.05)
+
+  20E5..20E6:
+    font: symbola
+    combining: true
+    transform: translate(0.25, -0.1)
+
+  20E7:
+    font: symbola
+    combining: true
+    transform: translate(0.25, 0)
+
+  20E8:
+    font: symbola
+    combining: true
+    transform: translate(0.25, -0.2)
+
+  20E9:
+    font: symbola
+    combining: true
+    transform: translate(0.25, 0)
+
+  20EA..20EB:
+    font: symbola
+    combining: true
+    transform: translate(0.25, -0.1)
+
+  20EC..20EF:
+    font: symbola
+    combining: true
+    transform: translate(0.25, -0.2)
+
+  20F0:
+    font: symbola
+    combining: true
+    transform: translate(0.25, 0)
+
+  20F1..20FF: notdef
