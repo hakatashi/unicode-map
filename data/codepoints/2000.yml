@@ -241,3 +241,9 @@
     transform: scale(0.8, 0.9)
 
   218C..218F: notdef
+
+# Arrows
+
+2190..21FF:
+  font: symbola
+  transform: scale(0.9) translate(0, -0.05)
