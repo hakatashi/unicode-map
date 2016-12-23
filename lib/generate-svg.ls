@@ -215,7 +215,7 @@ module.exports = (codepoint-infos) ->
       # Draw text
       text-font = fonts.open-sans
       text-size = 768
-      lines = codepoint-info.short-name.split '/'
+      lines = codepoint-info.short-name.split '\\n'
 
       for line, line-index in lines
         text-path = text-font.get-path line, 1024, 1024, text-size .to-path-data!

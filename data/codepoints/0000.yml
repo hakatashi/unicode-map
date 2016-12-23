@@ -86,7 +86,7 @@
     - PM
     - APC
 
-    - NB/SP
+    - NB\nSP
 
 # C1 Controls and Latin-1 Supplement
 
@@ -95,7 +95,7 @@
   transform: scale(0.8)
 
   00AD:
-    control: SHY/-
+    control: SHY\n-
 
 # Latin Extended-A
 

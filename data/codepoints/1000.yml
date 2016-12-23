@@ -200,10 +200,10 @@
   transform: translate(0.12, -0.05)
 
   115F:
-    control: HC/F
+    control: HC\nF
 
   1160:
-    control: HJ/F
+    control: HJ\nF
 
   1161..11A7:
     font: unbatang
@@ -384,10 +384,10 @@
     transform: scale(0.75) translate(0, 0.05)
 
   17B4:
-    control: KIV/AQ
+    control: KIV\nAQ
 
   17B5:
-    control: KIV/AA
+    control: KIV\nAA
 
   17B6:
     font: noto-khmer

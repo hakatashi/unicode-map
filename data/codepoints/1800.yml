@@ -6,10 +6,10 @@
 
   180B..180E:
     control:
-      - FV/S1
-      - FV/S2
-      - FV/S3
-      - MV/S
+      - FV\nS1
+      - FV\nS2
+      - FV\nS3
+      - MV\nS
 
   180F: notdef
 
