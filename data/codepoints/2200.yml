@@ -44,3 +44,9 @@
   font: symbola
 
   244B..245F: notdef
+
+# Enclosed Alphanumerics
+
+2460..24FF:
+  font: symbola
+  transform: scale(0.9) translate(0, -0.05)
