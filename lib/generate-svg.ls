@@ -108,6 +108,8 @@ font-data =
     path: 'DaiBanna/dai-banna-2.200/DBSILBR.ttf'
   nishiki:
     path: 'Nishiki/nishiki-teki_3_00/nishiki-teki.ttf'
+  mingzat:
+    path: 'Mingzat/Mingzat/Mingzat-R.ttf'
 
 load-fonts = ->
   Promise.all do

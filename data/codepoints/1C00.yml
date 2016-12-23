@@ -1,0 +1,50 @@
+1C00..1C4F:
+  font: mingzat
+  transform: scale(0.7) translate(0, -0.1)
+
+  1C20:
+    font: mingzat
+    transform: scale(0.7) translate(-0.05, -0.1)
+
+  1C24..1C26:
+    font: mingzat
+    combining: true
+    transform: scale(0.7) translate(0.4, -0.1)
+
+  1C27..1C29:
+    font: mingzat
+    combining: true
+    transform: scale(0.6) translate(-0.5, -0.1)
+
+  1C2A..1C2B:
+    font: mingzat
+    combining: true
+    transform: scale(0.6) translate(0.5, -0.2)
+
+  1C2C:
+    font: mingzat
+    combining: true
+    transform: scale(0.7) translate(0.4, -0.35)
+
+  1C2D..1C33:
+    font: mingzat
+    combining: true
+    transform: scale(0.7) translate(0.4, 0.1)
+
+  1C34..1C35:
+    font: mingzat
+    combining: true
+    transform: scale(0.7) translate(-0.5, -0.1)
+
+  1C36:
+    font: mingzat
+    combining: true
+    transform: scale(0.7) translate(0.4, 0.1)
+
+  1C37:
+    font: mingzat
+    combining: true
+    transform: scale(0.7) translate(0.4, -0.35)
+
+  1C38..1C3A: notdef
+  1C4A..1C4C: notdef
