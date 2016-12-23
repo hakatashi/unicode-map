@@ -35,6 +35,7 @@ fonts =
   'Mingzat': 'http://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=Mingzat-0.100&filename=Mingzat-0.100.zip'
   'PonomarUnicode': 'http://www.ponomar.net/files/PonomarUnicode.zip'
   'junicode': 'https://sourceforge.net/projects/junicode/files/junicode/junicode-0-7-8/junicode-0-7-8.zip'
+  'BTC': 'https://en.bitcoin.it/BTC.ttf'
 
 module.exports = ->
   Promise.all do
@@ -58,7 +59,7 @@ module.exports = ->
               {}
 
           extract =
-            if directory in <[Quivira NotoSansCherokee]>
+            if directory in <[Quivira NotoSansCherokee BTC]>
               false
             else
               true

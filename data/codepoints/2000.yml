@@ -79,3 +79,26 @@
   2072..2073: notdef
   208F: notdef
   209D..209F: notdef
+
+# Currency Symbols
+
+20A0..20CF:
+  font: free-serif
+  transform: scale(0.9)
+
+  20AF:
+    font: free-serif
+    transform: scale(0.7)
+
+  20BA..20BD:
+    font: doulos
+
+  20BE:
+    font: symbola
+
+  20BF: # Early mapping
+    font: btc
+    codepoint: 0x42
+    transform: scale(0.8)
+
+  20C0..20CF: notdef

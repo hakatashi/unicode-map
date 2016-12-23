@@ -120,6 +120,8 @@ font-data =
     path: 'PonomarUnicode/PonomarUnicode.ttf'
   junicode:
     path: 'junicode/junicode/fonts/Junicode.ttf'
+  btc:
+    path: 'BTC/BTC.ttf'
 
 load-fonts = ->
   Promise.all do
@@ -176,11 +178,11 @@ module.exports = (codepoint-infos) ->
   for code-point from 0 til 128 * 128
     {x, y} = hilbert.xy code-point
 
+    codepoint-info = codepoint-infos.get code-point
+
     glyph-infos =
       for let name, font of fonts
-        {name, font, glyph: font.char-to-glyph String.from-code-point code-point}
-
-    codepoint-info = codepoint-infos.get code-point
+        {name, font, glyph: font.char-to-glyph String.from-code-point(codepoint-info?.codepoint or code-point)}
 
     if codepoint-info?.type is \notdef
       notdef-group = paper.group!

@@ -12,6 +12,7 @@ flatten = (object, {start, end}) ->
     | object.has-own-property \font =>
       type: \font
       font-name: object.font
+      codepoint: object.codepoint
     | object.has-own-property \control =>
       type: \control
       short-name: object.control
@@ -54,6 +55,10 @@ flatten = (object, {start, end}) ->
   for codepoint from start to end
     unless map.has codepoint
       clone = Object.assign {}, model
+
+      if model.type is \font
+        if typeof! model.codepoint is \Array
+          clone.codepoint = clone.codepoint[codepoint - start]
 
       if model.type is \control
         if typeof! model.short-name is \Array
