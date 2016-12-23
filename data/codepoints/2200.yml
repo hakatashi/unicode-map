@@ -37,3 +37,10 @@
   font: quivira
 
   2427..243F: notdef
+
+# Optical Character Recognition
+
+2440..245F:
+  font: symbola
+
+  244B..245F: notdef
