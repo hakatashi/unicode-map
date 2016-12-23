@@ -1,5 +1,28 @@
 # Latin Extended Additional
 
 1E00..1EFF:
-  font: doulos
+  font: free-serif
   transform: scale(0.8)
+
+# Greek Extended
+
+1F00..1FFF:
+  font: free-serif
+  transform: scale(0.8)
+
+  1F16..1F17: notdef
+  1F1E..1F1F: notdef
+  1F46..1F47: notdef
+  1F4E..1F4F: notdef
+  1F58: notdef
+  1F5A: notdef
+  1F5C: notdef
+  1F5E: notdef
+  1F7E..1F7F: notdef
+  1FB5: notdef
+  1FC5: notdef
+  1FD4..1FD5: notdef
+  1FDC: notdef
+  1FF0..1FF1: notdef
+  1FF5: notdef
+  1FFF: notdef
