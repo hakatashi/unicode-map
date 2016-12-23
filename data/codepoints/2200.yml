@@ -62,3 +62,9 @@
 2580..259F:
   font: symbola
   transform: scale(0.9) translate(0, -0.05)
+
+# Geometric Shapes
+
+25A0..25FF:
+  font: symbola
+  transform: scale(0.9) translate(0, -0.05)
