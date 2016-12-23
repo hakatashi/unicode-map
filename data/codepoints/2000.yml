@@ -1,0 +1,71 @@
+# General Punctuation
+
+2000..206F:
+  font: symbola
+  transform: translate(0, -0.05)
+
+  2000..200F:
+    control:
+      - NQ\nSP
+      - MQ\nSP
+      - EN\nSP
+      - EM\nSP
+      - 3/M\nSP
+      - 4/M\nSP
+      - 6/M\nSP
+      - F\nSP
+      - P\nSP
+      - TH\nSP
+      - H\nSP
+      - ZW\nSP
+      - ZW\nNJ
+      - ZW\nJ
+      - LRM
+      - RLM
+
+  2011:
+    control: NB\n-
+
+  2028..202F:
+    control:
+      - L\nSEP
+      - P\nSEP
+      - LRE
+      - RLE
+      - PDF
+      - LRO
+      - RLO
+      - NNB\nSP
+
+  2030:
+    font: free-serif
+
+  2031:
+    font: free-serif
+    transform: scale(0.75, 1)
+
+  205F:
+    control: MM\nSP
+
+  2060..2064:
+    control:
+      - WJ
+      - f() # TODO: Use SVG
+      - × # TODO: USE SVG
+      - ','
+      - +
+
+  2065: notdef
+
+  2066..206F:
+    control:
+      - LRI
+      - RLI
+      - FSI
+      - PDI
+      - I\nSS
+      - A\nSS
+      - I\nAFS
+      - A\nAFS
+      - NA\nDS
+      - NO\nDS
