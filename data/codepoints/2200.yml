@@ -1,0 +1,32 @@
+# Mathematical Operators
+
+2200..22FF:
+  font: symbola
+  transform: scale(0.9) translate(0, -0.05)
+
+  22A6..22AF:
+    font: symbola
+    transform: scale(0.9)
+
+  22D8..22D9:
+    font: symbola
+    transform: scale(0.75, 0.9) translate(0, -0.05)
+
+# Miscellaneous Technical
+
+2300..23FF:
+  font: symbola
+  transform: scale(0.9)
+
+  23B2..23B3:
+    font: symbola
+    transform: scale(0.8)
+
+  23D4..23D6:
+    font: symbola
+    transform: scale(0.8)
+
+  23FF: # Early mapping
+    font: observer-symbol
+    codepoint: 0x6F
+    transform: scale(0.9)

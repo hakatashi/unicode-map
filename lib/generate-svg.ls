@@ -122,6 +122,8 @@ font-data =
     path: 'junicode/junicode/fonts/Junicode.ttf'
   btc:
     path: 'BTC/BTC.ttf'
+  observer-symbol:
+    path: 'ObserverSymbol/ObserverSymbol.ttf'
 
 load-fonts = ->
   Promise.all do
