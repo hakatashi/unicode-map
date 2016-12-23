@@ -50,3 +50,9 @@
 2460..24FF:
   font: symbola
   transform: scale(0.9) translate(0, -0.05)
+
+# Box Drawing
+
+2500..257F:
+  font: symbola
+  transform: scale(0.9) translate(0, -0.05)
