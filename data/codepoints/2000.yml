@@ -213,3 +213,31 @@
   213B:
     font: symbola
     transform: scale(0.7, 0.9)
+
+# Number Forms
+
+2150..218F:
+  font: symbola
+  transform: scale(0.9)
+
+  215F:
+    font: symbola
+    transform: scale(0.9) translate(-0.2, 0)
+
+  2166:
+    font: symbola
+    transform: scale(0.75, 0.9)
+
+  2167:
+    font: symbola
+    transform: scale(0.6, 0.9)
+
+  216B:
+    font: symbola
+    transform: scale(0.8, 0.9)
+
+  2177:
+    font: symbola
+    transform: scale(0.8, 0.9)
+
+  218C..218F: notdef
