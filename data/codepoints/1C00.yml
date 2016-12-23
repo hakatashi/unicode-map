@@ -1,3 +1,5 @@
+# Lepcha
+
 1C00..1C4F:
   font: mingzat
   transform: scale(0.7) translate(0, -0.1)
@@ -48,3 +50,9 @@
 
   1C38..1C3A: notdef
   1C4A..1C4C: notdef
+
+# Ol Chiki
+
+1C50..1C7F:
+  font: noto-ol-chiki
+  transform: scale(0.9)

@@ -333,6 +333,8 @@
     font: noto-sundanese
     transform: scale(0.6, 0.7)
 
+# Batak
+
 1BC0..1BFF:
   font: noto-batak
   transform: scale(0.8) translate(0, -0.1)
