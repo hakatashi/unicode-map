@@ -56,3 +56,11 @@
 1C50..1C7F:
   font: noto-ol-chiki
   transform: scale(0.9)
+
+# Cyrillic Extended-C
+
+1C80..1C8F:
+  font: ponomar
+  transform: scale(0.8)
+
+  1C89..1C8F: notdef

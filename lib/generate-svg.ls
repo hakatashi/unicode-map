@@ -112,6 +112,8 @@ font-data =
     path: 'Nishiki/nishiki-teki_3_00/nishiki-teki.ttf'
   mingzat:
     path: 'Mingzat/Mingzat/Mingzat-R.ttf'
+  ponomar:
+    path: 'PonomarUnicode/PonomarUnicode.ttf'
 
 load-fonts = ->
   Promise.all do

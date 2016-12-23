@@ -33,6 +33,7 @@ fonts =
   'DaiBanna': 'http://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=DaiBanna-2.200.zip&filename=DaiBanna-2.200.zip'
   'Nishiki': 'http://hwm3.gyao.ne.jp/shiroi-niwatori/nishiki-teki_3_00.zip'
   'Mingzat': 'http://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=Mingzat-0.100&filename=Mingzat-0.100.zip'
+  'PonomarUnicode': 'http://www.ponomar.net/files/PonomarUnicode.zip'
 
 module.exports = ->
   Promise.all do
