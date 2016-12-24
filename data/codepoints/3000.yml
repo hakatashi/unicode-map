@@ -133,3 +133,9 @@
     control: HF
 
   318F: notdef
+
+# Kanbun
+
+3190..319F:
+  font: babel-stone
+  transform: scale(0.9) translate(-0.25, 0)
