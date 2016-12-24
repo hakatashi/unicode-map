@@ -74,3 +74,13 @@
 2600..26FF:
   font: symbola
   transform: scale(0.9) translate(0, -0.05)
+
+# Dingbats
+
+2700..27BF:
+  font: symbola
+  transform: scale(0.9)
+
+  275B..2793:
+    font: symbola
+    transform: scale(0.9) translate(0, -0.05)
