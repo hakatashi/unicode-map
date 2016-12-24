@@ -1,0 +1,19 @@
+# Supplemental Punctuation
+
+2E00..2E7F:
+  font: symbola
+  transform: scale(0.9) translate(0, -0.05)
+
+  # TODO: render hyphens
+
+  2E3A:
+    control: 2M
+
+  2E3B:
+    control: 3M
+
+  2E45..2E4E: # Early mapping
+    font: nishiki
+    transform: scale(0.8)
+
+  2E4F..2E7F: notdef
