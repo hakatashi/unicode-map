@@ -238,3 +238,9 @@
     transform: scale(0.9) translate(0, 0.05)
 
   31E4..31EF: notdef
+
+# Katakana Phonetic Extensions
+
+31F0..31FF:
+  font: ipaexm
+  transform: scale(0.9) translate(0, 0.05)
