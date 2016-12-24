@@ -120,3 +120,16 @@
   3100..3104: notdef
 
   312E..312F: tofu # Early mapping
+
+# Hangul Compatibility Jamo
+
+3130..318F:
+  font: unbatang
+  transform: translate(0, -0.05)
+
+  3130: notdef
+
+  3164:
+    control: HF
+
+  318F: notdef
