@@ -106,3 +106,9 @@
 2800..28FF:
   font: symbola
   transform: scale(0.95) translate(0.1, -0.1)
+
+# Supplemental Arrows-B
+
+2900..297F:
+  font: symbola
+  transform: scale(0.9) translate(0, -0.05)
