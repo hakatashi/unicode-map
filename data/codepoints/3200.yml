@@ -27,3 +27,23 @@
     transform: scale(0.9) translate(0, 0.05)
 
   32FF: notdef
+
+# CJK Compatibility
+
+3300..33FF:
+  font: ipaexm
+  transform: scale(0.9) translate(0, 0.05)
+
+  332C:
+    font: hancom
+    transform: scale(0.9) translate(0, 0.05)
+
+  3358..337A:
+    font: hancom
+    transform: scale(0.9) translate(0, 0.05)
+
+  3380..33FF:
+    font:
+      - ipaexm
+      - hancom
+    transform: scale(0.9) translate(0, 0.05)
