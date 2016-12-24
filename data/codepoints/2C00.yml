@@ -19,3 +19,13 @@
     transform: translate(0, -0.1)
 
     2C5F: notdef
+
+# Latin Extended-C
+
+2C60..2C7F:
+  font: doulos
+  transform: scale(0.8) translate(0, 0)
+
+  2C7C:
+    font: doulos
+    transform: scale(0.8) translate(0, -0.1)
