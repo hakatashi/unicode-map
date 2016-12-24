@@ -100,3 +100,9 @@
   27F4..27FF:
     font: symbola
     transform: scale(0.65) translate(0, -0.05)
+
+# Braille Patterns
+
+2800..28FF:
+  font: symbola
+  transform: scale(0.95) translate(0.1, -0.1)
