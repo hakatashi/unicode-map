@@ -24,7 +24,7 @@
   font:
     - ipaexm
     - hanamin-a
-  transform: scale(0.9)
+  transform: scale(0.9) translate(0, 0.05)
 
   2E9A: notdef
   2EF4..2EFF: notdef
@@ -33,6 +33,18 @@
 
 2F00..2FDF:
   font: ipaexm
-  transform: scale(0.9)
+  transform: scale(0.9) translate(0, 0.05)
 
   2FD6..2FDF: notdef
+
+# Empty
+
+2FE0..2FEF: notdef
+
+# Ideographic Description Characters
+
+2FF0..2FFF:
+  font: ipaexm
+  transform: scale(0.9) translate(0, 0.05)
+
+  2FFC..2FFF: notdef
