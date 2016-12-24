@@ -104,3 +104,9 @@
     font: ipaexm
     combining: true
     transform: scale(0.9) translate(-0.1, 0.15)
+
+# Katakana
+
+30A0..30FF:
+  font: ipaexm
+  transform: scale(0.9) translate(0, 0.05)
