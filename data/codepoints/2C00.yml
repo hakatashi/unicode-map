@@ -98,3 +98,25 @@
   2DCF: notdef
   2DD7: notdef
   2DDF: notdef
+
+# Cyrillic Extended-A
+
+2DE0..2DFF:
+  font: free-serif
+  combining: true
+  transform: translate(0.1, -0.05)
+
+  2DF2..2DF3:
+    font: free-serif
+    combining: true
+    transform: translate(0.15, -0.05)
+
+  2DF5:
+    font: free-serif
+    combining: true
+    transform: translate(0.2, -0.05)
+
+  2DFB..2DFF:
+    font: free-serif
+    combining: true
+    transform: translate(0.15, -0.05)
