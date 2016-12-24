@@ -124,6 +124,8 @@ font-data =
     path: 'BTC/BTC.ttf'
   observer-symbol:
     path: 'ObserverSymbol/ObserverSymbol.ttf'
+  analecta:
+    path: 'Analecta/Analecta.ttf'
 
 load-fonts = ->
   Promise.all do

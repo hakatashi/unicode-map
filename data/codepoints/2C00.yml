@@ -29,3 +29,21 @@
   2C7C:
     font: doulos
     transform: scale(0.8) translate(0, -0.1)
+
+# Coptic
+
+2C80..2CFF:
+  font: analecta
+  transform: scale(0.8)
+
+  2CEF:
+    font: analecta
+    combining: true
+    transform: scale(0.8) translate(0.4, 0.1)
+
+  2CF0..2CF1:
+    font: analecta
+    combining: true
+    transform: scale(0.8) translate(0.25, 0.1)
+
+  2CF4..2CF8: notdef

@@ -37,6 +37,7 @@ fonts =
   'junicode': 'https://sourceforge.net/projects/junicode/files/junicode/junicode-0-7-8/junicode-0-7-8.zip'
   'BTC': 'https://en.bitcoin.it/BTC.ttf'
   'ObserverSymbol': 'http://hypertexthero.com/static/img/observer-symbol/observer-symbol-latest.zip'
+  'Analecta': 'http://users.teilar.gr/~g1951d/Analecta.zip'
 
 module.exports = ->
   Promise.all do
