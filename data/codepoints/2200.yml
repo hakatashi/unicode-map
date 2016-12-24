@@ -84,3 +84,9 @@
   275B..2793:
     font: symbola
     transform: scale(0.9) translate(0, -0.05)
+
+# Miscellaneous Mathematical Symbols-A
+
+27C0..27EF:
+  font: symbola
+  transform: scale(0.9) translate(0, -0.05)
