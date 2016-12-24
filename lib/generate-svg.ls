@@ -130,6 +130,8 @@ font-data =
     path: 'ObserverSymbol/ObserverSymbol.ttf'
   analecta:
     path: 'Analecta/Analecta.ttf'
+  babel-stone:
+    path: 'BabelStoneHan/BabelStoneHan.ttf'
 
 load-fonts = ->
   Promise.all do

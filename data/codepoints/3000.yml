@@ -16,9 +16,9 @@
     codepoint: 0x301D
     transform: scale(-0.9, 0.9)
 
-  # TODO: more neat glyph
   3021..3029:
-    font: hancom
+    font: babel-stone
+    transform: scale(0.9)
 
   302A:
     font: hancom
@@ -110,3 +110,13 @@
 30A0..30FF:
   font: ipaexm
   transform: scale(0.9) translate(0, 0.05)
+
+# Bopomofo
+
+3100..312F:
+  font: babel-stone
+  transform: scale(0.9) translate(0, 0.05)
+
+  3100..3104: notdef
+
+  312E..312F: tofu # Early mapping
