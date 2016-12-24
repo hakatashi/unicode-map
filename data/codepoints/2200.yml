@@ -136,3 +136,25 @@
   2AF7..2AF8:
     font: symbola
     transform: scale(0.8) translate(0, -0.05)
+
+# Miscellaneous Symbols and Arrows
+
+2B00..2BFF:
+  font: symbola
+  transform: scale(0.9) translate(0, -0.05)
+
+  2B32..2B33:
+    font: symbola
+    transform: scale(0.7) translate(0, -0.05)
+
+  2B74..2B75: notdef
+  2B96..2B97: notdef
+  2BBA..2BBC: notdef
+  2BC9: notdef
+
+  # TODO: The glyph shape of U+2BD6 PLUTO FORM FIVE is questionable
+  2BD2..2BEB: # Early maping
+    font: nishiki
+    transform: scale(0.85)
+
+  2BF0..2BFF: notdef
