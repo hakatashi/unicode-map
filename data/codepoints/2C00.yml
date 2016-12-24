@@ -47,3 +47,23 @@
     transform: scale(0.8) translate(0.25, 0.1)
 
   2CF4..2CF8: notdef
+
+# Georgian Supplement
+
+2D00..2D2F:
+  font: noto-georgian
+  transform: scale(0.8)
+
+  2D26: notdef
+
+  2D27:
+    font: quivira
+    transform: scale(0.9) translate(0, -0.1)
+
+  2D28..2D2C: notdef
+
+  2D2D:
+    font: quivira
+    transform: scale(0.9) translate(0, -0.1)
+
+  2D2E..2D2F: notdef
