@@ -1,0 +1,92 @@
+# CJK Symbols and Punctuation
+
+3000..303F:
+  font: ipaexm
+  transform: scale(0.9) translate(0, 0.05)
+
+  3000:
+    control: ID\nSP
+
+  301A..301B:
+    font: noto-cjk-jp
+    transform: scale(0.9) translate(0, 0.05)
+
+  301E:
+    font: ipaexm
+    codepoint: 0x301D
+    transform: scale(-0.9, 0.9)
+
+  # TODO: more neat glyph
+  3021..3029:
+    font: hancom
+
+  302A:
+    font: hancom
+    combining: true
+    transform: translate(0.4, -0.2)
+
+  302B:
+    font: hancom
+    combining: true
+    transform: translate(0.4, 0.15)
+
+  302C:
+    font: hancom
+    combining: true
+    transform: translate(0.2, 0.15)
+
+  302D:
+    font: hancom
+    combining: true
+    transform: translate(0.2, -0.2)
+
+  302E..302F:
+    font: hancom
+    combining: true
+    transform: translate(0.7, 0)
+
+  3030..3032:
+    font: hanamin-a
+    transform: scale(0.9) translate(0, 0.05)
+
+  3037:
+    font: hancom
+    transform: translate(0, 0.1)
+
+  3038:
+    font: ipaexm
+    codepoint: 0x5341
+    transform: scale(0.9) translate(0, 0.05)
+
+  3039:
+    font: ipaexm
+    codepoint: 0x5efe
+    transform: scale(0.9) translate(0, 0.05)
+
+  303A:
+    font: ipaexm
+    codepoint: 0x5345
+    transform: scale(0.9) translate(0, 0.05)
+
+  3038:
+    font: ipaexm
+    codepoint: 0x5341
+    transform: scale(0.9) translate(0, 0.05)
+
+  3039:
+    font: ipaexm
+    codepoint: 0x5efe
+    transform: scale(0.9) translate(0, 0.05)
+
+  303A:
+    font: ipaexm
+    codepoint: 0x5345
+    transform: scale(0.9) translate(0, 0.05)
+
+  303E:
+    font: hancom
+    box: true
+    transform: translate(0, 0.05)
+
+  303F:
+    font: hancom
