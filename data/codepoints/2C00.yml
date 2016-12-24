@@ -67,3 +67,18 @@
     transform: scale(0.9) translate(0, -0.1)
 
   2D2E..2D2F: notdef
+
+# Tifinagh
+
+2D30..2D7F:
+  font: noto-tifinagh
+  transform: scale(0.8)
+
+  2D68..2D6E: notdef
+  2D71..2D7E: notdef
+
+  2D7F:
+    font: noto-tifinagh
+    combining: true
+    box: true
+    transform: scale(0.8) translate(0, -0.1)
