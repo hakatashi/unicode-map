@@ -82,3 +82,19 @@
     combining: true
     box: true
     transform: scale(0.8) translate(0, -0.1)
+
+# Ethiopic Extended
+
+2D80..2DDF:
+  font: abyssinica
+  transform: scale(0.8)
+
+  2D97..2D9F: notdef
+  2DA7: notdef
+  2DAF: notdef
+  2DB7: notdef
+  2DBF: notdef
+  2DC7: notdef
+  2DCF: notdef
+  2DD7: notdef
+  2DDF: notdef
