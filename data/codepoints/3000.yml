@@ -151,3 +151,90 @@
     transform: scale(0.9) translate(-0.25, 0.05)
 
   31BB..31BF: notdef
+
+# CJK Strokes
+
+31C0..31EF:
+  font: hanamin-a
+  transform: translate(0, 0.05)
+
+  31CF:
+    font: ipaexm
+    codepoint: 0x4e40
+    transform: scale(0.9) translate(0, 0.05)
+
+  31D0:
+    font: ipaexm
+    codepoint: 0x4e00
+    transform: scale(0.9) translate(0, 0.05)
+
+  31D1:
+    font: ipaexm
+    codepoint: 0x4e28
+    transform: scale(0.9) translate(0, 0.05)
+
+  31D3:
+    font: ipaexm
+    codepoint: 0x4e3f
+    transform: scale(0.9) translate(0, 0.05)
+
+  31D4:
+    font: ipaexm
+    codepoint: 0x4e36
+    transform: scale(0.9) translate(0, 0.05)
+
+  31D5:
+    font: ipaexm
+    codepoint: 0x4e3f
+    transform: scale(0.9) translate(0, 0.05)
+
+  #31D6:
+  #  font: ipaexm
+  #  codepoint: 0x4e5b
+  #  transform: scale(0.9) translate(0, 0.05)
+
+  #31D9:
+  #  font: ipamjm
+  #  codepoint: 0x2010c
+  #  transform: scale(0.9) translate(0, 0.05)
+
+  31DA:
+    font: ipaexm
+    codepoint: 0x4e85
+    transform: scale(0.9) translate(0, 0.05)
+
+  #31DC:
+  #  font: ipamjm
+  #  codepoint: 0x200cb
+  #  transform: scale(0.9) translate(0, 0.05)
+
+  31DD:
+    font: ipaexm
+    codepoint: 0x4e40
+    transform: scale(0.9) translate(0, 0.05)
+
+  #31DE:
+  #  font: ipamjm
+  #  codepoint: 0x200d1
+  #  transform: scale(0.9) translate(0, 0.05)
+
+  31DF:
+    font: ipamjm
+    codepoint: 0x4e5a
+    transform: scale(0.9) translate(0, 0.05)
+
+  31E0:
+    font: ipaexm
+    codepoint: 0x4e59
+    transform: scale(0.9) translate(0, 0.05)
+
+  #31E1:
+  #  font: ipamjm
+  #  codepoint: 0x2010e
+  #  transform: scale(0.9) translate(0, 0.05)
+
+  31E3:
+    font: babel-stone
+    transform: scale(0.9) translate(0, 0.05)
+
+  31E4..31EF: notdef
