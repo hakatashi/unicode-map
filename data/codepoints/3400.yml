@@ -1,0 +1,8 @@
+# CJK Unified Ideographs Extension A
+
+3400..3FFF:
+  font:
+    - ipamjm
+    - ipaexm
+    - hanamin-a
+  transform: scale(0.9) translate(0, 0.05)

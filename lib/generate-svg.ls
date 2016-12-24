@@ -294,7 +294,8 @@ module.exports = (codepoint-infos) ->
             glyph-infos.find (.name is camel-case codepoint-info.font-name)
           else
             font-names = codepoint-info.font-name.map camel-case
-            glyph-infos.find (-> it.name in font-names and it.glyph.unicode isnt undefined)
+            font-name = font-names.find ((name) -> glyph-infos.some (-> it.name is name and it.glyph.unicode isnt undefined))
+            glyph-infos.find (-> it.name is font-name)
         else if process.env.DEBUG is \true
           glyph-infos.find (.glyph.unicode isnt undefined)
         else
