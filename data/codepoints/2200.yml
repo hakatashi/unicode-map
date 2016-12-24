@@ -112,3 +112,9 @@
 2900..297F:
   font: symbola
   transform: scale(0.9) translate(0, -0.05)
+
+# Miscellaneous Mathematical Symbols-B
+
+2980..29FF:
+  font: symbola
+  transform: scale(0.9) translate(0, -0.05)
