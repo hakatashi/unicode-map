@@ -139,3 +139,15 @@
 3190..319F:
   font: babel-stone
   transform: scale(0.9) translate(-0.25, 0)
+
+# Bopomofo Extended
+
+31A0..31BF:
+  font: babel-stone
+  transform: scale(0.9) translate(0, 0.05)
+
+  31B4..31B7:
+    font: babel-stone
+    transform: scale(0.9) translate(-0.25, 0.05)
+
+  31BB..31BF: notdef
