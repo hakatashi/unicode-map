@@ -90,3 +90,17 @@
 
   303F:
     font: hancom
+
+# Hiragana
+
+3040..309F:
+  font: ipaexm
+  transform: scale(0.9) translate(0, 0.05)
+
+  3040: notdef
+  3097..3098: notdef
+
+  3099..309A:
+    font: ipaexm
+    combining: true
+    transform: scale(0.9) translate(-0.1, 0.15)
