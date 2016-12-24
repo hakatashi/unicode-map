@@ -68,3 +68,9 @@
 25A0..25FF:
   font: symbola
   transform: scale(0.9) translate(0, -0.05)
+
+# Miscellaneous Symbols
+
+2600..26FF:
+  font: symbola
+  transform: scale(0.9) translate(0, -0.05)
