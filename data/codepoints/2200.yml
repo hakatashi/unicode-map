@@ -90,3 +90,13 @@
 27C0..27EF:
   font: symbola
   transform: scale(0.9) translate(0, -0.05)
+
+# Supplemental Arrows-A
+
+27F0..27FF:
+  font: symbola
+  transform: scale(0.9) translate(0, -0.05)
+
+  27F4..27FF:
+    font: symbola
+    transform: scale(0.65) translate(0, -0.05)
