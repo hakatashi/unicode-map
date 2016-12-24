@@ -17,3 +17,14 @@
     transform: scale(0.8)
 
   2E4F..2E7F: notdef
+
+# CJK Radicals Supplement
+
+2E80..2EFF:
+  font:
+    - ipaexm
+    - hanamin-a
+  transform: scale(0.9)
+
+  2E9A: notdef
+  2EF4..2EFF: notdef

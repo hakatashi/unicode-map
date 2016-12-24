@@ -11,7 +11,7 @@ flatten = (object, {start, end}) ->
       type: \tofu
     | object.has-own-property \font =>
       type: \font
-      font-name: object.font
+      font-name: if typeof! object.font is \Array then object.font else [object.font]
       codepoint: object.codepoint
     | object.has-own-property \control =>
       type: \control
