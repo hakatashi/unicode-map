@@ -16,16 +16,12 @@ font-data =
     path: 'Doulos/DoulosSIL-5.000/DoulosSIL-R.ttf'
   symbola:
     path: 'Symbola/Symbola.ttf'
-  emoji:
-    path: 'Noto/NotoEmoji-Regular.ttf'
   ipamjm:
     path: 'IPAmjm/ipamjm.ttf'
   ipaexm:
     path: 'IPAexm/ipaexm00201/ipaexm.ttf'
   hanamin-a:
     path: 'hanazono/HanaMinA.ttf'
-  open-sans:
-    path: 'OpenSans/OpenSans-Bold.ttf'
   free-serif:
     path: 'FreeFont/freefont-20120503/FreeSerif.ttf'
   noto-hebrew:
