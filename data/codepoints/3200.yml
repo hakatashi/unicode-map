@@ -1,0 +1,29 @@
+# Enclosed CJK Letters and Months
+
+3200..32FF:
+  font: ipaexm
+  transform: scale(0.9) translate(0, 0.05)
+
+  3200..321E:
+    font: hancom
+    transform: scale(0.9) translate(0, 0.05)
+
+  321F: notdef
+
+  3244..324F:
+    font: hanamin-a
+    transform: scale(0.9) translate(0, 0.05)
+
+  3250:
+    font: hancom
+    transform: scale(0.9) translate(0, 0.05)
+
+  3260..327F:
+    font: hancom
+    transform: scale(0.9) translate(0, 0.05)
+
+  32C0..32CF:
+    font: hancom
+    transform: scale(0.9) translate(0, 0.05)
+
+  32FF: notdef
