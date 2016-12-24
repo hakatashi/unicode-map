@@ -118,3 +118,21 @@
 2980..29FF:
   font: symbola
   transform: scale(0.9) translate(0, -0.05)
+
+# Supplemental Mathematical Operators
+
+2A00..2AFF:
+  font: symbola
+  transform: scale(0.9) translate(0, -0.05)
+
+  2A0C:
+    font: symbola
+    transform: scale(0.7, 0.9) translate(0, -0.05)
+
+  2A4A..2A4B:
+    font: symbola
+    transform: scale(0.8, 0.9) translate(0, -0.05)
+
+  2AF7..2AF8:
+    font: symbola
+    transform: scale(0.8) translate(0, -0.05)
