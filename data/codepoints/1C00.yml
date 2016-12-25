@@ -255,8 +255,10 @@
     combining: true
     transform: translate(0.3, 0.1)
 
-  # TODO: early mapping
-  1DF6..1DF9: tofu
+  # Early mapping
+  1DF6..1DF9:
+    svg: true
+    combining: true
 
   1DFA..1DFA: notdef
 
