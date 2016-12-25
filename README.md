@@ -2,6 +2,7 @@
 
 * ArmenianEternity.svg
 	* link: https://commons.wikimedia.org/wiki/File:ArmenianEternity.svg
+	* author: AnonMoos
 	* license: Public Domain
 	* for: u058d.svg
 * SYRIAC-LETTER-MALAYALAM-NGA.png
@@ -64,3 +65,18 @@
 	* author: 00 وديع
 	* license: CC0 1.0
 	* for: u0de6.svg .. u0def.svg
+* Open Sans
+	* link: http://www.opensans.com/
+	* author: Steve Matteson and Google Corporation
+	* license: Apache License v2
+	* for: Control characters
+* Linux Libertine
+	* link: http://www.linuxlibertine.org/
+	* author: Libertine Open Fonts Project and Philipp H. Poll
+	* license: SIL OFL 1.1
+	* for: Poster Design
+* Cinzel
+	* link: http://ndiscovered.com/cinzel/
+	* author: Natanael Gama
+	* license: SIL OFL 1.1
+	* for: Poster Design
