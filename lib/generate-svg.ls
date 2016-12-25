@@ -9,21 +9,60 @@ require! {
   xmlserializer
   'opentype.js'
   'camel-case'
+  util
 }
+
+font-counts = new Map!
 
 font-data =
   doulos:
+    name: 'Doulos SIL 5.000'
+    URL: 'http://software.sil.org/doulos/'
+    author: 'SIL International'
+    license: 'SIL OFL 1.1'
+    licenseURL: 'http://scripts.sil.org/ofl'
     path: 'Doulos/DoulosSIL-5.000/DoulosSIL-R.ttf'
   symbola:
+    name: 'Symbola'
+    URL: 'http://users.teilar.gr/~g1951d/'
+    author: 'George Douros'
+    license: 'Permissive License'
+    licenseURL: 'http://users.teilar.gr/~g1951d/'
     path: 'Symbola/Symbola.ttf'
   ipamjm:
+    name: 'IPA mj Mincho'
+    URL: 'http://mojikiban.ipa.go.jp/1300.html'
+    author: 'Information-technology Promotion Agency, Japan (IPA)'
+    license: 'IPA Font License v1.0'
+    licenseURL: 'http://ipafont.ipa.go.jp/ipa_font_license_v1-html'
     path: 'IPAmjm/ipamjm.ttf'
   ipaexm:
+    name: 'IPA ex Mincho'
+    URL: 'http://mojikiban.ipa.go.jp/1300.html'
+    author: 'Information-technology Promotion Agency, Japan (IPA)'
+    license: 'IPA Font License v1.0'
+    licenseURL: 'http://ipafont.ipa.go.jp/ipa_font_license_v1-html'
     path: 'IPAexm/ipaexm00201/ipaexm.ttf'
   hanamin-a:
+    name: 'Hanazono Mincho'
+    URL: 'http://fonts.jp/hanazono/'
+    author: 'GlyphWiki Project'
+    license: 'SIL OFL 1.1'
+    licenseURL: 'http://scripts.sil.org/ofl'
     path: 'hanazono/HanaMinA.ttf'
   free-serif:
+    name: 'GNU FreeFont'
+    URL: 'https://www.gnu.org/software/freefont/'
+    author: 'GNU FreeFont Contributors'
+    license: 'GPLv3+FE'
+    licenseURL: 'https://www.gnu.org/software/freefont/license.html'
     path: 'FreeFont/freefont-20120503/FreeSerif.ttf'
+  noto:
+    name: 'Noto Fonts'
+    URL: 'https://www.google.com/get/noto/'
+    author: 'Google Inc.'
+    license: 'SIL OFL 1.1'
+    licenseURL: 'http://scripts.sil.org/ofl'
   noto-hebrew:
     path: 'Noto/NotoSansHebrew-Regular.ttf'
   noto-arabic:
@@ -87,59 +126,172 @@ font-data =
   noto-cjk-jp:
     path: 'Noto/NotoSansCJKjp-Light.otf'
   scheherazade:
+    name: 'Scheherazade 2.100'
+    URL: 'http://software.sil.org/scheherazade/'
+    author: 'SIL International'
+    license: 'SIL OFL 1.1'
+    licenseURL: 'http://scripts.sil.org/ofl'
     path: 'Scheherazade/Scheherazade-2.100/Scheherazade-Regular.ttf'
   scheherazade-bold:
     path: 'Scheherazade/Scheherazade-2.100/Scheherazade-Bold.ttf'
   annapurna:
+    name: 'Annapurna SIL 1.201'
+    URL: 'http://software.sil.org/annapurna/'
+    author: 'SIL International'
+    license: 'SIL OFL 1.1'
+    licenseURL: 'http://scripts.sil.org/ofl'
     path: 'Annapurna/AnnapurnaSIL-1.201/AnnapurnaSIL-Regular.ttf'
   manjari:
+    name: 'Manjari'
+    URL: 'https://github.com/santhoshtr/Manjari'
+    author: 'Santhosh Thottingal, Kavya Manohar'
+    license: 'SIL OFL 1.1'
+    licenseURL: 'http://scripts.sil.org/ofl'
     path: 'Manjari/Manjari-Regular.ttf'
   norasi:
+    name: 'Norasi'
+    URL: 'https://linux.thai.net/projects/fonts-tlwg'
+    author: 'The National Font Project (v.beta), Yannis Haralambous, Virach Sornlertlamvanich, and Anutara Tantraporn, with modification by Thai Linux Working Group (TLWG)'
+    license: 'GPLv2+FE'
+    licenseURL: 'https://github.com/tlwg/fonts-tlwg/blob/master/COPYING'
     path: 'tlwg/ttf-tlwg-0.5.0/Norasi.ttf'
   jomolhari:
+    name: 'Jomolhari 000.003c'
+    URL: 'https://collab.itc.virginia.edu/wiki/tibetan-script/Jomolhari.html'
+    author: 'THL Staff'
+    license: 'SIL OFL 1.1'
+    licenseURL: 'http://scripts.sil.org/ofl'
     path: 'Jomolhari/Jomolhari-alpha3c-0605331.ttf'
   padauk:
+    name: 'Padauk 3.002'
+    URL: 'http://software.sil.org/padauk/'
+    author: 'SIL International'
+    license: 'SIL OFL 1.1'
+    licenseURL: 'http://scripts.sil.org/ofl'
     path: 'Padauk/padauk-3.002/PadaukBook-Regular.ttf'
   quivira:
+    name: 'Quivira 4.1'
+    URL: 'http://www.quivira-font.com/'
+    author: 'Alexander Lange'
+    license: 'Permissive License'
+    licenseURL: 'http://www.quivira-font.com/notes.php'
     path: 'Quivira/Quivira.otf'
   unbatang:
+    name: 'UnBatang'
+    URL: 'https://kldp.net/unfonts/'
+    author: 'Koanughi Un, Won-kyu Park, and Jungshik Shin'
+    license: 'GPLv2'
+    licenseURL: 'http://www.gnu.org/licenses/gpl.txt'
     path: 'UnFonts/un-fonts/UnBatang.ttf'
   abyssinica:
+    name: 'Abyssinica SIL 1.500'
+    URL: 'http://software.sil.org/abyssinica/'
+    author: 'SIL International'
+    license: 'SIL OFL 1.1'
+    licenseURL: 'http://scripts.sil.org/ofl'
     path: 'Abyssinica/AbyssinicaSIL-1.500/AbyssinicaSIL-R.ttf'
   hancom:
+    name: 'HCRBatang'
+    URL: 'http://www.hancom.com/cs_center/csDownload.do'
+    author: 'Hancom INC(HNC)'
+    license: 'Permissive License'
+    licenseURL: 'http://www.hancom.com/cs_center/csDownload.do'
     path: 'Hancom/HANBatang.ttf'
   mongolian-script:
+    name: 'MongolianScript'
+    URL: 'http://mongol.openmn.org/'
+    author: 'Myataviin Erdenechimeg and Bolorsoft LLC'
+    license: 'SIL OFL 1.1'
+    licenseURL: 'http://scripts.sil.org/ofl'
     path: 'MongolianScript/fonts/MongolianScript.ttf'
   namdhinggo:
+    name: 'Namdhinggo SIL 1.004'
+    URL: 'http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=NamdhinggoSIL'
+    author: 'SIL International'
+    license: 'SIL OFL 1.1'
+    licenseURL: 'http://scripts.sil.org/ofl'
     path: 'Namdhinggo/NamdhinggoSIL/NamdhinggoSIL-R.ttf'
   dai-banna:
+    name: 'Dai Banna SIL 2.200'
+    URL: 'http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=daibannasil'
+    author: 'SIL International'
+    license: 'SIL OFL 1.1'
+    licenseURL: 'http://scripts.sil.org/ofl'
     path: 'DaiBanna/dai-banna-2.200/DBSILBR.ttf'
   nishiki:
+    name: 'Nishiki-teki Font'
+    URL: 'http://hwm3.gyao.ne.jp/shiroi-niwatori/nishiki-teki.htm'
+    author: 'Umihotaru'
+    license: 'Permissive License'
+    licenseURL: 'http://hwm3.gyao.ne.jp/shiroi-niwatori/faq.txt'
     path: 'Nishiki/nishiki-teki_3_00/nishiki-teki.ttf'
   mingzat:
+    name: 'Mingzat 0.100'
+    URL: 'http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=Mingzat'
+    author: 'SIL International'
+    license: 'SIL OFL 1.1'
+    licenseURL: 'http://scripts.sil.org/ofl'
     path: 'Mingzat/Mingzat/Mingzat-R.ttf'
   ponomar:
+    name: 'Ponomar Unicode'
+    URL: 'http://www.ponomar.net/cu_support/fonts.html'
+    author: 'Vlad Dorosh, Aleksandr Andreev, Yuri Shardt, and Nikita Simmons'
+    license: 'SIL OFL 1.1'
+    licenseURL: 'http://scripts.sil.org/ofl'
     path: 'PonomarUnicode/PonomarUnicode.ttf'
   junicode:
+    name: 'Junicode'
+    URL: 'http://junicode.sourceforge.net/'
+    author: 'Peter S. Baker'
+    license: 'SIL OFL 1.1'
+    licenseURL: 'http://scripts.sil.org/ofl'
     path: 'junicode/junicode/fonts/Junicode.ttf'
   btc:
+    name: 'BTC.ttf'
+    URL: 'https://en.bitcoin.it/wiki/Template:BTC'
+    author: 'theymos'
+    license: 'Public domain'
+    licenseURL: ''
     path: 'BTC/BTC.ttf'
   observer-symbol:
+    name: 'ObserverSymbol'
+    URL: 'https://www.simongriffee.com/notebook/international-symbol-observer/'
+    author: 'Simon Griffee'
+    license: 'CC0 1.0 Universal'
+    licenseURL: 'https://creativecommons.org/publicdomain/zero/1.0/'
     path: 'ObserverSymbol/ObserverSymbol.ttf'
   analecta:
+    name: 'Analecta'
+    URL: 'http://users.teilar.gr/~g1951d/'
+    author: 'George Douros'
+    license: 'Permissive License'
+    licenseURL: 'http://users.teilar.gr/~g1951d/'
     path: 'Analecta/Analecta.ttf'
   babel-stone:
+    name: 'BabelStone Han'
+    URL: 'http://www.babelstone.co.uk/Fonts/Han.html'
+    author: 'Arphic Technology Co., Ltd.'
+    license: 'Arphic Public License'
+    licenseURL: 'http://ftp.gnu.org/non-gnu/chinese-fonts-truetype/LICENSE'
     path: 'BabelStoneHan/BabelStoneHan.ttf'
   open-sans:
+    name: 'Open Sans'
+    URL: 'http://www.opensans.com/'
+    author: 'Steve Matteson and Google Corporation'
+    license: 'Apache License v2'
+    licenseURL: 'http://www.apache.org/licenses/LICENSE-2.0'
     path: 'OpenSans/OpenSans-Bold.ttf'
 
 load-fonts = ->
   Promise.all do
     for let name, {path: short-path} of font-data
-      new Promise (resolve, reject) ->
-        full-path = path.join __dirname, \../fonts, short-path
-        opentype.load full-path, (error, font) ->
-          if error then reject error else resolve "#name": font
+      if short-path is undefined
+        Promise.resolve {}
+      else
+        new Promise (resolve, reject) ->
+          full-path = path.join __dirname, \../fonts, short-path
+          opentype.load full-path, (error, font) ->
+            if error then reject error else resolve "#name": font
   .then (fonts) ->
     new Promise (resolve, reject) ->
       log 'All fonts loaded.'
@@ -308,6 +460,19 @@ module.exports = (codepoint-infos) ->
         glyph-path = glyph-info.glyph.get-path (block-size - width) / 2, 25, block-size .to-path-data!
         path = paper.path glyph-path
 
+        font-count-name =
+          if glyph-info.name.slice(0, 4) is 'noto'
+            'noto'
+          else if glyph-info.name.slice(0, 12) is 'scheherazade'
+            'scheherazade'
+          else
+            glyph-info.name
+
+        unless font-counts.has font-count-name
+          font-counts.set font-count-name, 0
+
+        font-counts.set font-count-name, 1 + font-counts.get font-count-name
+
         # Transform
         transform = Snap.matrix 1, 0, 0, 1, 0, 0
         # SVG Transform operation occurs by last-in-first-out order
@@ -370,6 +535,14 @@ module.exports = (codepoint-infos) ->
   paper.node.set-attribute 'viewBox', '0 0 3840 3840'
   paper.node.set-attribute 'width', 7680
   paper.node.set-attribute 'height', 7680
+
+  font-counts-list = Array.from font-counts
+  font-counts-list.sort (a, b) -> b.1 - a.1
+  font-counts-text = font-counts-list.map ([font-name, font-count]) ->
+    font = font-data[font-name]
+    "#{font.name} by #{font.author} licensed under #{font.license}"
+  .join '\n'
+  console.log font-counts-text
 
   log 'Rendering SVG...'
 
