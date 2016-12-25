@@ -88,6 +88,8 @@ font-data =
     path: 'Noto/NotoSansCJKjp-Light.otf'
   scheherazade:
     path: 'Scheherazade/Scheherazade-2.100/Scheherazade-Regular.ttf'
+  scheherazade-bold:
+    path: 'Scheherazade/Scheherazade-2.100/Scheherazade-Bold.ttf'
   annapurna:
     path: 'Annapurna/AnnapurnaSIL-1.201/AnnapurnaSIL-Regular.ttf'
   manjari:

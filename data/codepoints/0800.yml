@@ -76,9 +76,64 @@
 
   08BE..08D2: notdef
 
-  08D3: tofu # TODO: early mapping http://www.unicode.org/L2/L2016/16044-aldani-with-cmts.pdf
+  # Arabic text used:
+  # 08D4: الرب
+  # 08D8: نِ
+  # 08DA: الثالثة
+  # 08DB: السجدة
+  # 08DC: النصف
+  # 08DD: سكتة
+  # 08DE: قف
+  # 08DF: وقفة
 
-  08D4..08E2: tofu # TODO: http://www.unicode.org/L2/L2014/14105r-pakistani-koranic-marks.pdf
+  08D3: # Early mapping
+    font: scheherazade
+    codepoint: 0x06E5
+    combining: true
+    transform: translate(0, 0.05)
+
+  08D4:
+    svg: true
+    combining: true
+
+  08D5:
+    font: scheherazade-Bold
+    codepoint: 0x0635
+    combining: true
+    transform: scale(0.45) translate(0, -0.9)
+
+  08D6:
+    font: scheherazade-Bold
+    codepoint: 0x0639
+    combining: true
+    transform: scale(0.45) translate(0, -1.0)
+
+  08D7:
+    font: scheherazade-Bold
+    codepoint: 0x0642
+    combining: true
+    transform: scale(0.45) translate(0, -0.9)
+
+  08D8..08DF:
+    svg: true
+    combining: true
+
+  08E0:
+    font: scheherazade-Bold
+    codepoint: 0x0602
+    combining: true
+    transform: scale(0.6) translate(0, -0.7)
+
+  08E1:
+    font: scheherazade-Bold
+    codepoint: 0x0603
+    combining: true
+    transform: scale(0.6) translate(0, -0.7)
+
+  08E2:
+    svg: true
+    box: true
+    transform: scale(0.8)
 
   08E3..08FF:
     font: scheherazade
