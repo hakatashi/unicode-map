@@ -203,9 +203,12 @@
   0AE4..0AE5: notdef
   0AF2..0AF8: notdef
 
-  0AF9: tofu
+  0AF9:
+    svg: true
 
-  0AFA..0AFF: tofu # TODO early mapping http://www.unicode.org/L2/L2015/15103r-gujarati-arabic-translit.pdf
+  0AFA..0AFF: # Early mapping
+    svg: true
+    combining: true
 
 # Oriya
 
