@@ -249,11 +249,97 @@
     combining: true
     transform: translate(0.2, 0)
 
-  # TODO: more serify font
-  1DE7..1DF5:
-    font: nishiki
+  1DE7:
+    font: free-serif
     combining: true
-    transform: translate(0.3, 0.1)
+    codepoint: 0x03B1
+    transform: scale(0.4) translate(0, -0.75)
+
+  1DE8:
+    font: free-serif
+    combining: true
+    codepoint: 0x62
+    transform: scale(0.4) translate(0, -0.75)
+
+  1DE9:
+    font: free-serif
+    combining: true
+    codepoint: 0x03B2
+    transform: scale(0.4) translate(0, -0.75)
+
+  1DEA:
+    font: free-serif
+    combining: true
+    codepoint: 0x0259
+    transform: scale(0.4) translate(0, -0.75)
+
+  1DEB:
+    font: free-serif
+    combining: true
+    codepoint: 0x66
+    transform: scale(0.4) translate(0, -0.75)
+
+  1DEC:
+    font: quivira
+    combining: true
+    codepoint: 0xAB38
+    transform: scale(0.4) translate(0, -0.75)
+
+  # TODO: Add slash
+  1DED:
+    font: free-serif
+    combining: true
+    codepoint: 0x6F
+    transform: scale(0.4) translate(0, -0.75)
+
+  1DEE:
+    font: free-serif
+    combining: true
+    codepoint: 0x70
+    transform: scale(0.4) translate(0, -0.85)
+
+  1DEF:
+    font: free-serif
+    combining: true
+    codepoint: 0x0283
+    transform: scale(0.4) translate(0, -0.85)
+
+  # TODO: Add slash
+  1DF0:
+    font: free-serif
+    combining: true
+    codepoint: 0x75
+    transform: scale(0.4) translate(0, -0.75)
+
+  1DF1:
+    font: free-serif
+    combining: true
+    codepoint: 0x77
+    transform: scale(0.4) translate(0, -0.75)
+
+  1DF2:
+    font: free-serif
+    combining: true
+    codepoint: 0xE4
+    transform: scale(0.4) translate(0, -0.75)
+
+  1DF3:
+    font: free-serif
+    combining: true
+    codepoint: 0xF6
+    transform: scale(0.4) translate(0, -0.75)
+
+  1DF4:
+    font: free-serif
+    combining: true
+    codepoint: 0xFC
+    transform: scale(0.4) translate(0, -0.75)
+
+  1DF5:
+    font: free-serif
+    combining: true
+    codepoint: 0x02D4
+    transform: translate(0, -0.5)
 
   # Early mapping
   1DF6..1DF9:
