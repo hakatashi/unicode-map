@@ -119,7 +119,8 @@
 
   3100..3104: notdef
 
-  312E..312F: tofu # Early mapping
+  312E..312F: # Early mapping
+    svg: true
 
 # Hangul Compatibility Jamo
 
