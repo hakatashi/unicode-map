@@ -60,7 +60,8 @@
 1900..194F:
   font: namdhinggo
 
-  191D..191E: tofu
+  191D..191E:
+    svg: true
 
   191F: notdef
 
