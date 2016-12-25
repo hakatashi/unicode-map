@@ -130,6 +130,8 @@ font-data =
     path: 'Analecta/Analecta.ttf'
   babel-stone:
     path: 'BabelStoneHan/BabelStoneHan.ttf'
+  open-sans:
+    path: 'OpenSans/OpenSans-Bold.ttf'
 
 load-fonts = ->
   Promise.all do
