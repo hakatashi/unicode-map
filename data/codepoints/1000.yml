@@ -294,7 +294,18 @@
   font: noto-runic
   transform: scale(0.8)
 
-  16F1..16F8: tofu
+  16F1..16F8:
+    svg: true
+
+    16F2:
+      font: noto-runic
+      codepoint: 0x16CB
+      transform: scale(-0.8, 0.8)
+
+    16F7:
+      font: noto-runic
+      codepoint: 0x16B4
+      transform: scale(0.8, -0.8)
 
   16F9..16FF: notdef
 
