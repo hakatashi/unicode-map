@@ -135,10 +135,75 @@
     box: true
     transform: scale(0.8)
 
-  08E3..08FF:
+  08E3:
     font: scheherazade
     combining: true
-    transform: scale(0.7) translate(0, -0.2)
+    transform: translate(0, -0.4)
+
+  08E4..08E5:
+    font: scheherazade
+    combining: true
+    transform: translate(-0.05, -0.05)
+
+  08E6:
+    font: scheherazade
+    combining: true
+    transform: translate(-0.1, -0.4)
+
+  08E7..08E8:
+    font: scheherazade
+    combining: true
+    transform: translate(-0.05, 0)
+
+  08E9:
+    font: scheherazade
+    combining: true
+    transform: translate(-0.1, -0.4)
+
+  08EA..08EC:
+    font: scheherazade
+    combining: true
+    transform: translate(-0.05, -0.05)
+
+  08ED..08EF:
+    font: scheherazade
+    combining: true
+    transform: translate(-0.05, -0.4)
+
+  08F0..08F1:
+    font: scheherazade
+    combining: true
+    transform: translate(-0.05, -0.05)
+
+  08F2:
+    font: scheherazade
+    combining: true
+    transform: translate(-0.05, -0.4)
+
+  08F3..08F5:
+    font: scheherazade
+    combining: true
+    transform: translate(-0.05, -0.05)
+
+  08F6:
+    font: scheherazade
+    combining: true
+    transform: translate(-0.05, -0.4)
+
+  08F7..08F8:
+    font: scheherazade
+    combining: true
+    transform: translate(-0.05, -0.05)
+
+  08F9..08FA:
+    font: scheherazade
+    combining: true
+    transform: translate(-0.05, -0.4)
+
+  08FB..08FF:
+    font: scheherazade
+    combining: true
+    transform: translate(-0.05, -0.05)
 
 # Devanagari
 
