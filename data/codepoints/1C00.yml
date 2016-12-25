@@ -175,11 +175,14 @@
     combining: true
     transform: translate(0.15, 0.3)
 
-  # TODO: early mapping
-  1CF7: tofu
+  # Early mapping
+  1CF7:
+    svg: true
+    combining: true
 
-  # TODO: やるだけ
-  1CF8..1CF9: tofu
+  1CF8..1CF9:
+    svg: true
+    combining: true
 
   1CFA..1CFF: notdef
 
