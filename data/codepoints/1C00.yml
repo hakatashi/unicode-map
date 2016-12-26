@@ -177,6 +177,7 @@
 
   # Early mapping
   1CF7:
+    early: true
     svg: true
     combining: true
 
@@ -343,6 +344,7 @@
 
   # Early mapping
   1DF6..1DF9:
+    early: true
     svg: true
     combining: true
 

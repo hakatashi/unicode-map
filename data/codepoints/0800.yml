@@ -44,17 +44,21 @@
 # Syriac Extensions (early mapping)
 
 0860..087F:
+  early: true
   svg: true
   transform: scale(0.8)
 
   0863:
+    early: true
     svg: true
 
   0866:
+    early: true
     svg: true
     transform: scale(0.9)
 
   0867:
+    early: true
     svg: true
 
   086B..087F: notdef
@@ -87,6 +91,7 @@
   # 08DF: وقفة
 
   08D3: # Early mapping
+    early: true
     font: scheherazade
     codepoint: 0x06E5
     combining: true
@@ -397,6 +402,7 @@
   09E4..09E5: notdef
 
   09FC..09FD: # early mapping
+    early: true
     svg: true
     transform: scale(0.8)
 

@@ -337,6 +337,9 @@ module.exports = (codepoint-infos) ->
   anchors = paper.group!
   glyphs = paper.group!
 
+  defined-characters = 0
+  early-mapped-characters = 0
+
   for code-point from 0 til 128 * 128
     {x, y} = hilbert.xy code-point
 
@@ -345,6 +348,12 @@ module.exports = (codepoint-infos) ->
     glyph-infos =
       for let name, font of fonts
         {name, font, glyph: font.char-to-glyph String.from-code-point(codepoint-info?.codepoint or code-point)}
+
+    unless codepoint-info.type is \notdef
+      defined-characters++
+
+    if codepoint-info.early is true
+      early-mapped-characters++
 
     if codepoint-info?.type is \notdef
       notdef-group = paper.group!
@@ -543,6 +552,9 @@ module.exports = (codepoint-infos) ->
     "#{font.name} by #{font.author} licensed under #{font.license}"
   .join '\n'
   console.log font-counts-text
+
+  log "Defined Characters: #{defined-characters}"
+  log "Early Mapped Characters: #{early-mapped-characters}"
 
   log 'Rendering SVG...'
 

@@ -102,6 +102,7 @@
     transform: scale(0.8) translate(0.15, -0.1)
 
   0A76: # early mapping
+    early: true
     svg: true
     transform: scale(0.8)
 
@@ -207,6 +208,7 @@
     svg: true
 
   0AFA..0AFF: # Early mapping
+    early: true
     svg: true
     combining: true
 
@@ -343,6 +345,7 @@
   0BBA..0BBB: notdef
 
   0BBC: # early mapping
+    early: true
     svg: true
     combining: true
 

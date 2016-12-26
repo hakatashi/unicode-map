@@ -24,7 +24,7 @@ flatten = (object, {start, end}) ->
     model.short-name .= split '\n' .filter (.length > 0)
 
   if model.type in <[font svg]>
-    for transform in <[transform scale skew translate rotate combining box]>
+    for transform in <[transform scale skew translate rotate combining box early]>
       if object[transform]?
         model[transform] = object[transform]
 

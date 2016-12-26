@@ -383,10 +383,12 @@
   07FB..07FC: notdef
 
   07FD: # early mapping
+    early: true
     svg: true
     combining: true
     transform: scale(0.7) translate(0, 0.1)
 
   07FE..07FF: # early mapping
+    early: true
     svg: true
     transform: scale(0.8)

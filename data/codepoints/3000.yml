@@ -120,6 +120,7 @@
   3100..3104: notdef
 
   312E..312F: # Early mapping
+    early: true
     svg: true
 
 # Hangul Compatibility Jamo
