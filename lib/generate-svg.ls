@@ -521,10 +521,33 @@ module.exports = (codepoint-infos) ->
 
         glyphs.append font-group
 
-    if process.env.DEBUG isnt \true and codepoint-info?.type isnt undefined
-      anchor = paper.rect -0.5, -0.5, 1, 1
-      anchor.transform "translate(#{(x + 1) * block-size} #{(y + 1) * block-size}) rotate(45deg)"
-      anchors.append anchor
+    if codepoint-info?.type isnt undefined
+      temp-anchors = []
+      anchor-group = paper.group!
+
+      anchor-size = 2
+
+      if x isnt 0x7F
+        right-anchor1 = paper.line block-size, 0, block-size, anchor-size
+        anchor-group.append right-anchor1
+
+        right-anchor2 = paper.line block-size, block-size - anchor-size, block-size, block-size
+        anchor-group.append right-anchor2
+
+      if y isnt 0x7F
+        bottom-anchor1 = paper.line 0, block-size, anchor-size, block-size
+        anchor-group.append bottom-anchor1
+
+        bottom-anchor2 = paper.line block-size - anchor-size, block-size, block-size, block-size
+        anchor-group.append bottom-anchor2
+
+      if x % 16 is 0 and x isnt 0 and y % 16 is 0 and y isnt 0
+        big-anchor = paper.rect -anchor-size, -anchor-size, anchor-size * 2, anchor-size * 2
+        big-anchor.transform 'rotate(45deg)'
+        anchor-group.append big-anchor
+
+      anchor-group.transform "translate(#{x * block-size} #{y * block-size})"
+      anchors.append anchor-group
 
     if path-string.length is 0
       path-string += "M #{(x + 0.5) * block-size} #{(y + 0.5) * block-size} "
@@ -533,12 +556,16 @@ module.exports = (codepoint-infos) ->
 
     progress.tick 128 if (code-point + 1) % 128 is 0
 
+  anchors.attr do
+    stroke-width: '0.5px'
+    stroke: 'black'
+
   path = paper.path path-string
   path.attr do
     fill: 'none'
     stroke: 'black'
-    stroke-opacity: 1
-    stroke-width: 0.2
+    stroke-opacity: 0.5
+    stroke-width: 0.5
   path.prepend-to paper
 
   paper.node.set-attribute 'viewBox', '0 0 3840 3840'
