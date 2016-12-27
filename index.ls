@@ -24,11 +24,11 @@ now ->
   log 'Converting to PNG...'
 
   Promise.all [
-    * fs.write-file \test.svg svg
+    * fs.write-file \chart.svg svg
     * convert-to-png svg
       .then (png) ->
         log 'Writing PNG to file...'
-        fs.write-file \test.png png
+        fs.write-file \chart.png png
     * compose-poster svg
       .then (poster) ->
         log 'Writing poster.svg to file...'

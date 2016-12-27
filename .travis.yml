@@ -28,7 +28,10 @@ deploy:
   provider: releases
   api_key:
     secure: Irn5gzraLVLX2JwCIJtWcjO7mj9rj+u6EbczQYtfpif/Q7mS1L3En1IcTBwakqa1RYmIRzH/91HWMCDRIH6JMPjxdzcKsa+1BFtJys5/yzpMKT2JQIvBtydyqvCZ/vzIe1ehdvsqVEtaCGYipcEZjaS7dDNKjOAN1p1r2czxvt/5pPg2suLfse7lMEuimXDYDJUt4TbaNT1i1p6ygGZxTlBaoQ4AIWh4PqzoTAGmSJcr/pQoWycgDW60T4xujTajouWFEeW3xPOH5mLfAuwDL6egndqGMiBsFfVIJbICCjiz1Zn2p0/dcDKWT3M8qSf0QNoYk0aUzkL70Bn4roLFaqs3S0x5BRfu5o5eFbW9E6GafBjekB6uBRon68zutkCtTY+5nnrD64RtIhKbbTBY+9woO2U4AZCvv453hTd4HBpHFAlXE4J4SjprUW4cEP/6vqObD372/TwopdW/anCL7Ygj3Dd3I6HChBVsn1SPrFgCnOIiYnrNHKlyr941XSr0UUSQBsOzjGUFqjTysVAsdji6h5eQ0TD4V/wrJ1qtc+s77kDJIBP/fLNsHbfpxCzBmjkR/jR91TsJiSOev4WbkYouuQdU+nptBorpMwOuq2MFlIKbpxlix5bgnVJ1VmcRzYSiB+/WGfuxmdmcTYl48VsBxT5GolO+MV1j3grFDao=
-  file: test.png
+  file:
+    - chart.png
+    - chart.svg
+    - poster.svg
   skip_cleanup: true
   on:
     tags: true
