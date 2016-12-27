@@ -21,14 +21,10 @@ now ->
   generate-svg codepoints
 
 .then (svg) ->
-  log 'Converting to PNG...'
+  log 'Composing Poster...'
 
   Promise.all [
     * fs.write-file \chart.svg svg
-    * convert-to-png svg
-      .then (png) ->
-        log 'Writing PNG to file...'
-        fs.write-file \chart.png png
     * compose-poster svg
       .then (poster) ->
         log 'Writing poster.svg to file...'
