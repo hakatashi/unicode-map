@@ -5,6 +5,7 @@ require! {
   './lib/load-codepoints'
   './lib/generate-svg'
   './lib/convert-to-png'
+  './lib/compose-poster'
 }
 
 now ->
@@ -28,6 +29,10 @@ now ->
       .then (png) ->
         log 'Writing PNG to file...'
         fs.write-file \test.png png
+    * compose-poster svg
+      .then (poster) ->
+        log 'Writing poster.svg to file...'
+        fs.write-file \poster.svg poster
   ]
 
 .then ->

@@ -1,5 +1,4 @@
 require! {
-  path
   'mz/fs'
   './util': {log, to-hex}
   jsdom
@@ -578,10 +577,21 @@ module.exports = (codepoint-infos) ->
     font = font-data[font-name]
     "#{font.name} by #{font.author} licensed under #{font.license}"
   .join '\n'
-  console.log font-counts-text
+  console.log """
 
-  log "Defined Characters: #{defined-characters}"
-  log "Early Mapped Characters: #{early-mapped-characters}"
+    ====== License notation ======
+
+    #{font-counts-text}
+  """
+
+  console.log """
+
+    ====== Statistics ======
+
+  """
+
+  console.log "Defined Characters: #{defined-characters}"
+  console.log "Early Mapped Characters: #{early-mapped-characters}"
 
   log 'Rendering SVG...'
 
