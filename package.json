@@ -4,7 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
-    "build": "lsc index.ls",
+    "build": "node --max-old-space-size=4096 node_modules/livescript/bin/lsc index.ls",
     "watch": "concurrently \"npm run chokidar\" \"npm run livereload\"",
     "chokidar": "chokidar \"data/**/*.yml\" \"lib/*.ls\" -c \"lsc index.ls\"",
     "livereload": "livereload \"test.svg\" -d",
