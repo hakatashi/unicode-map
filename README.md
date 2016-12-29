@@ -1,3 +1,30 @@
+# The Unicode Map Project
+
+![](https://i.imgur.com/7eAXxbc.jpg)
+
+The bunch of Unicode characters in a poster, on a [Hilbert curve](https://en.wikipedia.org/wiki/Hilbert_curve).
+
+## Download the poster data
+
+Preparing...
+
+(The outdated and inaccessible version of the builds are available from the [Releases page](https://github.com/hakatashi/unicode-map/releases).)
+
+## How to build the poster
+
+Install [Node.js 6+](https://nodejs.org/) and run:
+
+    npm install
+    npm run build
+
+**WARN: This command will download almost 1GB of the font data from the internet, and cache them into `fonts` subdirectory.**
+
+## License
+
+The overall repository is licensed under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.txt).
+
+The **soucre codes** (aka. LiveScript codes) of this repository are also licensed under [MIT License](https://opensource.org/licenses/MIT).
+
 ## Materials
 
 * ArmenianEternity.svg
