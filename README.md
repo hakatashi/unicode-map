@@ -1,5 +1,10 @@
 # The Unicode Map Project
 
+[![Build Status][travis-image]][travis-url]
+
+[travis-image]: https://travis-ci.org/hakatashi/unicode-map.svg?branch=master
+[travis-url]: https://travis-ci.org/hakatashi/unicode-map
+
 ![](https://i.imgur.com/7eAXxbc.jpg)
 
 The bunch of Unicode characters in a poster, on a [Hilbert curve](https://en.wikipedia.org/wiki/Hilbert_curve).
