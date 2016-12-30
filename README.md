@@ -28,7 +28,7 @@ Install [Node.js 6+](https://nodejs.org/) and run:
 
 The overall repository is licensed under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.txt) by hakatashi.
 
-The files not in the `glyphs` subdirectory are also licensed under [MIT License](https://opensource.org/licenses/MIT) by hakatashi.
+The files not in the `data/glyphs` subdirectory are also licensed under [MIT License](https://opensource.org/licenses/MIT) by hakatashi.
 
 ## Materials
 

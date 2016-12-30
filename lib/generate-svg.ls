@@ -297,11 +297,11 @@ load-fonts = ->
       resolve Object.assign {}, ...fonts
 
 load-glyphs = ->
-  fs.readdir path.join __dirname, \../glyphs
+  fs.readdir path.join __dirname, \../data/glyphs
   .then (files) ->
     Promise.all do
       for let file in files when path.extname(file) is '.svg'
-        fs.read-file path.join __dirname, \../glyphs, file .then (glyph) ->
+        fs.read-file path.join __dirname, \../data/glyphs, file .then (glyph) ->
           "#{camel-case path.basename file, '.svg'}": glyph
   .then (glyphs) ->
     log 'All glyphs loaded.'

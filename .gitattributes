@@ -15,5 +15,5 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
-layouts/*.ai filter=lfs diff=lfs merge=lfs -text
-layouts/*.svg filter=lfs diff=lfs merge=lfs -text
+data/layouts/*.ai filter=lfs diff=lfs merge=lfs -text
+data/layouts/*.svg filter=lfs diff=lfs merge=lfs -text

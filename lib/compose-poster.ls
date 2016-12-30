@@ -7,7 +7,7 @@ require! {
 }
 
 module.exports = (chart-svg) ->
-  poster-svg <- fs.read-file 'layouts/bmp-1.svg' .then
+  poster-svg <- fs.read-file 'data/layouts/bmp-1.svg' .then
 
   resolve, reject <- new Promise _
 

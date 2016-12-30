@@ -34,8 +34,8 @@ node_modules
 *.pdf
 
 fonts
-!glyphs/*.svg
-!layouts/*.svg
+!data/glyphs/*.svg
+!data/layouts/*.svg
 
 # =========================
 # Operating System Files
