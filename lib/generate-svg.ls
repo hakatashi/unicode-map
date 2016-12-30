@@ -469,9 +469,9 @@ module.exports = (codepoint-infos) ->
         path = paper.path glyph-path
 
         font-count-name =
-          if glyph-info.name.slice(0, 4) is 'noto'
+          if glyph-info.name.starts-with 'noto'
             'noto'
-          else if glyph-info.name.slice(0, 12) is 'scheherazade'
+          else if glyph-info.name.starts-with 'scheherazade'
             'scheherazade'
           else
             glyph-info.name

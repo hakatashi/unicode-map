@@ -5,6 +5,7 @@ require! {
   './lib/load-codepoints'
   './lib/generate-svg'
   './lib/convert-to-png'
+  './lib/convert-to-pdf'
   './lib/compose-poster'
 }
 
@@ -21,20 +22,29 @@ now ->
   generate-svg codepoints
 
 .then (svg) ->
-  log 'Converting to PNG...'
-
   Promise.all [
-    * fs.write-file \chart.svg svg
-    * convert-to-png svg
+    * now ->
+        log 'Writing chart.svg'
+        fs.write-file \chart.svg svg
+    * now ->
+        log 'Generating chart.png...'
+        convert-to-png svg
       .then (png) ->
-        log 'Writing PNG to file...'
+        log 'Writing chart.png...'
         fs.write-file \chart.png png
-    * compose-poster svg
+    * now ->
+        log 'Composing poster.svg...'
+        compose-poster svg
       .then (poster) ->
-        log 'Writing poster.svg to file...'
+        log 'Writing poster.svg...'
         fs.write-file \poster.svg poster
+      .then ->
+        log 'Generating poster.pdf...'
+        convert-to-pdf \poster.svg \poster.pdf
   ]
 
 .then ->
   log 'Done.'
-.catch (error) -> throw error
+
+.catch (error) ->
+  console.error error
