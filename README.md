@@ -26,9 +26,9 @@ Install [Node.js 6+](https://nodejs.org/) and run:
 
 ## License
 
-The overall repository is licensed under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.txt).
+The overall repository is licensed under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.txt) by hakatashi.
 
-The **soucre codes** (aka. LiveScript codes) of this repository are also licensed under [MIT License](https://opensource.org/licenses/MIT).
+The files not in the `glyphs` subdirectory are also licensed under [MIT License](https://opensource.org/licenses/MIT) by hakatashi.
 
 ## Materials
 
