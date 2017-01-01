@@ -1,21 +1,33 @@
-# The Unicode Map Project
+# The Unicode Map Project [![Build Status][travis-image]][travis-url]
 
-[![Build Status][travis-image]][travis-url]
+The bunch of Unicode characters in a poster, on a [Hilbert curve](https://en.wikipedia.org/wiki/Hilbert_curve).
 
 [travis-image]: https://travis-ci.org/hakatashi/unicode-map.svg?branch=master
 [travis-url]: https://travis-ci.org/hakatashi/unicode-map
 
 ![](https://i.imgur.com/7eAXxbc.jpg)
 
-The bunch of Unicode characters in a poster, on a [Hilbert curve](https://en.wikipedia.org/wiki/Hilbert_curve).
+## About
 
-## Download the poster data
+**The Unicode Map Project** (Japanese: Unicode巨大地図) is an experimental project to illustrate [Unicode](http://unicode.org/standard/WhatIsUnicode.html) characters (and non-characters) in a large poster, and sell them at some [dōjinshi](https://en.wikipedia.org/wiki/D%C5%8Djinshi) fair event such as [Comiket](https://en.wikipedia.org/wiki/Comiket) in Japan. The version 1.0.0 was [sold at Comiket 91](https://webcatalog-free.circle.ms/Circle/13007447), held on Dec 29, 2016. Its composition of Unicode characters is very featured by its arrangement, which introduces a [Hilbert curve](https://en.wikipedia.org/wiki/Hilbert_curve) to visually span [the blocks of Unicode](https://en.wikipedia.org/wiki/Unicode_block).
 
-Preparing...
+The poster is developed with open source and the poster data [can be downloaded](#download) for free. And also any contribution is welcomed!
 
-(The outdated and inaccessible version of the builds are available from the [Releases page](https://github.com/hakatashi/unicode-map/releases).)
+Currently the poster is only available with direct distribution. Though you're free to print it by DIY, we have the roadmap to the next major version of the poster and then we're planning the reprinting of the poster and sales by mail.
 
-## How to build the poster
+## Download
+
+### BMP-1 ver1.0.0
+
+* [SVG (24.8 MB)](https://github.com/hakatashi/unicode-map/releases/download/201701011720/poster.svg)
+* [PNG (16.5 MB)](https://github.com/hakatashi/unicode-map/releases/download/201701011720/poster.png)
+* [PDF (13.8 MB)](https://github.com/hakatashi/unicode-map/releases/download/201701011720/poster.pdf)
+
+### Development version
+
+Development version of the builds are available in the [Release page](https://github.com/hakatashi/unicode-map/releases).
+
+## Build
 
 Install [Node.js 6+](https://nodejs.org/) and run:
 
@@ -29,6 +41,11 @@ Install [Node.js 6+](https://nodejs.org/) and run:
 The overall repository is licensed under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.txt) by hakatashi.
 
 The files not in the `data/glyphs` subdirectory are also licensed under [MIT License](https://opensource.org/licenses/MIT) by hakatashi.
+
+## Roadmap
+
+* Full support of BMP
+* More permissive license
 
 ## Materials
 
