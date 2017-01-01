@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/hakatashi/unicode-map#readme",
   "dependencies": {
+    "bluebird": "^3.4.7",
     "camel-case": "^3.0.0",
     "chai": "^3.5.0",
     "chokidar-cli": "^1.2.0",

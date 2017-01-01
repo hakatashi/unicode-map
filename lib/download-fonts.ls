@@ -4,6 +4,7 @@ require! {
   './util': {log, now}
   'mz/fs'
   'mkdirp-then': mkdirp
+  bluebird: Promise
 }
 
 fonts =
@@ -39,30 +40,32 @@ fonts =
   'OpenSans': 'http://www.opensans.com/download/open-sans.zip'
 
 module.exports = ->
-  Promise.all do
-    for let directory, url of fonts
-      path-name = path.join \fonts directory
+  Promise.each do
+    * Object.keys fonts
+    * (directory) ->
+        url = fonts[directory]
+        path-name = path.join \fonts directory
 
-      now ->
-        fs.readdir path-name
-      .then (files) ->
-        return Promise.reject! if files.length is 0
-        log "#directory is already downloaded."
-      .catch ->
-        log "#path-name not exists. Downloading..."
+        now ->
+          fs.readdir path-name
+        .then (files) ->
+          return Promise.reject! if files.length is 0
+          log "#directory is already downloaded."
+        .catch ->
+          log "#path-name not exists. Downloading..."
 
-        mkdirp path-name
-        .then ->
-          headers =
-            if directory is 'Hancom'
-              {referer: 'http://www.hancom.com/'}
-            else
-              {}
+          mkdirp path-name
+          .then ->
+            headers =
+              if directory is 'Hancom'
+                {referer: 'http://www.hancom.com/'}
+              else
+                {}
 
-          extract =
-            if directory in <[Quivira NotoSansCherokee BTC]>
-              false
-            else
-              true
+            extract =
+              if directory in <[Quivira NotoSansCherokee BTC]>
+                false
+              else
+                true
 
-          download url, path-name, {extract, headers}
+            download url, path-name, {extract, headers}
