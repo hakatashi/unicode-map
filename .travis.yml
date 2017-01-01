@@ -6,12 +6,9 @@ sudo: required
 node_js:
   - node
 
-# https://github.com/electron/electron/blob/master/docs/tutorial/testing-on-headless-ci.md
-addons:
-  apt:
-    packages:
-      - xvfb
 before_install:
+  # Prerequisite of Nightmare.js
+  # https://github.com/electron/electron/blob/master/docs/tutorial/testing-on-headless-ci.md
   - export DISPLAY=':99.0'
   - Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
   # Install git-lfs
