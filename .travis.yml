@@ -6,7 +6,14 @@ sudo: required
 node_js:
   - node
 
+# https://github.com/electron/electron/blob/master/docs/tutorial/testing-on-headless-ci.md
+addons:
+  apt:
+    packages:
+      - xvfb
 before_install:
+  - export DISPLAY=':99.0'
+  - Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
   # Install git-lfs
   - mkdir -p $HOME/bin
   - wget https://github.com/github/git-lfs/releases/download/v1.4.3/git-lfs-linux-amd64-1.4.3.tar.gz
