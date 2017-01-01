@@ -26,13 +26,13 @@ now ->
     * now ->
         log 'Writing chart.svg'
         fs.write-file \chart.svg svg
-    * now ->
+      .then ->
         log 'Generating chart.png...'
         convert-to-png svg
       .then (png) ->
         log 'Writing chart.png...'
         fs.write-file \chart.png png
-    * now ->
+      .then ->
         log 'Composing poster.svg...'
         compose-poster svg
       .then (poster) ->
