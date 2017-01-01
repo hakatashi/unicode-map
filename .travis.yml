@@ -1,4 +1,8 @@
 language: node_js
+
+# Sudo-enabled machines have much more memory
+sudo: required
+
 node_js:
   - node
 
