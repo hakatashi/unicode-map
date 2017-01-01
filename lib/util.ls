@@ -1,7 +1,8 @@
 export log = (text) ->
   date = new Date!
   date-string = date.to-ISO-string!
-  console.log "[#date-string] #text"
+  memory = process.memory-usage!rss / (1024 * 1024) |> Math.floor
+  console.log "[#date-string (Memory: #{memory}MiB)] #text"
 
 export merge-maps = (maps) ->
   flattened-maps = maps.map (-> Array.from it) .reduce ((a, b) -> a ++ b), []
