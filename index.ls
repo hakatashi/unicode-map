@@ -26,22 +26,27 @@ now ->
     * now ->
         log 'Writing chart.svg'
         fs.write-file \chart.svg svg
-      .then ->
-        log 'Generating chart.png...'
-        convert-to-png svg
-      .then (png) ->
-        log 'Writing chart.png...'
-        fs.write-file \chart.png png
-      .then ->
+    * now ->
         log 'Composing poster.svg...'
         compose-poster svg
-      .then (poster) ->
+  ]
+
+.then ([_, poster]) ->
+  Promise.all [
+    * now ->
         log 'Writing poster.svg...'
         fs.write-file \poster.svg poster
-      .then ->
-        log 'Generating poster.pdf...'
-        convert-to-pdf \poster.svg \poster.pdf
+    * now ->
+        log 'Generating poster.png...'
+        convert-to-png poster
+      .then (png) ->
+        log 'Writing poster.png...'
+        fs.write-file \poster.png png
   ]
+
+.then ->
+  log 'Generating poster.pdf...'
+  convert-to-pdf \poster.svg \poster.pdf
 
 .then ->
   log 'Done.'
