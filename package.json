@@ -40,8 +40,8 @@
     "opentype.js": "^0.6.4",
     "progress": "^1.1.8",
     "snapsvg": "^0.4.0",
-    "svg2png": "^3.0.1",
-    "xmlserializer": "^0.4.0",
+    "svg2png": "^4.1.1",
+    "xmlserializer": "^0.6.0",
     "yaml-js": "^0.1.4"
   }
 }
