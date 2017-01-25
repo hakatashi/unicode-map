@@ -1,4 +1,4 @@
-# The Unicode Map Project [![Build Status][travis-image]][travis-url]
+# The Unicode Map Project [![Build Status][travis-image]][travis-url] [![Greenkeeper badge](https://badges.greenkeeper.io/hakatashi/unicode-map.svg)](https://greenkeeper.io/)
 
 The bunch of Unicode characters in a poster, on a [Hilbert curve](https://en.wikipedia.org/wiki/Hilbert_curve).
 
