@@ -17,7 +17,7 @@ fonts =
   'FreeFont': 'https://ftp.gnu.org/gnu/freefont/freefont-ttf-20120503.zip'
   'Hancom': 'http://cdn.hancom.com/pds/docs/HancomFont.zip'
   'Scheherazade': 'http://software.sil.org/downloads/d/scheherazade/Scheherazade-2.100.zip'
-  'Annapurna': 'http://software.sil.org/downloads/d/annapurna/AnnapurnaSIL-1.201.zip'
+  'Annapurna': 'http://software.sil.org/downloads/r/annapurna/AnnapurnaSIL-1.202.zip'
   'Manjari': 'http://www.malayalamtype.com/fonts/Manjari-Regular.ttf'
   'tlwg': 'https://linux.thai.net/pub/thailinux/software/fonts-tlwg/fonts/ttf-tlwg-0.5.0.tar.gz'
   'Jomolhari': 'https://sites.google.com/site/chrisfynn2/jomolhari-alpha003c.zip?attredirects=0'

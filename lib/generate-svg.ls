@@ -134,12 +134,12 @@ font-data =
   scheherazade-bold:
     path: 'Scheherazade/Scheherazade-2.100/Scheherazade-Bold.ttf'
   annapurna:
-    name: 'Annapurna SIL 1.201'
+    name: 'Annapurna SIL 1.202'
     URL: 'http://software.sil.org/annapurna/'
     author: 'SIL International'
     license: 'SIL OFL 1.1'
     licenseURL: 'http://scripts.sil.org/ofl'
-    path: 'Annapurna/AnnapurnaSIL-1.201/AnnapurnaSIL-Regular.ttf'
+    path: 'Annapurna/nnapurnaSIL-1.202/AnnapurnaSIL-Regular.ttf'
   manjari:
     name: 'Manjari'
     URL: 'https://github.com/santhoshtr/Manjari'
