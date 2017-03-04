@@ -25,7 +25,7 @@ fonts =
   'Quivira': 'http://www.quivira-font.com/files/Quivira.otf'
   'UnFonts': 'https://kldp.net/unfonts/release/2607-un-fonts-core-1.0.2-080608.tar.gz'
   'Abyssinica': 'http://software.sil.org/downloads/d/abyssinica/AbyssinicaSIL-1.500.zip'
-  'NotoSansCherokee': 'https://github.com/googlei18n/noto-fonts/raw/master/alpha/from-pipeline/unhinted/NotoSansCherokee-Regular.ttf'
+  'NotoSansCherokee': 'https://github.com/googlei18n/noto-fonts/raw/master/alpha/from-pipeline/unhinted/ttf/sans/NotoSansCherokee-Regular.ttf'
   'MongolianScript': 'http://font.bolorsoft.com/download/fonts.zip'
   'Namdhinggo': 'http://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=NamdhinggoSIL1.004&filename=NamdhinggoSIL1.004.zip'
   'DaiBanna': 'http://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=DaiBanna-2.200.zip&filename=DaiBanna-2.200.zip'
