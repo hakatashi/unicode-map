@@ -139,7 +139,7 @@ font-data =
     author: 'SIL International'
     license: 'SIL OFL 1.1'
     licenseURL: 'http://scripts.sil.org/ofl'
-    path: 'Annapurna/nnapurnaSIL-1.202/AnnapurnaSIL-Regular.ttf'
+    path: 'Annapurna/AnnapurnaSIL-1.202/AnnapurnaSIL-Regular.ttf'
   manjari:
     name: 'Manjari'
     URL: 'https://github.com/santhoshtr/Manjari'
