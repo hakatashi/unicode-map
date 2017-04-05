@@ -36,7 +36,7 @@ fonts =
   'BTC': 'https://en.bitcoin.it/BTC.ttf'
   'ObserverSymbol': 'http://hypertexthero.com/static/img/observer-symbol/observer-symbol-latest.zip'
   'Analecta': 'http://users.teilar.gr/~g1951d/Analecta.zip'
-  'BabelStoneHan': 'http://babelstone.co.uk/Fonts/1082/BabelStoneHan.zip'
+  'BabelStoneHan': 'http://www.babelstone.co.uk/Fonts/8672/BabelStoneHan.zip'
   'OpenSans': 'http://www.opensans.com/download/open-sans.zip'
 
 module.exports = ->
