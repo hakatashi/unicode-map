@@ -222,7 +222,17 @@
   0557..0558: notdef
   '0560': notdef
   0588: notdef
-  058B..058C: notdef
+
+  058B: # Early mapping
+    early: true
+    font: free-serif
+    codepoint: 0x0561
+    transform: translate(0, 0.15) scale(0.9) rotate(180)
+
+  058C: # Early mapping
+    early: true
+    svg: true
+    transform: scale(0.9)
 
   058D..058E:
     svg: true
