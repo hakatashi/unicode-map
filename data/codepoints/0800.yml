@@ -406,4 +406,11 @@
     svg: true
     transform: scale(0.8)
 
-  09FE..09FF: notdef
+  09FE:
+    early: true
+    combining: true
+    font: noto-bengali
+    codepoint: 0x09BD
+    transform: translate(0, -0.3) scale(0.5)
+
+  09FF: notdef
