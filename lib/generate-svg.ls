@@ -349,6 +349,8 @@ module.exports = (codepoint-infos, config) ->
 
     codepoint-info = codepoint-infos.get code-point
 
+    continue unless codepoint-info?
+
     glyph-infos =
       for let name, font of fonts
         {name, font, glyph: font.char-to-glyph String.from-code-point(codepoint-info?.codepoint or code-point)}

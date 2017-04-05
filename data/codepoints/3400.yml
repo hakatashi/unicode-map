@@ -1,8 +1,16 @@
 # CJK Unified Ideographs Extension A
 
-3400..3FFF:
+3400..4DC0:
   font:
     - ipamjm
     - ipaexm
     - hanamin-a
   transform: scale(0.9) translate(0, 0.05)
+
+  4DB6..4DBF: notdef
+
+# Yijing Hexagram Symbols
+
+4DC0..4DFF:
+  font: nishiki
+  transform: scale(0.9)
