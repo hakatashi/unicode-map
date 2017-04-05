@@ -266,7 +266,13 @@
 
   0590: notdef
   05C8..05CF: notdef
-  05EB..05EF: notdef
+  05EB..05EE: notdef
+
+  05EF:
+    early: true
+    svg: true
+    transform: scale(0.8)
+
   05F5..05FF: notdef
 
 # Arabic
