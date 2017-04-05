@@ -6,8 +6,8 @@ require! {
   xmlserializer
 }
 
-module.exports = (chart-svg) ->
-  poster-svg <- fs.read-file 'data/layouts/bmp-1.svg' .then
+module.exports = (chart-svg, config) ->
+  poster-svg <- fs.read-file "data/layouts/#{config.layout}.svg" .then
 
   resolve, reject <- new Promise _
 

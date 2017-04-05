@@ -307,7 +307,7 @@ load-glyphs = ->
     log 'All glyphs loaded.'
     Object.assign {}, ...glyphs
 
-module.exports = (codepoint-infos) ->
+module.exports = (codepoint-infos, config) ->
   [fonts, custom-glyphs] <- Promise.all [
     load-fonts!
     load-glyphs!
@@ -339,8 +339,13 @@ module.exports = (codepoint-infos) ->
   defined-characters = 0
   early-mapped-characters = 0
 
-  for code-point from 0 til 128 * 128
+  start-xy = hilbert.xy config.codepoint
+
+  for code-point from config.codepoint til config.codepoint + 128 * 128
     {x, y} = hilbert.xy code-point
+
+    x -= start-xy.x
+    y -= start-xy.y
 
     codepoint-info = codepoint-infos.get code-point
 
