@@ -23,7 +23,10 @@
     combining: true
     transform: scale(0.8) translate(0.3, -0.1)
 
-  0C04: notdef
+  0C04:
+    svg: true
+    combining: true
+
   0C0D: notdef
   0C11: notdef
   0C29: notdef
