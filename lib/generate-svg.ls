@@ -570,7 +570,7 @@ module.exports = (codepoint-infos, config) ->
   path.attr do
     fill: 'none'
     stroke: 'black'
-    stroke-opacity: 0.5
+    stroke-opacity: 0.3
     stroke-width: 0.5
   path.prepend-to paper
 
