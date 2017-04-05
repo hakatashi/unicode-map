@@ -1,6 +1,6 @@
 # CJK Unified Ideographs Extension A
 
-3400..4DC0:
+3400..4DBF:
   font:
     - ipamjm
     - ipaexm
@@ -14,3 +14,14 @@
 4DC0..4DFF:
   font: nishiki
   transform: scale(0.9)
+
+# CJK Unified Ideographs
+
+4E00..9FFF:
+  font:
+    - ipamjm
+    - ipaexm
+    - hanamin-a
+  transform: scale(0.9) translate(0, 0.05)
+
+  9FD6..9FFF: notdef
