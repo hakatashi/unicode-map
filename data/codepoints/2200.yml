@@ -150,7 +150,17 @@
 
   2B74..2B75: notdef
   2B96..2B97: notdef
-  2BBA..2BBC: notdef
+
+  2BBA:
+    early: true
+    font: symbola
+    codepoint: 0x29C9
+    transform: scale(0.9) translate(0, -0.05) scale(-1, 1)
+
+  2BBB..2BBC:
+    early: true
+    svg: true
+
   2BC9: notdef
 
   # TODO: The glyph shape of U+2BD6 PLUTO FORM FIVE is questionable
