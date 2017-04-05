@@ -35,8 +35,8 @@
   transform: scale(0.9) translate(0, 0.05)
 
   332C:
-    font: hancom
-    transform: scale(0.9) translate(0, 0.05)
+    svg: true
+    transform: scale(0.85)
 
   3358..337A:
     font: hancom
