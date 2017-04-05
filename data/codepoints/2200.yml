@@ -169,4 +169,9 @@
     font: nishiki
     transform: scale(0.85)
 
-  2BF0..2BFF: notdef
+  2BF0..2BFE:
+    early: true
+    font: nishiki
+    transform: scale(0.85)
+
+  2BFF: notdef
