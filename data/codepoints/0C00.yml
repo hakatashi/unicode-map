@@ -24,6 +24,7 @@
     transform: scale(0.8) translate(0.3, -0.1)
 
   0C04:
+    early: true
     svg: true
     combining: true
 

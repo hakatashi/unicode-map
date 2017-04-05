@@ -18,7 +18,12 @@
     transform: rotate(90) scale(0.7) translate(0, -0.05)
 
   181A..181F: notdef
-  1878..187F: notdef
+
+  1878:
+    early: true
+    svg: true
+
+  1879..187F: notdef
 
   1885:
     font: mongolian-script
