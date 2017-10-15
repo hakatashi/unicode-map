@@ -280,6 +280,13 @@ font-data =
     license: 'Apache License v2'
     licenseURL: 'http://www.apache.org/licenses/LICENSE-2.0'
     path: 'OpenSans/OpenSans-Bold.ttf'
+  dejavu:
+    name: 'DejaVu Serif'
+    URL: 'https://dejavu-fonts.github.io/'
+    author: 'Bitstream'
+    license: 'Free License'
+    licenseURL: 'https://dejavu-fonts.github.io/License.html'
+    path: 'DejaVu/dejavu-fonts-ttf-2.37/ttf/DejaVuSerif.ttf'
 
 load-fonts = ->
   Promise.all do

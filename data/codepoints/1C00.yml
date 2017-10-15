@@ -65,9 +65,57 @@
 
   1C89..1C8F: notdef
 
-# Empty
+# Georgian Extended
 
-1C90..1CBF: notdef
+1C90..1CBF:
+  font: dejavu
+  transform: scale(0.8)
+
+  1C90..1CB6:
+    font: dejavu
+    transform: scale(0.7)
+    codepoint:
+      - 0xF400
+      - 0xF401
+      - 0xF402
+      - 0xF403
+      - 0xF404
+      - 0xF405
+      - 0xF406
+      - 0xF407
+      - 0xF408
+      - 0xF409
+      - 0xF40A
+      - 0xF40B
+      - 0xF40C
+      - 0xF40D
+      - 0xF40E
+      - 0xF40F
+      - 0xF410
+      - 0xF411
+      - 0xF412
+      - 0xF413
+      - 0xF414
+      - 0xF415
+      - 0xF416
+      - 0xF417
+      - 0xF418
+      - 0xF419
+      - 0xF41A
+      - 0xF41B
+      - 0xF41C
+      - 0xF41D
+      - 0xF41E
+      - 0xF41F
+      - 0xF420
+      - 0xF421
+      - 0xF422
+      - 0xF423
+      - 0xF424
+      - 0xF425
+      - 0xF426
+
+  1CBB..1CBC: notdef
 
 # Sundanese Supplement
 

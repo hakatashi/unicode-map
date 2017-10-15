@@ -38,6 +38,7 @@ fonts =
   'Analecta': 'http://users.teilar.gr/~g1951d/Analecta.zip'
   'BabelStoneHan': 'http://www.babelstone.co.uk/Fonts/8672/BabelStoneHan.zip'
   'OpenSans': 'http://www.opensans.com/download/open-sans.zip'
+  'DejaVu': 'https://sourceforge.net/projects/dejavu/files/dejavu/2.37/dejavu-fonts-ttf-2.37.zip'
 
 module.exports = ->
   Promise.each do
