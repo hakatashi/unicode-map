@@ -24,7 +24,7 @@ flatten = (object, {start, end}) ->
     model.short-name .= split '\n' .filter (.length > 0)
 
   if model.type in <[font svg]>
-    for transform in <[transform scale skew translate rotate combining box early]>
+    for transform in <[transform scale skew translate rotate combining box early name]>
       if object[transform]?
         model[transform] = object[transform]
 
@@ -59,6 +59,9 @@ flatten = (object, {start, end}) ->
       if model.type is \font
         if typeof! model.codepoint is \Array
           clone.codepoint = clone.codepoint[codepoint - start]
+
+        if typeof! model.name is \Array
+          clone.name = clone.name[codepoint - start]
 
       if model.type is \control
         if typeof! model.short-name is \Array

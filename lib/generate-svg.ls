@@ -339,10 +339,10 @@ module.exports = (codepoint-infos, config) ->
   defined-characters = 0
   early-mapped-characters = 0
 
-  start-xy = hilbert.xy config.codepoint
+  start-xy = hilbert.xy config.codepoint % 0x10000
 
-  for code-point from config.codepoint til config.codepoint + 128 * 128
-    {x, y} = hilbert.xy code-point
+  for code-point from config.codepoint til config.codepoint + 128 * 128 when 0x4E40 <= code-point < 0x4E80
+    {x, y} = hilbert.xy code-point % 0x10000
 
     x -= start-xy.x
     y -= start-xy.y
@@ -353,7 +353,10 @@ module.exports = (codepoint-infos, config) ->
 
     glyph-infos =
       for let name, font of fonts
-        {name, font, glyph: font.char-to-glyph String.from-code-point(codepoint-info?.codepoint or code-point)}
+        if codepoint-info?.name
+          {name, font, glyph: Object.values font.glyphs.glyphs .find (.name is codepoint-info.name)}
+        else
+          {name, font, glyph: font.char-to-glyph String.from-code-point(codepoint-info?.codepoint or code-point)}
 
     unless codepoint-info.type is \notdef
       defined-characters++
@@ -582,7 +585,7 @@ module.exports = (codepoint-infos, config) ->
   font-counts-list.sort (a, b) -> b.1 - a.1
   font-counts-text = font-counts-list.map ([font-name, font-count]) ->
     font = font-data[font-name]
-    "#{font.name} by #{font.author} licensed under #{font.license}"
+    "#{font.name} #{font-count}"
   .join '\n'
   console.log """
 
