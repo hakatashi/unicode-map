@@ -74,6 +74,7 @@
   1C90..1CB6:
     font: dejavu
     transform: scale(0.7)
+    early: true
     codepoint:
       - 0xF400
       - 0xF401
@@ -115,7 +116,45 @@
       - 0xF425
       - 0xF426
 
+  1CB7:
+    transform: translate(0, -0.02) scale(0.7)
+    early: true
+    svg: true
+
+  1CB8:
+    font: dejavu
+    transform: scale(0.7) scale(-1, 1)
+    codepoint: 0xF417
+    early: true
+
+  1CB9:
+    font: dejavu
+    transform: translate(0, -0.05) scale(0.7) rotate(180)
+    codepoint: 0xF402
+    early: true
+
+  1CBA:
+    transform: scale(0.7)
+    svg: true
+    early: true
+
   1CBB..1CBC: notdef
+
+  1CBD:
+    transform: scale(0.7)
+    early: true
+    svg: true
+
+  1CBE:
+    font: dejavu
+    transform: translate(0, -0.05) scale(0.7) rotate(180)
+    codepoint: 0xF422
+    early: true
+
+  1CBF:
+    transform: scale(0.7)
+    svg: true
+    early: true
 
 # Sundanese Supplement
 
