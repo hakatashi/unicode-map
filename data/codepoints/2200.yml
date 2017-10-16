@@ -26,8 +26,7 @@
     font: symbola
     transform: scale(0.8)
 
-  23FF: # Early mapping
-    early: true
+  23FF:
     font: observer-symbol
     codepoint: 0x6F
     transform: scale(0.9)
@@ -163,8 +162,12 @@
 
   2BC9: notdef
 
+  2BD2:
+    font: nishiki
+    transform: scale(0.85)
+
   # TODO: The glyph shape of U+2BD6 PLUTO FORM FIVE is questionable
-  2BD2..2BEB: # Early maping
+  2BD3..2BEB: # Early maping
     early: true
     font: nishiki
     transform: scale(0.85)

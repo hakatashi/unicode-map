@@ -262,9 +262,7 @@
     combining: true
     transform: translate(0.15, 0.3)
 
-  # Early mapping
   1CF7:
-    early: true
     svg: true
     combining: true
 
@@ -429,9 +427,7 @@
     codepoint: 0x02D4
     transform: translate(0, -0.5)
 
-  # Early mapping
   1DF6..1DF9:
-    early: true
     svg: true
     combining: true
 

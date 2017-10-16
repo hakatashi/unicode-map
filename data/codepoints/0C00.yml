@@ -240,6 +240,12 @@
 
   0CE4..0CE5: notdef
   0CF0: notdef
+
+  0CF1..0CF2:
+    font: noto-kannada
+    transform: scale(0.75)
+    box: true
+
   0CF3..0CFF: notdef
 
 # Malayalam
@@ -248,8 +254,7 @@
   font: free-serif
   transform: scale(0.8) translate(0, -0.1)
 
-  0D00: # early mapping
-    early: true
+  0D00:
     svg: true
     combining: true
 
@@ -282,8 +287,7 @@
 
   0D11: notdef
 
-  0D3B..0D3C: # early mapping
-    early: true
+  0D3B..0D3C:
     svg: true
     combining: true
 

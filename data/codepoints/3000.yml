@@ -119,7 +119,10 @@
 
   3100..3104: notdef
 
-  312E..312F: # Early mapping
+  312E:
+    svg: true
+
+  312F: # Early mapping
     early: true
     svg: true
 

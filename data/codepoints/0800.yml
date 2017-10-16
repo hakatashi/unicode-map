@@ -41,24 +41,20 @@
   085C..085D: notdef
   085F: notdef
 
-# Syriac Extensions (early mapping)
+# Syriac Extensions
 
 0860..087F:
-  early: true
   svg: true
   transform: scale(0.8)
 
   0863:
-    early: true
     svg: true
 
   0866:
-    early: true
     svg: true
     transform: scale(0.9)
 
   0867:
-    early: true
     svg: true
 
   086B..087F: notdef
@@ -401,8 +397,7 @@
 
   09E4..09E5: notdef
 
-  09FC..09FD: # early mapping
-    early: true
+  09FC..09FD:
     svg: true
     transform: scale(0.8)
 

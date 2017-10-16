@@ -105,8 +105,7 @@
   20BE:
     font: symbola
 
-  20BF: # Early mapping
-    early: true
+  20BF:
     font: btc
     codepoint: 0x42
     transform: scale(0.8)

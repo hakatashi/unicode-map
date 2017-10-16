@@ -207,8 +207,7 @@
   0AF9:
     svg: true
 
-  0AFA..0AFF: # Early mapping
-    early: true
+  0AFA..0AFF:
     svg: true
     combining: true
 
