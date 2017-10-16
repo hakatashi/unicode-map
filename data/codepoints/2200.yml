@@ -160,7 +160,9 @@
     early: true
     svg: true
 
-  2BC9: notdef
+  2BC9:
+    early: true
+    svg: true
 
   2BD2:
     font: nishiki
