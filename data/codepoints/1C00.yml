@@ -70,6 +70,7 @@
 1C90..1CBF:
   font: dejavu
   transform: scale(0.8)
+  early: true
 
   1C90..1CB6:
     font: dejavu
@@ -270,7 +271,12 @@
     svg: true
     combining: true
 
-  1CFA..1CFF: notdef
+  1CFA:
+    svg: true
+    transform: scale(0.8)
+    early: true
+
+  1CFB..1CFF: notdef
 
 # Phonetic Extensions
 
