@@ -56,16 +56,92 @@
 
   0E80: notdef
   0E83: notdef
-  0E85..0E86: notdef
-  0E89: notdef
-  0E8B..0E8C: notdef
-  0E8E..0E93: notdef
-  0E98: notdef
-  0EA0: notdef
+  0E85: notdef
+
+  0E86:
+    early: true
+    font: jglao
+    codepoint: 0x0E83
+    transform: scale(0.9) translate(0, -0.1)
+
+  0E89:
+    early: true
+    font: jglao
+    transform: scale(0.9) translate(0, -0.1)
+
+  0E8B: notdef
+
+  0E8C:
+    early: true
+    font: jglao
+    codepoint: 0x0E8B
+    transform: scale(0.9) translate(0, -0.1)
+
+  0E8E:
+    early: true
+    font: jglao
+    codepoint: 0x0E8C
+    transform: scale(0.9) translate(0, -0.1)
+
+  0E8F:
+    early: true
+    font: jglao
+    codepoint: 0x0E8E
+    transform: scale(0.9) translate(0, -0.1)
+
+  0E90:
+    early: true
+    font: jglao
+    codepoint: 0x0E8F
+    transform: scale(0.9) translate(0, -0.1)
+
+  0E91:
+    early: true
+    font: jglao
+    codepoint: 0x0E90
+    transform: scale(0.9) translate(0, -0.1)
+
+  0E92:
+    early: true
+    font: jglao
+    codepoint: 0x0E91
+    transform: scale(0.9) translate(0, -0.1)
+
+  0E93:
+    early: true
+    font: jglao
+    transform: scale(0.9) translate(0, -0.1)
+
+  0E98:
+    early: true
+    font: jglao
+    codepoint: 0x0EE5
+    transform: scale(0.9) translate(0, -0.1)
+
+  0EA0:
+    early: true
+    font: jglao
+    transform: scale(0.9) translate(0, -0.1)
+
   0EA4: notdef
   0EA6: notdef
-  0EA8..0EA9: notdef
-  0EAC: notdef
+
+  0EA8:
+    early: true
+    font: jglao
+    codepoint: 0x0EA4
+    transform: scale(0.9) translate(0, -0.1)
+
+  0EA9:
+    early: true
+    font: jglao
+    codepoint: 0x0EA6
+    transform: scale(0.9) translate(0, -0.1)
+
+  0EAC:
+    early: true
+    font: jglao
+    transform: scale(0.9) translate(0, -0.1)
 
   0EB1:
     font: noto-lao
@@ -82,7 +158,11 @@
     combining: true
     transform: scale(0.7) translate(0.2, -0.1)
 
-  0EBA: notdef
+  0EBA:
+    early: true
+    combining: true
+    font: jglao
+    transform: scale(0.9) translate(0.2, -0.2)
 
   0EBB:
     font: noto-lao

@@ -287,6 +287,13 @@ font-data =
     license: 'Free License'
     licenseURL: 'https://dejavu-fonts.github.io/License.html'
     path: 'DejaVu/dejavu-fonts-ttf-2.37/ttf/DejaVuSerif.ttf'
+  jglao:
+    name: 'JG Lao Times'
+    URL: 'https://web.archive.org/web/20090729181203/http://geocities.com/jglavy/asian.html'
+    author: 'GlavyFonts'
+    license: 'Permissive License'
+    licenseURL: 'https://web.archive.org/web/20090729181203/http://geocities.com/jglavy/asian.html'
+    path: 'JGLao/JG LaoTimesOT.ttf'
 
 load-fonts = ->
   Promise.all do
