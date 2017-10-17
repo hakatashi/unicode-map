@@ -23,7 +23,7 @@ fonts =
   'Jomolhari': 'https://sites.google.com/site/chrisfynn2/jomolhari-alpha003c.zip?attredirects=0'
   'Padauk': 'http://software.sil.org/downloads/r/padauk/padauk-3.002.zip'
   'Quivira': 'http://www.quivira-font.com/files/Quivira.otf'
-  'UnFonts': 'https://kldp.net/unfonts/release/2607-un-fonts-core-1.0.2-080608.tar.gz'
+  'UnFonts': 'http://ftp.jaist.ac.jp/pub/Linux/Momonga/development/source/SOURCES/2607-un-fonts-core-1.0.2-080608.tar.gz'
   'Abyssinica': 'http://software.sil.org/downloads/r/abyssinica/AbyssinicaSIL-1.500.zip'
   'NotoSansCherokee': 'https://github.com/googlei18n/noto-fonts/raw/master/alpha/from-pipeline/unhinted/ttf/sans/NotoSansCherokee-Regular.ttf'
   'MongolianScript': 'http://font.bolorsoft.com/download/fonts.zip'
