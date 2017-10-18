@@ -2,6 +2,7 @@
 
 3400..4DBF:
   font:
+    - noto-serif-jp
     - ipamjm
     - ipaexm
     - hanamin-a
@@ -19,6 +20,7 @@
 
 4E00..9FFF:
   font:
+    - noto-serif-jp
     - ipamjm
     - ipaexm
     - hanamin-a

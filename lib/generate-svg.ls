@@ -124,6 +124,8 @@ font-data =
     path: 'Noto/NotoSansTifinagh-Regular.ttf'
   noto-cjk-jp:
     path: 'Noto/NotoSansCJKjp-Light.otf'
+  noto-serif-jp:
+    path: 'NotoSerifCJKjp/NotoSerifCJKjp-Regular.otf'
   scheherazade:
     name: 'Scheherazade 2.100'
     URL: 'http://software.sil.org/scheherazade/'

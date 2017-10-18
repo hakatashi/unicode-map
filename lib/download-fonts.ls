@@ -40,6 +40,7 @@ fonts =
   'OpenSans': 'http://www.opensans.com/download/open-sans.zip'
   'DejaVu': 'https://sourceforge.net/projects/dejavu/files/dejavu/2.37/dejavu-fonts-ttf-2.37.zip'
   'JGLao': 'https://github.com/hakatashi/font-archive/raw/master/jglao.zip'
+  'NotoSerifCJKjp': 'https://noto-website.storage.googleapis.com/pkgs/NotoSerifCJKjp-hinted.zip'
 
 module.exports = ->
   Promise.each do
