@@ -36,7 +36,7 @@ fonts =
   'BTC': 'https://en.bitcoin.it/BTC.ttf'
   'ObserverSymbol': 'http://hypertexthero.com/static/img/observer-symbol/observer-symbol-latest.zip'
   'Analecta': 'http://users.teilar.gr/~g1951d/Analecta.zip'
-  'BabelStoneHan': 'http://www.babelstone.co.uk/Fonts/8672/BabelStoneHan.zip'
+  'BabelStoneHan': 'http://www.babelstone.co.uk/Fonts/0816/BabelStoneHan.zip'
   'OpenSans': 'http://www.opensans.com/download/open-sans.zip'
   'DejaVu': 'https://sourceforge.net/projects/dejavu/files/dejavu/2.37/dejavu-fonts-ttf-2.37.zip'
   'JGLao': 'https://web.archive.org/web/20091027154828/http://geocities.com/jglavy/fontsnstuff/jglao.zip'
