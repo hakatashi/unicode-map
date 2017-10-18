@@ -23,7 +23,6 @@ module.exports = (chart-svg, config) ->
 
   chart = paper.group!append-to root-group
   poster = paper.group!append-to root-group
-  poster.transform "scale(#{72 / 300})"
 
   chart-element = Snap.parse chart-svg
   for child in Array::slice.call chart-element.node.children, 0
