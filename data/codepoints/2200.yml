@@ -179,4 +179,6 @@
     font: nishiki
     transform: scale(0.85)
 
-  2BFF: notdef
+  2BFF:
+    early: true
+    svg: true
