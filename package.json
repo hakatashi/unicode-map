@@ -40,7 +40,7 @@
     "mz": "^2.7.0",
     "nightmare": "^2.10.0",
     "no-case": "^2.3.2",
-    "opentype.js": "^0.6.9",
+    "opentype.js": "^0.7.3",
     "optionator": "^0.8.2",
     "progress": "^1.1.8",
     "snapsvg": "^0.5.1",
