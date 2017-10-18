@@ -162,7 +162,8 @@
 
   2BC9:
     early: true
-    svg: true
+    font: nishiki
+    transform: scale(0.85)
 
   2BD2:
     font: nishiki
