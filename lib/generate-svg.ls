@@ -223,7 +223,7 @@ font-data =
     author: 'Umihotaru'
     license: 'Permissive License'
     licenseURL: 'http://hwm3.gyao.ne.jp/shiroi-niwatori/faq.txt'
-    path: 'Nishiki/nishiki-teki_3_12/nishiki-teki.ttf'
+    path: 'Nishiki/nishiki-teki_3_20/nishiki-teki.ttf'
   mingzat:
     name: 'Mingzat 0.100'
     URL: 'http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=Mingzat'

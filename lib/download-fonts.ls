@@ -29,7 +29,7 @@ fonts =
   'MongolianScript': 'http://font.bolorsoft.com/download/fonts.zip'
   'Namdhinggo': 'http://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=NamdhinggoSIL1.004&filename=NamdhinggoSIL1.004.zip'
   'DaiBanna': 'http://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=DaiBanna-2.200.zip&filename=DaiBanna-2.200.zip'
-  'Nishiki': 'http://hwm3.gyao.ne.jp/shiroi-niwatori/nishiki-teki_3_12.zip'
+  'Nishiki': 'http://hwm3.gyao.ne.jp/shiroi-niwatori/nishiki-teki.zip'
   'Mingzat': 'http://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=Mingzat-0.100&filename=Mingzat-0.100.zip'
   'PonomarUnicode': 'http://www.ponomar.net/files/PonomarUnicode.zip'
   'junicode': 'https://sourceforge.net/projects/junicode/files/junicode/junicode-0-7-8/junicode-0-7-8.zip'
