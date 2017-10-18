@@ -39,7 +39,7 @@ fonts =
   'BabelStoneHan': 'http://www.babelstone.co.uk/Fonts/0816/BabelStoneHan.zip'
   'OpenSans': 'http://www.opensans.com/download/open-sans.zip'
   'DejaVu': 'https://sourceforge.net/projects/dejavu/files/dejavu/2.37/dejavu-fonts-ttf-2.37.zip'
-  'JGLao': 'https://web.archive.org/web/20091027154828/http://geocities.com/jglavy/fontsnstuff/jglao.zip'
+  'JGLao': 'https://github.com/hakatashi/font-archive/raw/master/jglao.zip'
 
 module.exports = ->
   Promise.each do
