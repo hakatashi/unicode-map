@@ -596,15 +596,27 @@ module.exports = (codepoint-infos, config) ->
 
   font-counts-list = Array.from font-counts
   font-counts-list.sort (a, b) -> b.1 - a.1
-  font-counts-text = font-counts-list.map ([font-name, font-count]) ->
+  font-license-text = font-counts-list.map ([font-name, font-count]) ->
     font = font-data[font-name]
     "#{font.name} by #{font.author} licensed under #{font.license}"
   .join '\n'
+  font-count-text = font-counts-list.map ([font-name, font-count]) ->
+    font = font-data[font-name]
+    "#{font.name}: #{font-count}"
+  .join '\n'
+
   console.log """
 
     ====== License notation ======
 
-    #{font-counts-text}
+    #{font-license-text}
+  """
+
+  console.log """
+
+    ====== Glyph count ======
+
+    #{font-count-text}
   """
 
   console.log """
