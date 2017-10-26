@@ -1,53 +1,67 @@
-# The Unicode Map Project [![Build Status][travis-image]][travis-url] [![Greenkeeper badge](https://badges.greenkeeper.io/hakatashi/unicode-map.svg)](https://greenkeeper.io/)
+# The Unicode Map Project [![Build Status][travis-image]][travis-url] [![Greenkeeper badge][greenkeeper-image]][greenkeeper-url]
 
-The bunch of Unicode characters in a poster, on a [Hilbert curve](https://en.wikipedia.org/wiki/Hilbert_curve).
+A bunch of Unicode characters in a poster, on a [Hilbert curve](https://en.wikipedia.org/wiki/Hilbert_curve).
+
 
 [travis-image]: https://travis-ci.org/hakatashi/unicode-map.svg?branch=master
 [travis-url]: https://travis-ci.org/hakatashi/unicode-map
+[greenkeeper-image]: https://badges.greenkeeper.io/hakatashi/unicode-map.svg
+[greenkeeper-url]: https://greenkeeper.io/
 
-![](https://i.imgur.com/7eAXxbc.jpg)
+![](https://i.imgur.com/cEVN9VR.jpg)
 
-## About
+## 🆕 New in Ver3.0.0
+
+* Full [Unicode 10.0.0](http://unicode.org/versions/Unicode10.0.0/) support
+* Pipeline table characters as of [UTC #152](http://www.unicode.org/L2/L2017/17222.htm) full support
+* 66 new glyphs added
+* Fonts were updated. Especially in Kanji, we now uses [Noto Serif CJK](https://www.google.com/get/noto/help/cjk/).
+
+## ❓ About
 
 **The Unicode Map Project** (Japanese: Unicode巨大地図) is an experimental project to illustrate [Unicode](http://unicode.org/standard/WhatIsUnicode.html) characters (and non-characters) in a large poster, and sell them at some [dōjinshi](https://en.wikipedia.org/wiki/D%C5%8Djinshi) fair event such as [Comiket](https://en.wikipedia.org/wiki/Comiket) in Japan. The version 1.0.0 was [sold at Comiket 91](https://webcatalog-free.circle.ms/Circle/13007447), held on Dec 29, 2016. Its composition of Unicode characters is very featured by its arrangement, which introduces a [Hilbert curve](https://en.wikipedia.org/wiki/Hilbert_curve) to visually span [the blocks of Unicode](https://en.wikipedia.org/wiki/Unicode_block).
 
 The poster is developed with open source and the poster data [can be downloaded](#download) for free. And also any contribution is welcomed!
 
-Currently the poster is only available with direct distribution. Though you're free to print it by DIY, we have the roadmap to the next major version of the poster and then we're planning the reprinting of the poster and sales by mail.
+## ⏬ Download
 
-## Download
+### BMP-1 (U+0000 - U+3FFF) ver3.0.0
 
-### BMP-1 ver1.0.0
+* [SVG (35.4 MB)](https://github.com/hakatashi/unicode-map/releases/download/201710261128/bmp-1-poster.svg)
+* [PNG (16.6 MB)](https://github.com/hakatashi/unicode-map/releases/download/201710261128/bmp-1-poster.png)
+* [PDF (13.4 MB)](https://github.com/hakatashi/unicode-map/releases/download/201710261128/bmp-1-poster.pdf)
 
-* [SVG (24.8 MB)](https://github.com/hakatashi/unicode-map/releases/download/201701011720/poster.svg)
-* [PNG (16.5 MB)](https://github.com/hakatashi/unicode-map/releases/download/201701011720/poster.png)
-* [PDF (13.8 MB)](https://github.com/hakatashi/unicode-map/releases/download/201701011720/poster.pdf)
+### BMP-2 (U+4000 - U+7FFF) ver3.0.0
+
+* [SVG (35.1 MB)](https://github.com/hakatashi/unicode-map/releases/download/201710261128/bmp-2-poster.svg)
+* [PNG (23.1 MB)](https://github.com/hakatashi/unicode-map/releases/download/201710261128/bmp-2-poster.png)
+* [PDF (14.9 MB)](https://github.com/hakatashi/unicode-map/releases/download/201710261128/bmp-2-poster.pdf)
 
 ### Development version
 
 Development version of the builds are available in the [Release page](https://github.com/hakatashi/unicode-map/releases).
 
-## Build
+## 💪 Build
 
-Install [Node.js 6+](https://nodejs.org/) and run:
+Install [Node.js 8+](https://nodejs.org/) and run:
 
     npm install
     npm run build
 
 **WARN: This command will download almost 1GB of the font data from the internet, and cache them into `fonts` subdirectory.**
 
-## License
+## 🔰 License
 
 The overall repository is licensed under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.txt) by hakatashi.
 
 The files not in the `data/glyphs` subdirectory are also licensed under [MIT License](https://opensource.org/licenses/MIT) by hakatashi.
 
-## Roadmap
+## 🛣️ Roadmap
 
 * Full support of BMP
 * More permissive license
 
-## Materials
+## 🙏 Materials
 
 * ArmenianEternity.svg
 	* link: https://commons.wikimedia.org/wiki/File:ArmenianEternity.svg
