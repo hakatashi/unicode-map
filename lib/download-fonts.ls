@@ -8,12 +8,12 @@ require! {
 }
 
 fonts =
-  'Symbola': 'http://users.teilar.gr/~g1951d/Symbola.zip'
+  'Symbola': 'https://www.wfonts.com/download/data/2016/04/23/symbola/symbola.zip'
   'Noto': 'https://noto-website.storage.googleapis.com/pkgs/Noto-unhinted.zip'
   'IPAexm': 'http://ipafont.ipa.go.jp/old/ipaexfont/ipaexm00201.php'
   'IPAmjm': 'http://dl.mojikiban.ipa.go.jp/IPAmjMincho/ipamjm00401.zip'
   'hanazono': 'http://jaist.dl.osdn.jp/hanazono-font/64385/hanazono-20160201.zip'
-  'Doulos': 'http://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=DoulosSIL-5.000.zip&filename=DoulosSIL-5.000.zip'
+  'Doulos': 'https://software.sil.org/downloads/r/doulos/DoulosSIL-5.000.zip'
   'FreeFont': 'https://ftp.gnu.org/gnu/freefont/freefont-ttf-20120503.zip'
   'Hancom': 'http://cdn.hancom.com/pds/docs/HancomFont.zip'
   'Scheherazade': 'http://software.sil.org/downloads/r/scheherazade/Scheherazade-2.100.zip'
@@ -35,8 +35,8 @@ fonts =
   'junicode': 'https://sourceforge.net/projects/junicode/files/junicode/junicode-0-7-8/junicode-0-7-8.zip'
   'BTC': 'https://en.bitcoin.it/BTC.ttf'
   'ObserverSymbol': 'http://hypertexthero.com/static/img/observer-symbol/observer-symbol-latest.zip'
-  'Analecta': 'http://users.teilar.gr/~g1951d/Analecta.zip'
-  'BabelStoneHan': 'http://www.babelstone.co.uk/Fonts/0816/BabelStoneHan.zip'
+  'Analecta': 'https://www.wfonts.com/download/data/2016/06/09/analecta/analecta.zip'
+  'BabelStoneHan': 'http://www.babelstone.co.uk/Fonts/Download/BabelStoneHan.zip'
   'OpenSans': 'http://www.opensans.com/download/open-sans.zip'
   'DejaVu': 'https://sourceforge.net/projects/dejavu/files/dejavu/2.37/dejavu-fonts-ttf-2.37.zip'
   'JGLao': 'https://github.com/hakatashi/font-archive/raw/master/jglao.zip'
@@ -62,6 +62,8 @@ module.exports = ->
             headers =
               if directory is 'Hancom'
                 {referer: 'http://www.hancom.com/'}
+              else if directory in <[Namdhinggo DaiBanna Mingzat]>
+                {accept: '*/*'}
               else
                 {}
 

@@ -225,7 +225,7 @@ font-data =
     author: 'Umihotaru'
     license: 'Permissive License'
     licenseURL: 'http://hwm3.gyao.ne.jp/shiroi-niwatori/faq.txt'
-    path: 'Nishiki/nishiki-teki_3_20/nishiki-teki.ttf'
+    path: 'Nishiki/nishiki-teki_3_35/nishiki-teki.ttf'
   mingzat:
     name: 'Mingzat 0.100'
     URL: 'http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=Mingzat'
@@ -267,7 +267,7 @@ font-data =
     author: 'George Douros'
     license: 'Permissive License'
     licenseURL: 'http://users.teilar.gr/~g1951d/'
-    path: 'Analecta/Analecta.ttf'
+    path: 'Analecta/Analecta.otf'
   babel-stone:
     name: 'BabelStone Han'
     URL: 'http://www.babelstone.co.uk/Fonts/Han.html'
