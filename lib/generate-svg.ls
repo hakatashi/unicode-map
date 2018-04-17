@@ -122,6 +122,8 @@ font-data =
     path: 'Noto/NotoSerif-Regular.ttf'
   noto-tifinagh:
     path: 'Noto/NotoSansTifinagh-Regular.ttf'
+  noto-yi:
+    path: 'Noto/NotoSansYi-Regular.ttf'
   noto-cjk-jp:
     path: 'Noto/NotoSansCJKjp-Light.otf'
   noto-serif-jp:

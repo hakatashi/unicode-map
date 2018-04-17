@@ -1,0 +1,15 @@
+# Yi Syllables
+
+A000..A48F:
+  font: noto-yi
+  transform: scale(0.95) translate(0, 0.05)
+
+  A48D..A48F: notdef
+
+# Yi Radicals
+
+A490..A4CF:
+  font: noto-yi
+  transform: scale(0.95) translate(0, 0.05)
+
+  A4C7..A4CF: notdef
