@@ -1,0 +1,7 @@
+# Hangul Syllables
+
+AC00..D7AF:
+  font: noto-serif-jp
+  transform: scale(0.9)
+
+  D7A4..D7AF: notdef
