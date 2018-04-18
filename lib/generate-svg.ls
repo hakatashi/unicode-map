@@ -331,12 +331,19 @@ font-data =
     licenseURL: 'http://scripts.sil.org/ofl'
     path: 'Charis/CharisSIL-5.000/CharisSIL-R.ttf'
   babel-phags-pa:
-    name: 'Charis'
-    URL: 'https://software.sil.org/charis/'
-    author: 'SIL'
+    name: 'BabelStone Phags-pa Book'
+    URL: 'http://www.babelstone.co.uk/Fonts/Phags-pa.html'
+    author: 'Arphic Technology Co., Ltd.'
     license: 'SIL OFL 1.1'
     licenseURL: 'http://scripts.sil.org/ofl'
     path: 'BabelStonePhagsPa/BabelStonePhagspaBook_v2.ttf'
+  pagul:
+    name: 'PagulFont'
+    URL: 'https://sourceforge.net/projects/pagul/'
+    author: 'mooreprabu'
+    license: 'GPLv3+FE'
+    licenseURL: 'https://www.gnu.org/software/freefont/license.html'
+    path: 'Pagul/Pagul.ttf'
 
 load-fonts = ->
   Promise.all do

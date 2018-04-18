@@ -45,6 +45,7 @@ fonts =
   'Wakor': 'http://www.evertype.com/fonts/vai/wakorfont.zip'
   'Charis': 'https://software.sil.org/downloads/r/charis/CharisSIL-5.000.zip'
   'BabelStonePhagsPa': 'http://www.babelstone.co.uk/Fonts/Download/BabelStonePhagspaBook_v2.ttf'
+  'Pagul': 'https://sourceforge.net/projects/pagul/files/Pagul_v1.0.zip'
 
 module.exports = ->
   Promise.each do

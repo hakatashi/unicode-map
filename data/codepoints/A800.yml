@@ -60,3 +60,67 @@ A840..A87F:
   transform: scale(0.8)
 
   A878..A87F: notdef
+
+# Saurashtra
+
+A880..A8DF:
+  font: pagul
+  transform: scale(0.9)
+
+  A880..A881:
+    font: pagul
+    combining: true
+    transform: scale(0.9) translate(0.3, 0)
+
+  A8B4:
+    font: pagul
+    combining: true
+    transform: scale(0.9) translate(0.35, 0)
+
+  A8B5:
+    font: pagul
+    combining: true
+    transform: scale(0.9) translate(0.3, 0)
+
+  A8B6:
+    font: pagul
+    combining: true
+    transform: scale(0.9) translate(0.3, 0.1)
+
+  A8B7:
+    font: pagul
+    combining: true
+    transform: scale(0.9) translate(0.3, 0)
+
+  A8B8..A8BC:
+    font: pagul
+    combining: true
+    transform: scale(0.7, 0.9) translate(0.45, 0)
+
+  A8BD:
+    font: pagul
+    combining: true
+    transform: scale(0.35, 0.9) translate(0.9, 0)
+
+  A8BE..A8C1:
+    font: pagul
+    combining: true
+    transform: scale(0.7, 0.9) translate(0.45, 0)
+
+  A8C2..A8C3:
+    font: pagul
+    combining: true
+    transform: scale(0.5, 0.9) translate(0.6, 0)
+
+  A8C4:
+    font: pagul
+    combining: true
+    transform: scale(0.9) translate(0.3, -0.15)
+
+  A8C5:
+    font: pagul
+    combining: true
+    transform: scale(0.9) translate(0.3, 0.2)
+
+  A8C6..A8CD: notdef
+  A8DA..A8DF: notdef
