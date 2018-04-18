@@ -1,0 +1,42 @@
+# Syloti Nagri
+
+A800..A82F:
+  font: noto-syloti-nagri
+  transform: scale(0.8)
+
+  A802:
+    font: noto-syloti-nagri
+    combining: true
+    transform: scale(0.8) translate(0.3, 0.1)
+
+  A806:
+    font: noto-syloti-nagri
+    combining: true
+    transform: scale(0.8) translate(0.2, 0.1)
+
+  A80B:
+    font: noto-syloti-nagri
+    combining: true
+    transform: scale(0.8) translate(0.3, 0.1)
+
+  A823..A824:
+    font: noto-syloti-nagri
+    combining: true
+    transform: scale(0.8) translate(0.3, 0.1)
+
+  A825:
+    font: noto-syloti-nagri
+    combining: true
+    transform: scale(0.8) translate(0.2, -0.15)
+
+  A826:
+    font: noto-syloti-nagri
+    combining: true
+    transform: scale(0.8) translate(0.2, 0.15)
+
+  A827:
+    font: noto-syloti-nagri
+    combining: true
+    transform: scale(0.8) translate(0.3, 0.1)
+
+  A82C..A82F: notdef
