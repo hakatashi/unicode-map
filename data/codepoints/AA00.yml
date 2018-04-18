@@ -187,3 +187,16 @@ AAE0..AAFF:
     transform: scale(0.8) translate(0.5, -0.2)
 
   AAF7..AAFF: notdef
+
+# Ethiopic Extended-A
+
+AB00..AB2F:
+  font: abyssinica
+  transform: scale(0.8)
+
+  AB00: notdef
+  AB07..AB08: notdef
+  AB0F..AB10: notdef
+  AB17..AB1F: notdef
+  AB27: notdef
+  AB2F: notdef
