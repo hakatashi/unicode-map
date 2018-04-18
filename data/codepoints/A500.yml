@@ -65,3 +65,17 @@ A6A0..A6FF:
     transform: scale(0.8) translate(-0.35, 0.2)
 
   A6F8..A6FF: notdef
+
+# Modifier Tone Letters
+
+A700..A71F:
+  font: charis
+  transform: scale(0.9)
+
+  A700..A707:
+    font: charis
+    transform: scale(0.9) translate(0, -0.05)
+
+  A71E..A71F:
+    font: charis
+    transform: scale(0.9) translate(0, -0.15)

@@ -43,6 +43,7 @@ fonts =
   'NotoSerifCJKjp': 'https://noto-website.storage.googleapis.com/pkgs/NotoSerifCJKjp-hinted.zip'
   'LisuUnicode': 'https://github.com/phjamr/LisuUnicode/raw/master/LisuUnicode-Regular.ttf'
   'Wakor': 'http://www.evertype.com/fonts/vai/wakorfont.zip'
+  'Charis': 'https://software.sil.org/downloads/r/charis/CharisSIL-5.000.zip'
 
 module.exports = ->
   Promise.each do

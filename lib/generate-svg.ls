@@ -321,6 +321,13 @@ font-data =
     license: 'SIL OFL 1.1'
     licenseURL: 'http://www.evertype.com/fonts/vai/wakor-licence.html'
     path: 'Wakor/Wakor-4.0.7/Wakor.ttf'
+  charis:
+    name: 'Charis'
+    URL: 'https://software.sil.org/charis/'
+    author: 'SIL'
+    license: 'SIL OFL 1.1'
+    licenseURL: 'http://scripts.sil.org/ofl'
+    path: 'Charis/CharisSIL-5.000/CharisSIL-R.ttf'
 
 load-fonts = ->
   Promise.all do
