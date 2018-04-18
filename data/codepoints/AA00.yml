@@ -143,3 +143,47 @@ AA80..AADF:
     transform: scale(0.5) translate(0.1, 0.3)
 
   AAC3..AADA: notdef
+
+# Meetei Mayek Extensions
+
+AAE0..AAFF:
+  font: noto-meetei-mayek
+  transform: scale(0.8)
+
+  AAEB:
+    font: noto-meetei-mayek
+    combining: true
+    transform: scale(0.8) translate(-0.35, 0)
+
+  AAEC:
+    font: noto-meetei-mayek
+    combining: true
+    transform: scale(0.8) translate(0.25, -0.15)
+
+  AAED:
+    font: noto-meetei-mayek
+    combining: true
+    transform: scale(0.8) translate(0.35, 0.15)
+
+  AAEE:
+    font: noto-meetei-mayek
+    combining: true
+    transform: scale(0.8) translate(-0.4, 0)
+
+  AAEF:
+    font: noto-meetei-mayek
+    combining: true
+    transform: scale(0.8) translate(0.4, 0)
+
+  AAF5:
+    font: noto-meetei-mayek
+    combining: true
+    transform: scale(0.8) translate(0.3, -0.2)
+
+  AAF6:
+    font: noto-meetei-mayek
+    combining: true
+    box: true
+    transform: scale(0.8) translate(0.5, -0.2)
+
+  AAF7..AAFF: notdef

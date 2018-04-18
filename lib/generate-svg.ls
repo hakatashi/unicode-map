@@ -143,6 +143,8 @@ font-data =
     path: 'Noto/NotoSansJavanese-Regular.ttf'
   noto-cham:
     path: 'Noto/NotoSansCham-Regular.ttf'
+  noto-meetei-mayek:
+    path: 'Noto/NotoSansMeeteiMayek-Regular.ttf'
   noto-cjk-jp:
     path: 'Noto/NotoSansCJKjp-Light.otf'
   noto-serif-jp:
