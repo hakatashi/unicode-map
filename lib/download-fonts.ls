@@ -42,6 +42,7 @@ fonts =
   'JGLao': 'https://github.com/hakatashi/font-archive/raw/master/jglao.zip'
   'NotoSerifCJKjp': 'https://noto-website.storage.googleapis.com/pkgs/NotoSerifCJKjp-hinted.zip'
   'LisuUnicode': 'https://github.com/phjamr/LisuUnicode/raw/master/LisuUnicode-Regular.ttf'
+  'Wakor': 'http://www.evertype.com/fonts/vai/wakorfont.zip'
 
 module.exports = ->
   Promise.each do

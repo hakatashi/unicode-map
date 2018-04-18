@@ -1,0 +1,7 @@
+# Vai
+
+A500..A63F:
+  font: wakor
+  transform: scale(0.95)
+
+  A62C..A63F: notdef

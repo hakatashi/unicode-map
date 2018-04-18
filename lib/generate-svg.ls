@@ -305,6 +305,13 @@ font-data =
     license: 'SIL OFL 1.1'
     licenseURL: 'https://github.com/phjamr/LisuUnicode/blob/master/LICENSE.md'
     path: 'LisuUnicode/LisuUnicode-Regular.ttf'
+  wakor:
+    name: 'Wakor'
+    URL: 'http://www.evertype.com/fonts/vai/'
+    author: 'Jason Glavy'
+    license: 'SIL OFL 1.1'
+    licenseURL: 'http://www.evertype.com/fonts/vai/wakor-licence.html'
+    path: 'Wakor/Wakor-4.0.7/Wakor.ttf'
 
 load-fonts = ->
   Promise.all do
@@ -366,7 +373,7 @@ module.exports = (codepoint-infos, config) ->
 
   start-xy = hilbert.xy config.codepoint
 
-  for code-point from config.codepoint til config.codepoint + 128 * 128 when 0xA400 <= code-point and code-point < 0xA500
+  for code-point from config.codepoint til config.codepoint + 128 * 128
     {x, y} = hilbert.xy code-point
 
     x -= start-xy.x
