@@ -43,6 +43,9 @@ deploy:
     - bmp-2-poster.svg
     - bmp-2-poster.png
     - bmp-2-poster.pdf
+    - bmp-3-poster.svg
+    - bmp-3-poster.png
+    - bmp-3-poster.pdf
   skip_cleanup: true
   on:
     tags: true
