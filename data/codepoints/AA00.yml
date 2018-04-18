@@ -217,3 +217,57 @@ AB30..AB6F:
 AB70..ABBF:
   font: noto-cherokee
   transform: scale(0.8)
+
+# Meetei Mayek
+
+ABC0..ABFF:
+  font: noto-meetei-mayek
+  transform: scale(0.8)
+
+  ABE3..ABE4:
+    font: noto-meetei-mayek
+    combining: true
+    transform: scale(0.8) translate(0.3, 0)
+
+  ABE5:
+    font: noto-meetei-mayek
+    combining: true
+    transform: scale(0.8) translate(0.3, 0.2)
+
+  ABE6:
+    font: noto-meetei-mayek
+    combining: true
+    transform: scale(0.8) translate(0.35, 0.2)
+
+  ABE7:
+    font: noto-meetei-mayek
+    combining: true
+    transform: scale(0.8) translate(0.3, 0)
+
+  ABE8:
+    font: noto-meetei-mayek
+    combining: true
+    transform: scale(0.8) translate(0.25, -0.2)
+
+  ABE9:
+    font: noto-meetei-mayek
+    combining: true
+    transform: scale(0.8) translate(0.3, 0.2)
+
+  ABEA:
+    font: noto-meetei-mayek
+    combining: true
+    transform: scale(0.8) translate(0.3, 0.2)
+
+  ABEC:
+    font: noto-meetei-mayek
+    combining: true
+    transform: scale(0.8) translate(0.3, 0)
+
+  ABED:
+    font: noto-meetei-mayek
+    combining: true
+    transform: scale(0.7) translate(-0.05, -0.1)
+
+  ABEE..ABEF: notdef
+  ABFA..ABFF: notdef
