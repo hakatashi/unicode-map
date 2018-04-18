@@ -210,3 +210,10 @@ A930..A95F:
 
   A954..A95E: notdef
 
+# Hangul Jamo Extended-A
+
+A960..A97F:
+  font: unbatang
+  transform: translate(0.14, -0.03)
+
+  A97D..A97F: notdef
