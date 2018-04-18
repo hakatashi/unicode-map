@@ -44,6 +44,7 @@ fonts =
   'LisuUnicode': 'https://github.com/phjamr/LisuUnicode/raw/master/LisuUnicode-Regular.ttf'
   'Wakor': 'http://www.evertype.com/fonts/vai/wakorfont.zip'
   'Charis': 'https://software.sil.org/downloads/r/charis/CharisSIL-5.000.zip'
+  'BabelStonePhagsPa': 'http://www.babelstone.co.uk/Fonts/Download/BabelStonePhagspaBook_v2.ttf'
 
 module.exports = ->
   Promise.each do
@@ -71,7 +72,7 @@ module.exports = ->
                 {}
 
             extract =
-              if directory in <[Quivira NotoSansCherokee BTC Manjari LisuUnicode]>
+              if directory in <[Quivira NotoSansCherokee BTC Manjari LisuUnicode BabelStonePhagsPa]>
                 false
               else
                 true

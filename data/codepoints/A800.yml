@@ -52,3 +52,11 @@ A830..A83F:
     transform: scale(0.8) translate(0, -0.1)
 
   A83A..A83F: notdef
+
+# Phags-pa
+
+A840..A87F:
+  font: babel-phags-pa
+  transform: scale(0.8)
+
+  A878..A87F: notdef

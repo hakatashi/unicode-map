@@ -330,6 +330,13 @@ font-data =
     license: 'SIL OFL 1.1'
     licenseURL: 'http://scripts.sil.org/ofl'
     path: 'Charis/CharisSIL-5.000/CharisSIL-R.ttf'
+  babel-phags-pa:
+    name: 'Charis'
+    URL: 'https://software.sil.org/charis/'
+    author: 'SIL'
+    license: 'SIL OFL 1.1'
+    licenseURL: 'http://scripts.sil.org/ofl'
+    path: 'BabelStonePhagsPa/BabelStonePhagspaBook_v2.ttf'
 
 load-fonts = ->
   Promise.all do
