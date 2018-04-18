@@ -135,6 +135,8 @@ font-data =
     path: 'Noto/NotoSansBamum-Regular.ttf'
   noto-syloti-nagri:
     path: 'Noto/NotoSansSylotiNagri-Regular.ttf'
+  noto-kayah-li:
+    path: 'Noto/NotoSansKayahLi-Regular.ttf'
   noto-cjk-jp:
     path: 'Noto/NotoSansCJKjp-Light.otf'
   noto-serif-jp:

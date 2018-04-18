@@ -140,3 +140,19 @@ A8E0..A8FF:
   A8FC..A8FD: notdef
 
   A8FE..A8FF: notdef
+
+# Kayah Li
+
+A900..A92F:
+  font: noto-kayah-li
+  transform: scale(0.8)
+
+  A926..A92A:
+    font: noto-kayah-li
+    combining: true
+    transform: scale(0.8) translate(0.38, 0)
+
+  A92B..A92D:
+    font: noto-kayah-li
+    combining: true
+    transform: scale(0.8) translate(0.38, -0.1)
