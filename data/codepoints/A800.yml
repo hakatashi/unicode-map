@@ -124,3 +124,19 @@ A880..A8DF:
 
   A8C6..A8CD: notdef
   A8DA..A8DF: notdef
+
+# Devanagari Extended
+
+A8E0..A8FF:
+  font: annapurna
+  transform: scale(0.8)
+
+  A8E0..A8F1:
+    font: annapurna
+    combining: true
+    transform: scale(0.8) translate(0.2, 0.4)
+
+  # FIXME
+  A8FC..A8FD: notdef
+
+  A8FE..A8FF: notdef
