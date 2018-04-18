@@ -41,6 +41,7 @@ fonts =
   'DejaVu': 'https://sourceforge.net/projects/dejavu/files/dejavu/2.37/dejavu-fonts-ttf-2.37.zip'
   'JGLao': 'https://github.com/hakatashi/font-archive/raw/master/jglao.zip'
   'NotoSerifCJKjp': 'https://noto-website.storage.googleapis.com/pkgs/NotoSerifCJKjp-hinted.zip'
+  'LisuUnicode': 'https://github.com/phjamr/LisuUnicode/raw/master/LisuUnicode-Regular.ttf'
 
 module.exports = ->
   Promise.each do
@@ -68,7 +69,7 @@ module.exports = ->
                 {}
 
             extract =
-              if directory in <[Quivira NotoSansCherokee BTC Manjari]>
+              if directory in <[Quivira NotoSansCherokee BTC Manjari LisuUnicode]>
                 false
               else
                 true

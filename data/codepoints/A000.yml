@@ -13,3 +13,8 @@ A490..A4CF:
   transform: scale(0.95) translate(0, 0.05)
 
   A4C7..A4CF: notdef
+
+# Lisu
+
+A4D0..A4FF:
+  font: lisu

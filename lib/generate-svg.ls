@@ -298,6 +298,13 @@ font-data =
     license: 'Permissive License'
     licenseURL: 'https://web.archive.org/web/20090729181203/http://geocities.com/jglavy/asian.html'
     path: 'JGLao/JG LaoTimesOT.ttf'
+  lisu:
+    name: 'LisuUnicode'
+    URL: 'http://phjamr.github.io/lisu.html'
+    author: 'phjamr'
+    license: 'SIL OFL 1.1'
+    licenseURL: 'https://github.com/phjamr/LisuUnicode/blob/master/LICENSE.md'
+    path: 'LisuUnicode/LisuUnicode-Regular.ttf'
 
 load-fonts = ->
   Promise.all do
@@ -359,7 +366,7 @@ module.exports = (codepoint-infos, config) ->
 
   start-xy = hilbert.xy config.codepoint
 
-  for code-point from config.codepoint til config.codepoint + 128 * 128
+  for code-point from config.codepoint til config.codepoint + 128 * 128 when 0xA400 <= code-point and code-point < 0xA500
     {x, y} = hilbert.xy code-point
 
     x -= start-xy.x
