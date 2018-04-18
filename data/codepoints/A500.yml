@@ -30,7 +30,7 @@ A640..A69F:
   A672:
     font: quivira
     combining: true
-    transform: scale(0.75) translate(0.4, 0)
+    transform: scale(0.75) translate(0.42, 0)
 
   A673:
     font: quivira
@@ -52,3 +52,16 @@ A640..A69F:
     font: quivira
     combining: true
     transform: scale(0.75) translate(0, -0.1)
+
+# Bamum
+
+A6A0..A6FF:
+  font: noto-bamum
+  transform: scale(0.8)
+
+  A6F0..A6F1:
+    font: noto-bamum
+    combining: true
+    transform: scale(0.8) translate(-0.35, 0.2)
+
+  A6F8..A6FF: notdef
