@@ -217,3 +217,84 @@ A960..A97F:
   transform: translate(0.14, -0.03)
 
   A97D..A97F: notdef
+
+# Javanese
+
+A980..A9DF:
+  font: noto-javanese
+  transform: scale(0.6) translate(0, -0.2)
+
+  A980:
+    font: noto-javanese
+    combining: true
+    transform: scale(0.6) translate(-0.3, 0)
+
+  A981:
+    font: noto-javanese
+    combining: true
+    transform: scale(0.6) translate(-0.1, -0.1)
+
+  A982:
+    font: noto-javanese
+    combining: true
+    transform: scale(0.6) translate(-0.2, -0.1)
+
+  A983:
+    font: noto-javanese
+    combining: true
+    transform: scale(0.6) translate(0.4, -0.2)
+
+  A9B3:
+    font: noto-javanese
+    combining: true
+    transform: scale(0.6) translate(-0.2, -0.1)
+
+  A9B4..A9B5:
+    font: noto-javanese
+    combining: true
+    transform: scale(0.6) translate(0.4, -0.1)
+
+  A9B6..A9B7:
+    font: noto-javanese
+    combining: true
+    transform: scale(0.6) translate(-0.2, 0)
+
+  A9B8..A9B9:
+    font: noto-javanese
+    combining: true
+    transform: scale(0.6) translate(0.6, -0.2)
+
+  A9BA..A9BB:
+    font: noto-javanese
+    combining: true
+    transform: scale(0.5, 0.6) translate(-0.6, -0.2)
+
+  A9BC:
+    font: noto-javanese
+    combining: true
+    transform: scale(0.6) translate(-0.2, -0.1)
+
+  A9BD..A9BF:
+    font: noto-javanese
+    combining: true
+    transform: scale(0.6) translate(0.4, -0.1)
+
+  A9C0:
+    font: noto-javanese
+    combining: true
+    transform: scale(0.6) translate(0.2, -0.1)
+
+  A9C1..A9C2:
+    font: noto-javanese
+    transform: scale(0.5) translate(0, -0.4)
+
+  A9C3..A9C5:
+    font: noto-javanese
+    transform: scale(0.4, 0.5) translate(0, -0.2)
+
+  A9CD:
+    font: noto-javanese
+    transform: scale(0.6) translate(0, -0.4)
+
+  A9CE: notdef
+  A9DA..A9DD: notdef
