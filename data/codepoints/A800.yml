@@ -298,3 +298,16 @@ A980..A9DF:
 
   A9CE: notdef
   A9DA..A9DD: notdef
+
+# Myanmar Extended-B
+
+A9E0..A9FF:
+  font: padauk
+  transform: scale(0.65) translate(0, -0.1)
+
+  A9E5:
+    font: padauk
+    combining: true
+    transform: scale(0.65) translate(0.15, -0.1)
+
+  A9FF: notdef
