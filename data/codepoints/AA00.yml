@@ -200,3 +200,20 @@ AB00..AB2F:
   AB17..AB1F: notdef
   AB27: notdef
   AB2F: notdef
+
+# Latin Extended-E
+
+AB30..AB6F:
+  font: quivira
+  transform: scale(0.8)
+
+  # FIXME
+  AB60..AB63: notdef
+
+  AB66..AB6F: notdef
+
+# Cherokee Supplement
+
+AB70..ABBF:
+  font: noto-cherokee
+  transform: scale(0.8)
