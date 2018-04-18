@@ -32,7 +32,7 @@ module.exports = (chart-svg, config) ->
   for child in Array::slice.call poster-element.node.children, 0
     poster.append child
 
-  chart.transform "translate(28.35, 728.5) scale(#{1627.09 / 3840})"
+  chart.transform "translate(#{config.chart.x}, #{config.chart.y}) scale(#{1627.09 / 3840})"
 
   svg = xmlserializer.serialize-to-string paper.node
   window.close!
