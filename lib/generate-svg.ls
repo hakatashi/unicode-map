@@ -56,6 +56,13 @@ font-data =
     license: 'GPLv3+FE'
     licenseURL: 'https://www.gnu.org/software/freefont/license.html'
     path: 'FreeFont/freefont-20120503/FreeSerif.ttf'
+  free-serif-bold:
+    name: 'GNU FreeFont'
+    URL: 'https://www.gnu.org/software/freefont/'
+    author: 'GNU FreeFont Contributors'
+    license: 'GPLv3+FE'
+    licenseURL: 'https://www.gnu.org/software/freefont/license.html'
+    path: 'FreeFont/freefont-20120503/FreeSerifBold.ttf'
   noto:
     name: 'Noto Fonts'
     URL: 'https://www.google.com/get/noto/'

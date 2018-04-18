@@ -5,3 +5,50 @@ A500..A63F:
   transform: scale(0.95)
 
   A62C..A63F: notdef
+
+# Cyrillic Extended-B
+
+A640..A69F:
+  font: quivira
+  transform: scale(0.75)
+
+  A66F:
+    font: quivira
+    combining: true
+    transform: scale(0.75) translate(0, -0.1)
+
+  A670:
+    font: quivira
+    combining: true
+    transform: scale(0.75) translate(0.4, 0)
+
+  A671:
+    font: quivira
+    combining: true
+    transform: scale(0.75) translate(0.25, 0)
+
+  A672:
+    font: quivira
+    combining: true
+    transform: scale(0.75) translate(0.4, 0)
+
+  A673:
+    font: quivira
+    combining: true
+    transform: scale(0.75) translate(0, -0.25)
+
+  A674..A67D:
+    font: quivira
+    combining: true
+    transform: scale(0.75) translate(0, -0.05)
+
+  A69E:
+    font: free-serif-bold
+    combining: true
+    codepoint: 0x0444
+    transform: translate(0, -0.35) scale(0.35)
+
+  A69F:
+    font: quivira
+    combining: true
+    transform: scale(0.75) translate(0, -0.1)
