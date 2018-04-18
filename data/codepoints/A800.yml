@@ -40,3 +40,15 @@ A800..A82F:
     transform: scale(0.8) translate(0.3, 0.1)
 
   A82C..A82F: notdef
+
+# Common Indic Number Forms
+
+A830..A83F:
+  font: annapurna
+  transform: scale(0.8)
+
+  A839:
+    font: annapurna
+    transform: scale(0.8) translate(0, -0.1)
+
+  A83A..A83F: notdef
