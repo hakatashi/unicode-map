@@ -97,3 +97,49 @@ AA60..AA7F:
     font: padauk
     combining: true
     transform: scale(0.65) translate(0.5, -0.05)
+
+# Tai Viet
+
+AA80..AADF:
+  font: tai-heritage
+  transform: scale(0.5) translate(-0.1, 0)
+
+  AA8B:
+    font: tai-heritage
+    transform: scale(0.5) translate(-0.1, -0.2)
+
+  AAAF:
+    font: tai-heritage
+    transform: scale(0.5) translate(-0.1, -0.2)
+
+  AAB0:
+    font: tai-heritage
+    combining: true
+    transform: scale(0.5) translate(0.1, 0.1)
+
+  AAB2..AAB3:
+    font: tai-heritage
+    combining: true
+    transform: scale(0.5) translate(0.1, 0.1)
+
+  AAB4:
+    font: tai-heritage
+    combining: true
+    transform: scale(0.5) translate(0.3, 0)
+
+  AAB7..AAB8:
+    font: tai-heritage
+    combining: true
+    transform: scale(0.5) translate(0.1, 0.1)
+
+  AABE..AABF:
+    font: tai-heritage
+    combining: true
+    transform: scale(0.5) translate(0.1, 0.1)
+
+  AAC1:
+    font: tai-heritage
+    combining: true
+    transform: scale(0.5) translate(0.1, 0.3)
+
+  AAC3..AADA: notdef

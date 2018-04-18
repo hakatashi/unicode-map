@@ -352,6 +352,13 @@ font-data =
     license: 'GPLv3+FE'
     licenseURL: 'https://www.gnu.org/software/freefont/license.html'
     path: 'Pagul/Pagul.ttf'
+  tai-heritage:
+    name: 'Tai Heritage Pro'
+    URL: 'https://software.sil.org/taiheritage/'
+    author: 'SIL'
+    license: 'SIL OFL 1.1'
+    licenseURL: 'http://scripts.sil.org/ofl'
+    path: 'TaiHeritage/TaiHeritagePro-2.600/TaiHeritagePro-Regular.ttf'
 
 load-fonts = ->
   Promise.all do

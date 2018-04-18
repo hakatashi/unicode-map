@@ -46,6 +46,7 @@ fonts =
   'Charis': 'https://software.sil.org/downloads/r/charis/CharisSIL-5.000.zip'
   'BabelStonePhagsPa': 'http://www.babelstone.co.uk/Fonts/Download/BabelStonePhagspaBook_v2.ttf'
   'Pagul': 'https://sourceforge.net/projects/pagul/files/Pagul_v1.0.zip'
+  'TaiHeritage': 'https://software.sil.org/downloads/r/taiheritage/TaiHeritagePro-2.600.zip'
 
 module.exports = ->
   Promise.each do
