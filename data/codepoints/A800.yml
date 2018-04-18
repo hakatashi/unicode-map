@@ -156,3 +156,57 @@ A900..A92F:
     font: noto-kayah-li
     combining: true
     transform: scale(0.8) translate(0.38, -0.1)
+
+# Rejang
+
+A930..A95F:
+  font: noto-rejang
+  transform: scale(0.8)
+
+  A947..A949:
+    font: noto-rejang
+    combining: true
+    transform: scale(0.8) translate(-0.3, 0)
+
+  A94A:
+    font: noto-rejang
+    combining: true
+    transform: scale(0.8) translate(-0.2, 0.2)
+
+  A94B:
+    font: noto-rejang
+    combining: true
+    transform: scale(0.8) translate(-0.35, 0)
+
+  A94C:
+    font: noto-rejang
+    combining: true
+    transform: scale(0.8) translate(-0.25, -0.15)
+
+  A94D:
+    font: noto-rejang
+    combining: true
+    transform: scale(0.8) translate(-0.2, -0.1)
+
+  A94E:
+    font: noto-rejang
+    combining: true
+    transform: scale(0.8) translate(0, -0.1)
+
+  A94F..A951:
+    font: noto-rejang
+    combining: true
+    transform: scale(0.8) translate(-0.2, 0.2)
+
+  A952:
+    font: noto-rejang
+    combining: true
+    transform: scale(0.8) translate(0.3, 0)
+
+  A953:
+    font: noto-rejang
+    combining: true
+    transform: scale(0.8) translate(-0.2, 0.2)
+
+  A954..A95E: notdef
+
