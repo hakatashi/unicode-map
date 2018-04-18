@@ -79,3 +79,52 @@ A700..A71F:
   A71E..A71F:
     font: charis
     transform: scale(0.9) translate(0, -0.15)
+
+# Latin Extended-D
+
+A720..A7FF:
+  font: doulos
+  transform: scale(0.8)
+
+  A78F:
+    font: doulos
+    codepoint: 0x00B7
+
+  A79A..A79F:
+    font: quivira
+    transform: scale(0.8)
+
+  # FIXME
+  A7AE:
+    font: doulos
+    codepoint: 0x0054
+    transform: scale(0.8)
+
+  A7AF: notdef
+
+  A7B3:
+    font: free-serif
+    codepoint: 0x03C7
+    transform: scale(0.8)
+
+  A7B4:
+    font: free-serif
+    codepoint: 0x0392
+    transform: scale(0.8)
+
+  A7B5:
+    font: free-serif
+    codepoint: 0x03B2
+    transform: scale(0.8)
+
+  A7B6:
+    font: free-serif
+    codepoint: 0x0460
+    transform: scale(0.8)
+
+  A7B7:
+    font: free-serif
+    codepoint: 0x03C9
+    transform: scale(0.8)
+
+  A7B8..A7F6: notdef
