@@ -1,0 +1,78 @@
+# Cham
+
+AA00..AA5F:
+  font: noto-cham
+  transform: scale(0.8)
+
+  AA0F:
+    font: noto-cham
+    transform: scale(0.8) translate(0.1, 0)
+
+  AA29..AA2C:
+    font: noto-cham
+    combining: true
+    transform: scale(0.8) translate(0.3, 0.1)
+
+  AA2D:
+    font: noto-cham
+    combining: true
+    transform: scale(0.8) translate(0.2, 0.1)
+
+  AA2E:
+    font: noto-cham
+    combining: true
+    transform: scale(0.8) translate(0.3, 0.1)
+
+  AA2F..AA30:
+    font: noto-cham
+    combining: true
+    transform: scale(0.8) translate(-0.4, 0)
+
+  AA31:
+    font: noto-cham
+    combining: true
+    transform: scale(0.8) translate(0.3, 0.1)
+
+  AA32:
+    font: noto-cham
+    combining: true
+    transform: scale(0.8) translate(0.1, 0.1)
+
+  AA33:
+    font: noto-cham
+    combining: true
+    transform: scale(0.8) translate(0.5, 0)
+
+  AA34:
+    font: noto-cham
+    combining: true
+    transform: scale(0.8) translate(-0.3, 0)
+
+  AA35:
+    font: noto-cham
+    combining: true
+    transform: scale(0.8) translate(0.1, -0.1)
+
+  AA36:
+    font: noto-cham
+    combining: true
+    transform: scale(0.8) translate(0.2, -0.1)
+
+  AA43:
+    font: noto-cham
+    combining: true
+    transform: scale(0.8) translate(0.3, 0.1)
+
+  AA4C:
+    font: noto-cham
+    combining: true
+    transform: scale(0.8) translate(0.3, 0)
+
+  AA4D:
+    font: noto-cham
+    combining: true
+    transform: scale(0.8) translate(0.4, 0)
+
+  AA37..AA3F: notdef
+  AA4E..AA4F: notdef
+  AA5A..AA5B: notdef
