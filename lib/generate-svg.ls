@@ -30,18 +30,18 @@ font-data =
     path: 'Symbola/Symbola.ttf'
   ipamjm:
     name: 'IPA mj Mincho'
-    URL: 'http://mojikiban.ipa.go.jp/1300.html'
+    URL: 'https://moji.or.jp/mojikiban/font/'
     author: 'Information-technology Promotion Agency, Japan (IPA)'
     license: 'IPA Font License v1.0'
-    licenseURL: 'http://ipafont.ipa.go.jp/ipa_font_license_v1-html'
+    licenseURL: 'https://moji.or.jp/ipafont/license/'
     path: 'IPAmjm/ipamjm.ttf'
   ipaexm:
     name: 'IPA ex Mincho'
-    URL: 'http://mojikiban.ipa.go.jp/1300.html'
+    URL: 'https://moji.or.jp/ipafont/ipaex00401/'
     author: 'Information-technology Promotion Agency, Japan (IPA)'
     license: 'IPA Font License v1.0'
-    licenseURL: 'http://ipafont.ipa.go.jp/ipa_font_license_v1-html'
-    path: 'IPAexm/ipaexm00201/ipaexm.ttf'
+    licenseURL: 'https://moji.or.jp/ipafont/ipaex00401'
+    path: 'IPAexm/ipaexm00401/ipaexm.ttf'
   hanamin-a:
     name: 'Hanazono Mincho'
     URL: 'http://fonts.jp/hanazono/'
@@ -244,11 +244,11 @@ font-data =
     path: 'DaiBanna/dai-banna-2.200/DBSILBR.ttf'
   nishiki:
     name: 'Nishiki-teki Font'
-    URL: 'http://hwm3.gyao.ne.jp/shiroi-niwatori/nishiki-teki.htm'
+    URL: 'https://umihotaru.work/'
     author: 'Umihotaru'
     license: 'Permissive License'
-    licenseURL: 'http://hwm3.gyao.ne.jp/shiroi-niwatori/faq.txt'
-    path: 'Nishiki/nishiki-teki_3_45/nishiki-teki.ttf'
+    licenseURL: 'https://umihotaru.work/faq.txt'
+    path: 'Nishiki/nishiki-teki.ttf'
   mingzat:
     name: 'Mingzat 0.100'
     URL: 'http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=Mingzat'
@@ -262,7 +262,7 @@ font-data =
     author: 'Vlad Dorosh, Aleksandr Andreev, Yuri Shardt, and Nikita Simmons'
     license: 'SIL OFL 1.1'
     licenseURL: 'http://scripts.sil.org/ofl'
-    path: 'PonomarUnicode/PonomarUnicode.ttf'
+    path: 'PonomarUnicode/PonomarUnicode.otf'
   junicode:
     name: 'Junicode'
     URL: 'http://junicode.sourceforge.net/'
